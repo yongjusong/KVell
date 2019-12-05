@@ -1,0 +1,1389 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADD	slab.h	/^enum slab_action { ADD, UPDATE, DELETE, READ, READ_NO_LOOKUP, ADD_OR_UPDATE };$/;"	e	enum:slab_action
+ADD_OR_UPDATE	slab.h	/^enum slab_action { ADD, UPDATE, DELETE, READ, READ_NO_LOOKUP, ADD_OR_UPDATE };$/;"	e	enum:slab_action
+ART	options.h	11;"	d
+ART_H	indexes/art.h	3;"	d
+BENCH_L	microbench.c	335;"	d	file:
+BENCH_OBJ	Makefile	/^BENCH_OBJ=benchcomponents.o pagecache.o random.o $(INDEXES_OBJ)$/;"	m
+BLACK	indexes/rbtree.h	/^enum rbtree_node_color { RED, BLACK };$/;"	e	enum:rbtree_node_color
+BROKEN_GCC_C99_INLINE	indexes/art.h	25;"	d
+BTREE	options.h	12;"	d
+BTREE_H	indexes/btree.h	2;"	d
+CC	Makefile	/^CC=clang  #If you use GCC, add -fno-strict-aliasing to the CFLAGS because the Google BTree does weird stuff$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-O2 -ggdb3 -Wall$/;"	m
+COMPILE_ASSERT	indexes/cpp-btree/btree.h	160;"	d
+CXX	Makefile	/^CXX=clang++$/;"	m
+CXX	indexes/cpp-btree/Makefile	/^CXX=clang++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS= ${CFLAGS} -std=c++11$/;"	m
+CXXFLAGS	indexes/cpp-btree/Makefile	/^CXXFLAGS=-std=c++11$/;"	m
+CompileAssert	indexes/cpp-btree/btree.h	/^struct CompileAssert {$/;"	s	namespace:btree
+DEBUG	options.h	4;"	d
+DECLTYPE	indexes/uthash.h	40;"	d
+DECLTYPE	indexes/uthash.h	47;"	d
+DECLTYPE	indexes/uthash.h	52;"	d
+DECLTYPE_ASSIGN	indexes/uthash.h	53;"	d
+DECLTYPE_ASSIGN	indexes/uthash.h	59;"	d
+DELETE	slab.h	/^enum slab_action { ADD, UPDATE, DELETE, READ, READ_NO_LOOKUP, ADD_OR_UPDATE };$/;"	e	enum:slab_action
+ELMT_FROM_HH	indexes/uthash.h	145;"	d
+FREELIST_H	freelist.h	2;"	d
+FREELIST_IN_MEMORY_ITEMS	options.h	31;"	d
+GRANULARITY_REBUILD	slab.c	75;"	d	file:
+HASH_ADD	indexes/uthash.h	435;"	d
+HASH_ADD_64	indexes/uthash.h	512;"	d
+HASH_ADD_BYHASHVALUE	indexes/uthash.h	432;"	d
+HASH_ADD_BYHASHVALUE_INORDER	indexes/uthash.h	398;"	d
+HASH_ADD_INORDER	indexes/uthash.h	401;"	d
+HASH_ADD_INT	indexes/uthash.h	505;"	d
+HASH_ADD_KEYPTR	indexes/uthash.h	425;"	d
+HASH_ADD_KEYPTR_BYHASHVALUE	indexes/uthash.h	404;"	d
+HASH_ADD_KEYPTR_BYHASHVALUE_INORDER	indexes/uthash.h	358;"	d
+HASH_ADD_KEYPTR_INORDER	indexes/uthash.h	391;"	d
+HASH_ADD_PTR	indexes/uthash.h	519;"	d
+HASH_ADD_STR	indexes/uthash.h	493;"	d
+HASH_ADD_TO_BKT	indexes/uthash.h	865;"	d
+HASH_ADD_TO_TABLE	indexes/uthash.h	321;"	d
+HASH_ADD_TO_TABLE	indexes/uthash.h	345;"	d
+HASH_AKBI_INNER_LOOP	indexes/uthash.h	294;"	d
+HASH_AKBI_INNER_LOOP	indexes/uthash.h	304;"	d
+HASH_AKBI_INNER_LOOP	indexes/uthash.h	305;"	d
+HASH_APPEND_LIST	indexes/uthash.h	286;"	d
+HASH_BER	indexes/uthash.h	605;"	d
+HASH_BKT_CAPACITY_THRESH	indexes/uthash.h	142;"	d
+HASH_BLOOM_ADD	indexes/uthash.h	206;"	d
+HASH_BLOOM_ADD	indexes/uthash.h	215;"	d
+HASH_BLOOM_BITLEN	indexes/uthash.h	184;"	d
+HASH_BLOOM_BITSET	indexes/uthash.h	203;"	d
+HASH_BLOOM_BITTEST	indexes/uthash.h	204;"	d
+HASH_BLOOM_BYTELEN	indexes/uthash.h	185;"	d
+HASH_BLOOM_BYTELEN	indexes/uthash.h	217;"	d
+HASH_BLOOM_FREE	indexes/uthash.h	198;"	d
+HASH_BLOOM_FREE	indexes/uthash.h	214;"	d
+HASH_BLOOM_MAKE	indexes/uthash.h	186;"	d
+HASH_BLOOM_MAKE	indexes/uthash.h	213;"	d
+HASH_BLOOM_SIGNATURE	indexes/uthash.h	1189;"	d
+HASH_BLOOM_TEST	indexes/uthash.h	209;"	d
+HASH_BLOOM_TEST	indexes/uthash.h	216;"	d
+HASH_CLEAR	indexes/uthash.h	1135;"	d
+HASH_CNT	indexes/uthash.h	1165;"	d
+HASH_COUNT	indexes/uthash.h	1164;"	d
+HASH_DEL	indexes/uthash.h	523;"	d
+HASH_DELETE	indexes/uthash.h	455;"	d
+HASH_DELETE_HH	indexes/uthash.h	458;"	d
+HASH_DEL_IN_BKT	indexes/uthash.h	887;"	d
+HASH_EMIT_KEY	indexes/uthash.h	587;"	d
+HASH_EMIT_KEY	indexes/uthash.h	594;"	d
+HASH_EXPAND_BUCKETS	indexes/uthash.h	931;"	d
+HASH_FCN	indexes/uthash.h	599;"	d
+HASH_FCN	indexes/uthash.h	601;"	d
+HASH_FIND	indexes/uthash.h	176;"	d
+HASH_FIND_64	indexes/uthash.h	510;"	d
+HASH_FIND_BYHASHVALUE	indexes/uthash.h	164;"	d
+HASH_FIND_INT	indexes/uthash.h	503;"	d
+HASH_FIND_IN_BKT	indexes/uthash.h	843;"	d
+HASH_FIND_PTR	indexes/uthash.h	517;"	d
+HASH_FIND_STR	indexes/uthash.h	488;"	d
+HASH_FNV	indexes/uthash.h	628;"	d
+HASH_FSCK	indexes/uthash.h	531;"	d
+HASH_FSCK	indexes/uthash.h	580;"	d
+HASH_INITIAL_NUM_BUCKETS	indexes/uthash.h	140;"	d
+HASH_INITIAL_NUM_BUCKETS_LOG2	indexes/uthash.h	141;"	d
+HASH_ITER	indexes/uthash.h	1154;"	d
+HASH_ITER	indexes/uthash.h	1158;"	d
+HASH_JEN	indexes/uthash.h	667;"	d
+HASH_JEN_MIX	indexes/uthash.h	654;"	d
+HASH_KEYCMP	indexes/uthash.h	103;"	d
+HASH_MAKE_TABLE	indexes/uthash.h	220;"	d
+HASH_MUR	indexes/uthash.h	803;"	d
+HASH_NONFATAL_OOM	indexes/uthash.h	114;"	d
+HASH_OAT	indexes/uthash.h	639;"	d
+HASH_OOPS	indexes/uthash.h	530;"	d
+HASH_OVERHEAD	indexes/uthash.h	1146;"	d
+HASH_RECORD_OOM	indexes/uthash.h	124;"	d
+HASH_RECORD_OOM	indexes/uthash.h	134;"	d
+HASH_REPLACE	indexes/uthash.h	272;"	d
+HASH_REPLACE_64	indexes/uthash.h	514;"	d
+HASH_REPLACE_BYHASHVALUE	indexes/uthash.h	262;"	d
+HASH_REPLACE_BYHASHVALUE_INORDER	indexes/uthash.h	252;"	d
+HASH_REPLACE_INORDER	indexes/uthash.h	279;"	d
+HASH_REPLACE_INT	indexes/uthash.h	507;"	d
+HASH_REPLACE_PTR	indexes/uthash.h	521;"	d
+HASH_REPLACE_STR	indexes/uthash.h	498;"	d
+HASH_ROLLBACK_BKT	indexes/uthash.h	149;"	d
+HASH_SAX	indexes/uthash.h	618;"	d
+HASH_SELECT	indexes/uthash.h	1077;"	d
+HASH_SFH	indexes/uthash.h	718;"	d
+HASH_SIGNATURE	indexes/uthash.h	1188;"	d
+HASH_SORT	indexes/uthash.h	987;"	d
+HASH_SRT	indexes/uthash.h	988;"	d
+HASH_TO_BKT	indexes/uthash.h	438;"	d
+HASH_VALUE	indexes/uthash.h	159;"	d
+HEADERS_H	headers.h	2;"	d
+HH_FROM_ELMT	indexes/uthash.h	147;"	d
+IF_HASH_NONFATAL_OOM	indexes/uthash.h	125;"	d
+IF_HASH_NONFATAL_OOM	indexes/uthash.h	135;"	d
+INDEXES_OBJ	Makefile	/^INDEXES_OBJ=indexes\/rbtree.o indexes\/rax.o indexes\/art.o indexes\/btree.o$/;"	m
+INDEX_TYPE	in-memory-index-art.h	6;"	d
+INDEX_TYPE	in-memory-index-btree.h	6;"	d
+INDEX_TYPE	in-memory-index-rax.h	6;"	d
+INDEX_TYPE	in-memory-index-rbtree.h	6;"	d
+IN_MEMORY_ART	in-memory-index-art.h	2;"	d
+IN_MEMORY_BTREE	in-memory-index-btree.h	2;"	d
+IN_MEMORY_INDEX_GENERIC	in-memory-index-generic.h	2;"	d
+IN_MEMORY_RAX	in-memory-index-rax.h	2;"	d
+IN_MEMORY_RBTREE	in-memory-index-rbtree.h	2;"	d
+IOENGINE_H	ioengine.h	2;"	d
+IS_LEAF	indexes/art.c	19;"	d	file:
+ITEMS_H	items.h	2;"	d
+LDLIBS	Makefile	/^LDLIBS=-lm -lpthread -lstdc++$/;"	m
+LEAF_RAW	indexes/art.c	21;"	d	file:
+MAIN_OBJ	Makefile	/^MAIN_OBJ=main.o slab.o freelist.o ioengine.o pagecache.o stats.o random.o slabworker.o workload-common.o workload-ycsb.o workload-production.o utils.o in-memory-index-rbtree.o in-memory-index-rax.o in-memory-index-art.o in-memory-index-btree.o ${INDEXES_OBJ}$/;"	m
+MAX_NB_PENDING_CALLBACKS_PER_WORKER	options.h	19;"	d
+MAX_PAGE_CACHE	options.h	28;"	d
+MAX_PREFIX_LEN	indexes/art.h	16;"	d
+MAX_R	microbench.c	334;"	d	file:
+MAX_STATS	stats.c	5;"	d	file:
+MEMORY_INDEX	options.h	14;"	d
+MEM_ITEM_H	indexes/memory-item.h	2;"	d
+MICROBENCH_OBJ	Makefile	/^MICROBENCH_OBJ=microbench.o random.o stats.o utils.o ${INDEXES_OBJ}$/;"	m
+MUR_FMIX	indexes/uthash.h	794;"	d
+MUR_GETBLOCK	indexes/uthash.h	772;"	d
+MUR_GETBLOCK	indexes/uthash.h	788;"	d
+MUR_ONE_THREE	indexes/uthash.h	782;"	d
+MUR_ONE_THREE	indexes/uthash.h	786;"	d
+MUR_PLUS0_ALIGNED	indexes/uthash.h	774;"	d
+MUR_PLUS1_ALIGNED	indexes/uthash.h	775;"	d
+MUR_PLUS2_ALIGNED	indexes/uthash.h	776;"	d
+MUR_PLUS3_ALIGNED	indexes/uthash.h	777;"	d
+MUR_ROTL32	indexes/uthash.h	793;"	d
+MUR_THREE_ONE	indexes/uthash.h	780;"	d
+MUR_THREE_ONE	indexes/uthash.h	784;"	d
+MUR_TWO_TWO	indexes/uthash.h	781;"	d
+MUR_TWO_TWO	indexes/uthash.h	785;"	d
+NB_ACCESSES	microbench.c	15;"	d	file:
+NB_INSERTS	indexes/cpp-btree/btree_test.cc	22;"	d	file:
+NB_INSERTS	microbench.c	209;"	d	file:
+NB_PAGECACHE_ACCESSES	benchcomponents.c	7;"	d	file:
+NB_THREADS	microbench.c	14;"	d	file:
+NDEBUG	indexes/cpp-btree/btree.h	119;"	d
+NEVER_EXCEED_QUEUE_DEPTH	options.h	20;"	d
+NODE16	indexes/art.h	12;"	d
+NODE256	indexes/art.h	14;"	d
+NODE4	indexes/art.h	11;"	d
+NODE48	indexes/art.h	13;"	d
+NOP10	utils.h	33;"	d
+NO_DECLTYPE	indexes/uthash.h	42;"	d
+NO_DECLTYPE	indexes/uthash.h	45;"	d
+ONE_GB	utils.h	7;"	d
+OPTIONS_H	options.h	2;"	d
+PAGECACHE_INDEX	options.h	15;"	d
+PAGE_CACHE_H	pagecache.h	2;"	d
+PAGE_CACHE_SIZE	options.h	25;"	d
+PAGE_SIZE	utils.h	6;"	d
+PATH	options.h	6;"	d
+PINNING	options.h	5;"	d
+PRODUCTION	workload-production.c	/^struct workload_api PRODUCTION = {$/;"	v	typeref:struct:workload_api
+QUEUE_DEPTH	options.h	18;"	d
+RANDOM_H	random.h	2;"	d
+RAX	options.h	10;"	d
+RAX_ALLOC_H	indexes/rax_malloc.h	39;"	d
+RAX_H	indexes/rax.h	32;"	d
+RAX_ITER_EOF	indexes/rax.h	175;"	d
+RAX_ITER_JUST_SEEKED	indexes/rax.h	172;"	d
+RAX_ITER_SAFE	indexes/rax.h	176;"	d
+RAX_ITER_STATIC_LEN	indexes/rax.h	171;"	d
+RAX_MALLOC_INCLUDE	indexes/rax.c	40;"	d	file:
+RAX_NODE_MAX_SIZE	indexes/rax.h	100;"	d
+RAX_STACK_STATIC_ITEMS	indexes/rax.h	145;"	d
+RBTREE	options.h	9;"	d
+READ	slab.h	/^enum slab_action { ADD, UPDATE, DELETE, READ, READ_NO_LOOKUP, ADD_OR_UPDATE };$/;"	e	enum:slab_action
+READ_NO_LOOKUP	slab.h	/^enum slab_action { ADD, UPDATE, DELETE, READ, READ_NO_LOOKUP, ADD_OR_UPDATE };$/;"	e	enum:slab_action
+RED	indexes/rbtree.h	/^enum rbtree_node_color { RED, BLACK };$/;"	e	enum:rbtree_node_color
+RM	microbench.c	20;"	d	file:
+RO	microbench.c	17;"	d	file:
+RW	microbench.c	19;"	d	file:
+SET_LEAF	indexes/art.c	20;"	d	file:
+SLAB_H	slab.h	2;"	d
+SLAB_WORKER_H	slabworker.h	2;"	d
+STATS_H	stats.h	2;"	d
+STRINGIZE	utils.h	38;"	d
+STRINGIZE_	utils.h	37;"	d
+UPDATE	slab.h	/^enum slab_action { ADD, UPDATE, DELETE, READ, READ_NO_LOOKUP, ADD_OR_UPDATE };$/;"	e	enum:slab_action
+UTHASH_H	indexes/uthash.h	25;"	d
+UTHASH_VERSION	indexes/uthash.h	27;"	d
+UTILS_H	utils.h	2;"	d
+UTIL_BTREE_BTREE_CONTAINER_H__	indexes/cpp-btree/btree_container.h	16;"	d
+UTIL_BTREE_BTREE_H__	indexes/cpp-btree/btree.h	101;"	d
+UTIL_BTREE_BTREE_MAP_H__	indexes/cpp-btree/btree_map.h	23;"	d
+UTIL_BTREE_BTREE_SET_H__	indexes/cpp-btree/btree_set.h	21;"	d
+UT_hash_bucket	indexes/uthash.h	/^typedef struct UT_hash_bucket {$/;"	s
+UT_hash_bucket	indexes/uthash.h	/^} UT_hash_bucket;$/;"	t	typeref:struct:UT_hash_bucket
+UT_hash_handle	indexes/uthash.h	/^typedef struct UT_hash_handle {$/;"	s
+UT_hash_handle	indexes/uthash.h	/^} UT_hash_handle;$/;"	t	typeref:struct:UT_hash_handle
+UT_hash_table	indexes/uthash.h	/^typedef struct UT_hash_table {$/;"	s
+UT_hash_table	indexes/uthash.h	/^} UT_hash_table;$/;"	t	typeref:struct:UT_hash_table
+WAIT_A_BIT_FOR_MORE_IOS	options.h	21;"	d
+WO	microbench.c	18;"	d	file:
+WORKLOAD_COMMON_H	workload-common.h	2;"	d
+WP	indexes/uthash.h	778;"	d
+YCSB	workload-ycsb.c	/^struct workload_api YCSB = {$/;"	v	typeref:struct:workload_api
+_GNU_SOURCE	headers.h	5;"	d
+_RBTREE_H_	indexes/rbtree.h	29;"	d
+__1	utils.h	151;"	d
+__2	utils.h	158;"	d
+__3	utils.h	165;"	d
+__4	utils.h	172;"	d
+__5	utils.h	179;"	d
+_create_unique_item_ycsb	workload-ycsb.c	/^static char *_create_unique_item_ycsb(uint64_t uid) {$/;"	f	file:
+_launch_ycsb	workload-ycsb.c	/^static void _launch_ycsb(int test, int nb_requests, int zipfian) {$/;"	f	file:
+_launch_ycsb_e	workload-ycsb.c	/^static void _launch_ycsb_e(int test, int nb_requests, int zipfian) {$/;"	f	file:
+_x	random.c	/^static __thread unsigned long _x=123456789, _y=362436069, _z=521288629;$/;"	v	file:
+_y	random.c	/^static __thread unsigned long _x=123456789, _y=362436069, _z=521288629;$/;"	v	file:
+_z	random.c	/^static __thread unsigned long _x=123456789, _y=362436069, _z=521288629;$/;"	v	file:
+action	slab.h	/^   enum slab_action action;$/;"	m	struct:slab_callback	typeref:enum:slab_callback::slab_action
+add_child	indexes/art.c	/^static void add_child(art_node *n, art_node **ref, unsigned char c, void *child) {$/;"	f	file:
+add_child16	indexes/art.c	/^static void add_child16(art_node16 *n, art_node **ref, unsigned char c, void *child) {$/;"	f	file:
+add_child256	indexes/art.c	/^static void add_child256(art_node256 *n, art_node **ref, unsigned char c, void *child) {$/;"	f	file:
+add_child4	indexes/art.c	/^static void add_child4(art_node4 *n, art_node **ref, unsigned char c, void *child) {$/;"	f	file:
+add_child48	indexes/art.c	/^static void add_child48(art_node48 *n, art_node **ref, unsigned char c, void *child) {$/;"	f	file:
+add_existing_item	slab.c	/^void add_existing_item(struct slab *s, size_t idx, void *_item, struct slab_callback *callback) {$/;"	f
+add_in_tree	workload-common.c	/^static void add_in_tree(struct slab_callback *cb, void *item) {$/;"	f	file:
+add_item_async	slab.c	/^void add_item_async(struct slab_callback *callback) {$/;"	f
+add_item_async_cb1	slab.c	/^void add_item_async_cb1(struct slab_callback *callback) {$/;"	f
+add_item_in_free_list	freelist.c	/^void add_item_in_free_list(struct slab *s, size_t idx, struct item_metadata *item) {$/;"	f
+add_item_in_free_list_recovery	freelist.c	/^void add_item_in_free_list_recovery(struct slab *s, size_t idx, struct item_metadata *item) {$/;"	f
+add_page_in_lru	pagecache.c	/^struct lru *add_page_in_lru(struct pagecache *p, void *page, uint64_t hash) {$/;"	f
+add_son_in_freelist	freelist.c	/^void add_son_in_freelist(struct slab *s, size_t idx, struct item_metadata *item) {$/;"	f
+add_time_in_payload	stats.c	/^void add_time_in_payload(struct slab_callback *c, size_t origin) {$/;"	f
+add_timing_stat	stats.c	/^void add_timing_stat(uint64_t elapsed) {$/;"	f
+alloc_node	indexes/art.c	/^static art_node* alloc_node(uint8_t type) {$/;"	f	file:
+allocate_payload	stats.c	/^void *allocate_payload(void) {$/;"	f
+allocator_type	indexes/cpp-btree/btree.h	/^  typedef Alloc allocator_type;$/;"	t	struct:btree::btree_common_params
+allocator_type	indexes/cpp-btree/btree.h	/^  typedef typename Params::allocator_type allocator_type;$/;"	t	class:btree::btree
+allocator_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::allocator_type allocator_type;$/;"	t	class:btree::btree_container
+allocator_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::allocator_type allocator_type;$/;"	t	class:btree::btree_map_container
+allocator_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::allocator_type allocator_type;$/;"	t	class:btree::btree_multi_container
+allocator_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::allocator_type allocator_type;$/;"	t	class:btree::btree_unique_container
+allocator_type	indexes/cpp-btree/btree_map.h	/^  typedef typename btree_type::allocator_type allocator_type;$/;"	t	class:btree::btree_map
+allocator_type	indexes/cpp-btree/btree_map.h	/^  typedef typename btree_type::allocator_type allocator_type;$/;"	t	class:btree::btree_multimap
+allocator_type	indexes/cpp-btree/btree_set.h	/^  typedef typename btree_type::allocator_type allocator_type;$/;"	t	class:btree::btree_multiset
+allocator_type	indexes/cpp-btree/btree_set.h	/^  typedef typename btree_type::allocator_type allocator_type;$/;"	t	class:btree::btree_set
+alpha	random.c	/^static double alpha; \/\/initialized in init_zipf_generator function$/;"	v	file:
+api	workload-common.h	/^   struct workload_api *api;$/;"	m	struct:workload	typeref:struct:workload::workload_api
+api_name	workload-common.h	/^   const char* (*api_name)(void); \/\/ pretty print API name (YCSB or PRODUCTION)$/;"	m	struct:workload_api
+api_name_prod	workload-production.c	/^static const char* api_name_prod(void) {$/;"	f	file:
+api_name_ycsb	workload-ycsb.c	/^static const char* api_name_ycsb(void) {$/;"	f	file:
+art_callback	indexes/art.h	/^typedef int(*art_callback)(void *data, const unsigned char *key, uint32_t key_len, void *value);$/;"	t
+art_callback_scan	indexes/art.c	/^int art_callback_scan(void *data, const unsigned char *key, uint32_t key_len, void *value) {$/;"	f
+art_delete	indexes/art.c	/^void* art_delete(art_tree *t, const unsigned char *key, int key_len) {$/;"	f
+art_find_n	indexes/art.c	/^struct index_scan art_find_n(art_tree *t, const unsigned char *key, int key_len, size_t n) {$/;"	f
+art_index_add	in-memory-index-art.c	/^void art_index_add(struct slab_callback *cb, void *item) {$/;"	f
+art_init	in-memory-index-art.c	/^void art_init(void) {$/;"	f
+art_init_scan	in-memory-index-art.c	/^struct index_scan art_init_scan(void *item, size_t scan_size) {$/;"	f
+art_insert	indexes/art.c	/^void* art_insert(art_tree *t, const unsigned char *key, int key_len, void *value) {$/;"	f
+art_iter	indexes/art.c	/^int art_iter(art_tree *t, art_callback cb, void *data) {$/;"	f
+art_iter_prefix	indexes/art.c	/^int art_iter_prefix(art_tree *t, const unsigned char *key, int key_len, art_callback cb, void *data) {$/;"	f
+art_leaf	indexes/art.h	/^} art_leaf;$/;"	t	typeref:struct:__anon7
+art_maximum	indexes/art.c	/^art_leaf* art_maximum(art_tree *t) {$/;"	f
+art_minimum	indexes/art.c	/^art_leaf* art_minimum(art_tree *t) {$/;"	f
+art_node	indexes/art.h	/^} art_node;$/;"	t	typeref:struct:__anon2
+art_node16	indexes/art.h	/^} art_node16;$/;"	t	typeref:struct:__anon4
+art_node256	indexes/art.h	/^} art_node256;$/;"	t	typeref:struct:__anon6
+art_node4	indexes/art.h	/^} art_node4;$/;"	t	typeref:struct:__anon3
+art_node48	indexes/art.h	/^} art_node48;$/;"	t	typeref:struct:__anon5
+art_search	indexes/art.c	/^void* art_search(const art_tree *t, const unsigned char *key, int key_len) {$/;"	f
+art_size	indexes/art.h	/^inline uint64_t art_size(art_tree *t) {$/;"	f
+art_size	indexes/art.h	126;"	d
+art_tree	indexes/art.h	/^} art_tree;$/;"	t	typeref:struct:__anon8
+art_tree_destroy	indexes/art.c	/^int art_tree_destroy(art_tree *t) {$/;"	f
+art_tree_init	indexes/art.c	/^int art_tree_init(art_tree *t) {$/;"	f
+art_worker_delete	in-memory-index-art.c	/^void art_worker_delete(int worker_id, void *item) {$/;"	f
+art_worker_insert	in-memory-index-art.c	/^void art_worker_insert(int worker_id, void *item, index_entry_t *e) {$/;"	f
+art_worker_lookup	in-memory-index-art.c	/^index_entry_t *art_worker_lookup(int worker_id, void *item) {$/;"	f
+available_bench	workload-common.h	/^typedef enum available_bench {$/;"	g
+average_bytes_per_value	indexes/cpp-btree/btree.h	/^  static double average_bytes_per_value() {$/;"	f	class:btree::btree
+average_bytes_per_value	indexes/cpp-btree/btree_container.h	/^  static double average_bytes_per_value() {$/;"	f	class:btree::btree_container
+barrier	workload-common.c	/^static pthread_barrier_t barrier;$/;"	v	file:
+base	random.c	/^static long base; \/\/initialized in init_zipf_generator function$/;"	v	file:
+base_fields	indexes/cpp-btree/btree.h	/^  struct base_fields {$/;"	s	class:btree::btree_node
+base_fields	indexes/cpp-btree/btree.h	/^  typedef typename node_type::base_fields base_fields;$/;"	t	class:btree::btree
+begin	indexes/cpp-btree/btree.h	/^  const_iterator begin() const {$/;"	f	class:btree::btree
+begin	indexes/cpp-btree/btree.h	/^  iterator begin() {$/;"	f	class:btree::btree
+begin	indexes/cpp-btree/btree_container.h	/^  const_iterator begin() const { return tree_.begin(); }$/;"	f	class:btree::btree_container
+begin	indexes/cpp-btree/btree_container.h	/^  iterator begin() { return tree_.begin(); }$/;"	f	class:btree::btree_container
+bench_cb	workload-common.c	/^struct slab_callback *bench_cb(void) {$/;"	f
+bench_data_structures	microbench.c	/^int bench_data_structures(void) {$/;"	f
+bench_io	microbench.c	/^int bench_io(void) {$/;"	f
+bench_pagecache	benchcomponents.c	/^void bench_pagecache(void) {$/;"	f
+bench_t	workload-common.h	/^} bench_t;$/;"	t	typeref:enum:available_bench
+bench_zipf	microbench.c	/^void bench_zipf(void) {$/;"	f
+benchmark	workload-common.c	/^   bench_t benchmark;$/;"	m	struct:thread_data	file:
+big_	indexes/cpp-btree/btree.h	/^struct big_ {$/;"	s	namespace:btree
+binary_search_compare_to	indexes/cpp-btree/btree.h	/^  int binary_search_compare_to($/;"	f	class:btree::btree_node
+binary_search_compare_to_type	indexes/cpp-btree/btree.h	/^    key_type, self_type, key_compare> binary_search_compare_to_type;$/;"	t	class:btree::btree_node
+binary_search_plain_compare	indexes/cpp-btree/btree.h	/^  int binary_search_plain_compare($/;"	f	class:btree::btree_node
+binary_search_plain_compare_type	indexes/cpp-btree/btree.h	/^    key_type, self_type, key_compare> binary_search_plain_compare_type;$/;"	t	class:btree::btree_node
+binary_search_type	indexes/cpp-btree/btree.h	/^    binary_search_plain_compare_type>::type binary_search_type;$/;"	t	class:btree::btree_node
+bloom_bv	indexes/uthash.h	/^   uint8_t *bloom_bv;$/;"	m	struct:UT_hash_table
+bloom_nbits	indexes/uthash.h	/^   uint8_t bloom_nbits;$/;"	m	struct:UT_hash_table
+bloom_sig	indexes/uthash.h	/^   uint32_t bloom_sig; \/* used only to test bloom exists in external analysis *\/$/;"	m	struct:UT_hash_table
+bogus_rand	random.c	/^long bogus_rand() {$/;"	f
+bool_compare	indexes/cpp-btree/btree.h	/^  static bool bool_compare(const Compare &comp, const Key &x, const Key &y) {$/;"	f	struct:btree::btree_key_comparer
+btree	indexes/cpp-btree/btree.h	/^class btree : public Params::key_compare {$/;"	c	namespace:btree
+btree	indexes/cpp-btree/btree.h	/^namespace btree {$/;"	n
+btree	indexes/cpp-btree/btree_container.h	/^namespace btree {$/;"	n
+btree	indexes/cpp-btree/btree_map.h	/^namespace btree {$/;"	n
+btree	indexes/cpp-btree/btree_set.h	/^namespace btree {$/;"	n
+btree_binary_search_compare_to	indexes/cpp-btree/btree.h	/^struct btree_binary_search_compare_to {$/;"	s	namespace:btree
+btree_binary_search_plain_compare	indexes/cpp-btree/btree.h	/^struct btree_binary_search_plain_compare {$/;"	s	namespace:btree
+btree_common_params	indexes/cpp-btree/btree.h	/^struct btree_common_params {$/;"	s	namespace:btree
+btree_compare_keys	indexes/cpp-btree/btree.h	/^static bool btree_compare_keys($/;"	f	namespace:btree
+btree_container	indexes/cpp-btree/btree_container.h	/^  btree_container(const key_compare &comp, const allocator_type &alloc)$/;"	f	class:btree::btree_container
+btree_container	indexes/cpp-btree/btree_container.h	/^  btree_container(const self_type &x)$/;"	f	class:btree::btree_container
+btree_container	indexes/cpp-btree/btree_container.h	/^class btree_container {$/;"	c	namespace:btree
+btree_create	indexes/btree.cc	/^   btree_t *btree_create() {$/;"	f
+btree_delete	indexes/btree.cc	/^   void btree_delete(btree_t *t, unsigned char*k, size_t len) {$/;"	f
+btree_find	indexes/btree.cc	/^   int btree_find(btree_t *t, unsigned char* k, size_t len, struct index_entry *e) {$/;"	f
+btree_find_n	indexes/btree.cc	/^   struct index_scan btree_find_n(btree_t *t, unsigned char* k, size_t len, size_t n) {$/;"	f
+btree_forall_keys	indexes/btree.cc	/^   void btree_forall_keys(btree_t *t, void (*cb)(uint64_t h, void *data), void *data) {$/;"	f
+btree_free	indexes/btree.cc	/^   void btree_free(btree_t *t) {$/;"	f
+btree_index_add	in-memory-index-btree.c	/^void btree_index_add(struct slab_callback *cb, void *item) {$/;"	f
+btree_init	in-memory-index-btree.c	/^void btree_init(void) {$/;"	f
+btree_init_scan	in-memory-index-btree.c	/^struct index_scan btree_init_scan(void *item, size_t scan_size) {$/;"	f
+btree_insert	indexes/btree.cc	/^   void btree_insert(btree_t *t, unsigned char*k, size_t len, struct index_entry *e) {$/;"	f
+btree_internal_locate_compare_to	indexes/cpp-btree/btree.h	/^struct btree_internal_locate_compare_to {$/;"	s	namespace:btree
+btree_internal_locate_plain_compare	indexes/cpp-btree/btree.h	/^struct btree_internal_locate_plain_compare {$/;"	s	namespace:btree
+btree_is_key_compare_to	indexes/cpp-btree/btree.h	/^struct btree_is_key_compare_to$/;"	s	namespace:btree
+btree_iterator	freelist.c	/^static void btree_iterator(uint64_t h, void *data) {$/;"	f	file:
+btree_iterator	indexes/cpp-btree/btree.h	/^  btree_iterator()$/;"	f	struct:btree::btree_iterator
+btree_iterator	indexes/cpp-btree/btree.h	/^  btree_iterator(Node *n, int p)$/;"	f	struct:btree::btree_iterator
+btree_iterator	indexes/cpp-btree/btree.h	/^  btree_iterator(const iterator &x)$/;"	f	struct:btree::btree_iterator
+btree_iterator	indexes/cpp-btree/btree.h	/^struct btree_iterator {$/;"	s	namespace:btree
+btree_key_compare_to_adapter	indexes/cpp-btree/btree.h	/^  btree_key_compare_to_adapter($/;"	f	struct:btree::btree_key_compare_to_adapter
+btree_key_compare_to_adapter	indexes/cpp-btree/btree.h	/^  btree_key_compare_to_adapter() { }$/;"	f	struct:btree::btree_key_compare_to_adapter
+btree_key_compare_to_adapter	indexes/cpp-btree/btree.h	/^  btree_key_compare_to_adapter() {}$/;"	f	struct:btree::btree_key_compare_to_adapter
+btree_key_compare_to_adapter	indexes/cpp-btree/btree.h	/^  btree_key_compare_to_adapter(const Compare &c) : Compare(c) { }$/;"	f	struct:btree::btree_key_compare_to_adapter
+btree_key_compare_to_adapter	indexes/cpp-btree/btree.h	/^  btree_key_compare_to_adapter(const btree_key_compare_to_adapter<Compare> &c)$/;"	f	struct:btree::btree_key_compare_to_adapter
+btree_key_compare_to_adapter	indexes/cpp-btree/btree.h	/^  btree_key_compare_to_adapter(const std::greater<std::string>&) {}$/;"	f	struct:btree::btree_key_compare_to_adapter
+btree_key_compare_to_adapter	indexes/cpp-btree/btree.h	/^  btree_key_compare_to_adapter(const std::less<std::string>&) {}$/;"	f	struct:btree::btree_key_compare_to_adapter
+btree_key_compare_to_adapter	indexes/cpp-btree/btree.h	/^struct btree_key_compare_to_adapter : Compare {$/;"	s	namespace:btree
+btree_key_compare_to_adapter	indexes/cpp-btree/btree.h	/^struct btree_key_compare_to_adapter<std::greater<std::string> >$/;"	s	namespace:btree
+btree_key_compare_to_adapter	indexes/cpp-btree/btree.h	/^struct btree_key_compare_to_adapter<std::less<std::string> >$/;"	s	namespace:btree
+btree_key_compare_to_tag	indexes/cpp-btree/btree.h	/^struct btree_key_compare_to_tag {$/;"	s	namespace:btree
+btree_key_comparer	indexes/cpp-btree/btree.h	/^  btree_key_comparer() {}$/;"	f	struct:btree::btree_key_comparer
+btree_key_comparer	indexes/cpp-btree/btree.h	/^  btree_key_comparer(Compare c) : comp(c) {}$/;"	f	struct:btree::btree_key_comparer
+btree_key_comparer	indexes/cpp-btree/btree.h	/^struct btree_key_comparer {$/;"	s	namespace:btree
+btree_key_comparer	indexes/cpp-btree/btree.h	/^struct btree_key_comparer<Key, Compare, true> {$/;"	s	namespace:btree
+btree_linear_search_compare_to	indexes/cpp-btree/btree.h	/^struct btree_linear_search_compare_to {$/;"	s	namespace:btree
+btree_linear_search_plain_compare	indexes/cpp-btree/btree.h	/^struct btree_linear_search_plain_compare {$/;"	s	namespace:btree
+btree_map	indexes/cpp-btree/btree_map.h	/^  btree_map(InputIterator b, InputIterator e,$/;"	f	class:btree::btree_map
+btree_map	indexes/cpp-btree/btree_map.h	/^  btree_map(const key_compare &comp = key_compare(),$/;"	f	class:btree::btree_map
+btree_map	indexes/cpp-btree/btree_map.h	/^  btree_map(const self_type &x)$/;"	f	class:btree::btree_map
+btree_map	indexes/cpp-btree/btree_map.h	/^class btree_map : public btree_map_container<$/;"	c	namespace:btree
+btree_map_container	indexes/cpp-btree/btree_container.h	/^  btree_map_container(InputIterator b, InputIterator e,$/;"	f	class:btree::btree_map_container
+btree_map_container	indexes/cpp-btree/btree_container.h	/^  btree_map_container(const key_compare &comp = key_compare(),$/;"	f	class:btree::btree_map_container
+btree_map_container	indexes/cpp-btree/btree_container.h	/^  btree_map_container(const self_type &x)$/;"	f	class:btree::btree_map_container
+btree_map_container	indexes/cpp-btree/btree_container.h	/^class btree_map_container : public btree_unique_container<Tree> {$/;"	c	namespace:btree
+btree_map_params	indexes/cpp-btree/btree.h	/^struct btree_map_params$/;"	s	namespace:btree
+btree_multi_container	indexes/cpp-btree/btree_container.h	/^  btree_multi_container(InputIterator b, InputIterator e,$/;"	f	class:btree::btree_multi_container
+btree_multi_container	indexes/cpp-btree/btree_container.h	/^  btree_multi_container(const key_compare &comp = key_compare(),$/;"	f	class:btree::btree_multi_container
+btree_multi_container	indexes/cpp-btree/btree_container.h	/^  btree_multi_container(const self_type &x)$/;"	f	class:btree::btree_multi_container
+btree_multi_container	indexes/cpp-btree/btree_container.h	/^class btree_multi_container : public btree_container<Tree> {$/;"	c	namespace:btree
+btree_multimap	indexes/cpp-btree/btree_map.h	/^  btree_multimap(InputIterator b, InputIterator e,$/;"	f	class:btree::btree_multimap
+btree_multimap	indexes/cpp-btree/btree_map.h	/^  btree_multimap(const key_compare &comp = key_compare(),$/;"	f	class:btree::btree_multimap
+btree_multimap	indexes/cpp-btree/btree_map.h	/^  btree_multimap(const self_type &x)$/;"	f	class:btree::btree_multimap
+btree_multimap	indexes/cpp-btree/btree_map.h	/^class btree_multimap : public btree_multi_container<$/;"	c	namespace:btree
+btree_multiset	indexes/cpp-btree/btree_set.h	/^  btree_multiset(InputIterator b, InputIterator e,$/;"	f	class:btree::btree_multiset
+btree_multiset	indexes/cpp-btree/btree_set.h	/^  btree_multiset(const key_compare &comp = key_compare(),$/;"	f	class:btree::btree_multiset
+btree_multiset	indexes/cpp-btree/btree_set.h	/^  btree_multiset(const self_type &x)$/;"	f	class:btree::btree_multiset
+btree_multiset	indexes/cpp-btree/btree_set.h	/^class btree_multiset : public btree_multi_container<$/;"	c	namespace:btree
+btree_node	indexes/cpp-btree/btree.h	/^class btree_node {$/;"	c	namespace:btree
+btree_set	indexes/cpp-btree/btree_set.h	/^  btree_set(InputIterator b, InputIterator e,$/;"	f	class:btree::btree_set
+btree_set	indexes/cpp-btree/btree_set.h	/^  btree_set(const key_compare &comp = key_compare(),$/;"	f	class:btree::btree_set
+btree_set	indexes/cpp-btree/btree_set.h	/^  btree_set(const self_type &x)$/;"	f	class:btree::btree_set
+btree_set	indexes/cpp-btree/btree_set.h	/^class btree_set : public btree_unique_container<$/;"	c	namespace:btree
+btree_set_params	indexes/cpp-btree/btree.h	/^struct btree_set_params$/;"	s	namespace:btree
+btree_swap_helper	indexes/cpp-btree/btree.h	/^inline void btree_swap_helper(T &a, T &b) {$/;"	f	namespace:btree
+btree_t	indexes/btree.h	/^typedef void btree_t;$/;"	t
+btree_type	indexes/cpp-btree/btree_map.h	/^  typedef btree<params_type> btree_type;$/;"	t	class:btree::btree_map
+btree_type	indexes/cpp-btree/btree_map.h	/^  typedef btree<params_type> btree_type;$/;"	t	class:btree::btree_multimap
+btree_type	indexes/cpp-btree/btree_set.h	/^  typedef btree<params_type> btree_type;$/;"	t	class:btree::btree_multiset
+btree_type	indexes/cpp-btree/btree_set.h	/^  typedef btree<params_type> btree_type;$/;"	t	class:btree::btree_set
+btree_unique_container	indexes/cpp-btree/btree_container.h	/^  btree_unique_container(InputIterator b, InputIterator e,$/;"	f	class:btree::btree_unique_container
+btree_unique_container	indexes/cpp-btree/btree_container.h	/^  btree_unique_container(const key_compare &comp = key_compare(),$/;"	f	class:btree::btree_unique_container
+btree_unique_container	indexes/cpp-btree/btree_container.h	/^  btree_unique_container(const self_type &x)$/;"	f	class:btree::btree_unique_container
+btree_unique_container	indexes/cpp-btree/btree_container.h	/^class btree_unique_container : public btree_container<Tree> {$/;"	c	namespace:btree
+btree_upper_bound_adapter	indexes/cpp-btree/btree.h	/^  btree_upper_bound_adapter(Compare c) : Compare(c) {}$/;"	f	struct:btree::btree_upper_bound_adapter
+btree_upper_bound_adapter	indexes/cpp-btree/btree.h	/^struct btree_upper_bound_adapter : public Compare {$/;"	s	namespace:btree
+btree_upper_bound_compare_to_adapter	indexes/cpp-btree/btree.h	/^  btree_upper_bound_compare_to_adapter(CompareTo c) : CompareTo(c) {}$/;"	f	struct:btree::btree_upper_bound_compare_to_adapter
+btree_upper_bound_compare_to_adapter	indexes/cpp-btree/btree.h	/^struct btree_upper_bound_compare_to_adapter : public CompareTo {$/;"	s	namespace:btree
+btree_worker_delete	in-memory-index-btree.c	/^void btree_worker_delete(int worker_id, void *item) {$/;"	f
+btree_worker_insert	in-memory-index-btree.c	/^void btree_worker_insert(int worker_id, void *item, index_entry_t *e) {$/;"	f
+btree_worker_lookup	in-memory-index-btree.c	/^index_entry_t *btree_worker_lookup(int worker_id, void *item) {$/;"	f
+buckets	indexes/uthash.h	/^   UT_hash_bucket *buckets;$/;"	m	struct:UT_hash_table
+buffered_callbacks_idx	slabworker.c	/^   volatile size_t buffered_callbacks_idx;               \/\/ Number of requests enqueued or in the process of being enqueued$/;"	m	struct:slab_context	file:
+bump_page_in_lru	pagecache.c	/^void bump_page_in_lru(struct pagecache *p, struct lru *me, uint64_t hash) {$/;"	f
+bytes_used	indexes/cpp-btree/btree.h	/^  size_type bytes_used() const {$/;"	f	class:btree::btree
+bytes_used	indexes/cpp-btree/btree_container.h	/^  size_type bytes_used() const { return tree_.bytes_used(); }$/;"	f	class:btree::btree_container
+cached_data	pagecache.h	/^   char *cached_data;$/;"	m	struct:pagecache
+callback	ioengine.c	/^   struct slab_callback *callback;$/;"	m	struct:linked_callbacks	typeref:struct:linked_callbacks::slab_callback	file:
+callbacks	slabworker.c	/^   struct slab_callback **callbacks;                     \/\/ Callbacks associated with the requests$/;"	m	struct:slab_context	typeref:struct:slab_context::slab_callback	file:
+cb	slab.h	/^   slab_cb_t *cb;$/;"	m	struct:slab_callback
+check_prefix	indexes/art.c	/^static int check_prefix(const art_node *n, const unsigned char *key, int key_len, int depth) {$/;"	f	file:
+child	indexes/cpp-btree/btree.h	/^  btree_node* child(int i) const { return fields_.children[i]; }$/;"	f	class:btree::btree_node
+children	indexes/art.h	/^    art_node *children[16];$/;"	m	struct:__anon4
+children	indexes/art.h	/^    art_node *children[256];$/;"	m	struct:__anon6
+children	indexes/art.h	/^    art_node *children[48];$/;"	m	struct:__anon5
+children	indexes/art.h	/^    art_node *children[4];$/;"	m	struct:__anon3
+children	indexes/cpp-btree/btree.h	/^    btree_node *children[kNodeValues + 1];$/;"	m	struct:btree::btree_node::internal_fields
+clear	indexes/cpp-btree/btree_container.h	/^  void clear() {$/;"	f	class:btree::btree_container
+cmp_key_index	indexes/art.c	/^static int cmp_key_index(const void *_a, const void *_b) {$/;"	f	file:
+cmp_uint	stats.c	/^int cmp_uint(const void *_a, const void *_b) {$/;"	f
+cmpfunc	microbench.c	/^int cmpfunc (const void * _a, const void * _b) {$/;"	f
+color	indexes/rbtree.c	/^typedef enum rbtree_node_color color;$/;"	t	typeref:enum:rbtree_node_color	file:
+color	indexes/rbtree.h	/^    enum rbtree_node_color color;$/;"	m	struct:rbtree_node_t	typeref:enum:rbtree_node_t::rbtree_node_color
+comp	indexes/cpp-btree/btree.h	/^  Compare comp;$/;"	m	struct:btree::btree_key_comparer
+compare_func	indexes/rbtree.h	/^typedef int (*compare_func)(void* left, void* right);$/;"	t
+compare_keys	indexes/cpp-btree/btree.h	/^  bool compare_keys(const key_type &x, const key_type &y) const {$/;"	f	class:btree::btree
+compute_stats	workload-common.c	/^void compute_stats(struct slab_callback *cb, void *item) {$/;"	f
+const_iterator	indexes/cpp-btree/btree.h	/^    const_node, const_reference, const_pointer> const_iterator;$/;"	t	struct:btree::btree_iterator
+const_iterator	indexes/cpp-btree/btree.h	/^  typedef typename iterator::const_iterator const_iterator;$/;"	t	class:btree::btree
+const_iterator	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::const_iterator const_iterator;$/;"	t	class:btree::btree_container
+const_iterator	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::const_iterator const_iterator;$/;"	t	class:btree::btree_multi_container
+const_iterator	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::const_iterator const_iterator;$/;"	t	class:btree::btree_unique_container
+const_node	indexes/cpp-btree/btree.h	/^  typedef const Node const_node;$/;"	t	struct:btree::btree_iterator
+const_pointer	indexes/cpp-btree/btree.h	/^  typedef const value_type* const_pointer;$/;"	t	struct:btree::btree_map_params
+const_pointer	indexes/cpp-btree/btree.h	/^  typedef const value_type* const_pointer;$/;"	t	struct:btree::btree_set_params
+const_pointer	indexes/cpp-btree/btree.h	/^  typedef typename Params::const_pointer const_pointer;$/;"	t	class:btree::btree
+const_pointer	indexes/cpp-btree/btree.h	/^  typedef typename Params::const_pointer const_pointer;$/;"	t	class:btree::btree_node
+const_pointer	indexes/cpp-btree/btree.h	/^  typedef typename params_type::const_pointer const_pointer;$/;"	t	struct:btree::btree_iterator
+const_pointer	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::const_pointer const_pointer;$/;"	t	class:btree::btree_container
+const_reference	indexes/cpp-btree/btree.h	/^  typedef const value_type& const_reference;$/;"	t	struct:btree::btree_map_params
+const_reference	indexes/cpp-btree/btree.h	/^  typedef const value_type& const_reference;$/;"	t	struct:btree::btree_set_params
+const_reference	indexes/cpp-btree/btree.h	/^  typedef typename Params::const_reference const_reference;$/;"	t	class:btree::btree
+const_reference	indexes/cpp-btree/btree.h	/^  typedef typename Params::const_reference const_reference;$/;"	t	class:btree::btree_node
+const_reference	indexes/cpp-btree/btree.h	/^  typedef typename params_type::const_reference const_reference;$/;"	t	struct:btree::btree_iterator
+const_reference	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::const_reference const_reference;$/;"	t	class:btree::btree_container
+const_reverse_iterator	indexes/cpp-btree/btree.h	/^  typedef std::reverse_iterator<const_iterator> const_reverse_iterator;$/;"	t	class:btree::btree
+const_reverse_iterator	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::const_reverse_iterator const_reverse_iterator;$/;"	t	class:btree::btree_container
+contains_data	pagecache.h	/^   int contains_data;$/;"	m	struct:lru
+copy_header	indexes/art.c	/^static void copy_header(art_node *dest, art_node *src) {$/;"	f	file:
+count	indexes/cpp-btree/btree.h	/^    field_type count;$/;"	m	struct:btree::btree_node::base_fields
+count	indexes/cpp-btree/btree.h	/^  int count() const { return fields_.count; }$/;"	f	class:btree::btree_node
+count	indexes/cpp-btree/btree_container.h	/^  size_type count(const key_type &key) const {$/;"	f	class:btree::btree_multi_container
+count	indexes/cpp-btree/btree_container.h	/^  size_type count(const key_type &key) const {$/;"	f	class:btree::btree_unique_container
+count	indexes/uthash.h	/^   unsigned count;$/;"	m	struct:UT_hash_bucket
+count_multi	indexes/cpp-btree/btree.h	/^  size_type count_multi(const key_type &key) const {$/;"	f	class:btree::btree
+count_unique	indexes/cpp-btree/btree.h	/^  size_type count_unique(const key_type &key) const {$/;"	f	class:btree::btree
+counter	microbench.c	/^struct counter {$/;"	s	file:
+countforzeta	random.c	/^static long countforzeta; \/\/initialized in init_zipf_generator function$/;"	v	file:
+create_slab	slab.c	/^struct slab* create_slab(struct slab_context *ctx, int slab_worker_id, size_t item_size, struct slab_callback *callback) {$/;"	f
+create_unique_item	workload-common.c	/^char *create_unique_item(size_t item_size, uint64_t uid) {$/;"	f
+create_unique_item	workload-common.h	/^   char* (*create_unique_item)(uint64_t uid, uint64_t max_uid); \/\/ allocate an item in memory and return it$/;"	m	struct:workload_api
+create_unique_item_prod	workload-production.c	/^static char *create_unique_item_prod(uint64_t uid, uint64_t max_uid) {$/;"	f	file:
+create_unique_item_ycsb	workload-ycsb.c	/^static char *create_unique_item_ycsb(uint64_t uid, uint64_t max_uid) {$/;"	f	file:
+create_workload_item	workload-common.c	/^char *create_workload_item(struct workload *w) {$/;"	f
+ctx	ioengine.c	/^   aio_context_t ctx __attribute__((aligned(64)));$/;"	m	struct:io_context	file:
+ctx	slab.h	/^   struct slab_context *ctx;$/;"	m	struct:slab	typeref:struct:slab::slab_context
+cycles_to_us	utils.c	/^uint64_t cycles_to_us(uint64_t cycles) {$/;"	f
+data	indexes/cpp-btree/btree.h	/^    Data data;$/;"	m	struct:btree::btree::empty_base_handle
+data	indexes/rax.h	/^    unsigned char data[];$/;"	m	struct:raxNode
+data	indexes/rax.h	/^    void *data;             \/* Data associated to this key. *\/$/;"	m	struct:raxIterator
+data_type	indexes/cpp-btree/btree.h	/^  typedef Data data_type;$/;"	t	struct:btree::btree_map_params
+data_type	indexes/cpp-btree/btree.h	/^  typedef std::false_type data_type;$/;"	t	struct:btree::btree_set_params
+data_type	indexes/cpp-btree/btree.h	/^  typedef typename Params::data_type data_type;$/;"	t	class:btree::btree
+data_type	indexes/cpp-btree/btree.h	/^  typedef typename Params::data_type data_type;$/;"	t	class:btree::btree_node
+data_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::data_type data_type;$/;"	t	class:btree::btree_map_container
+data_type	indexes/cpp-btree/btree_map.h	/^  typedef typename btree_type::data_type data_type;$/;"	t	class:btree::btree_multimap
+db_path	workload-common.h	/^   const char *db_path;$/;"	m	struct:workload
+debugf	indexes/rax.c	60;"	d	file:
+debugf	indexes/rax.c	69;"	d	file:
+debugnode	indexes/rax.c	67;"	d	file:
+debugnode	indexes/rax.c	70;"	d	file:
+declare_breakdown	utils.h	135;"	d
+declare_debug_timer	utils.h	67;"	d
+declare_memory_counter	utils.h	220;"	d
+declare_periodic_count	utils.h	105;"	d
+declare_timer	utils.h	48;"	d
+decrement	indexes/cpp-btree/btree.h	/^  void decrement() {$/;"	f	struct:btree::btree_iterator
+delete_case1	indexes/rbtree.c	/^void delete_case1(rbtree t, node n) {$/;"	f
+delete_case2	indexes/rbtree.c	/^void delete_case2(rbtree t, node n) {$/;"	f
+delete_case3	indexes/rbtree.c	/^void delete_case3(rbtree t, node n) {$/;"	f
+delete_case4	indexes/rbtree.c	/^void delete_case4(rbtree t, node n) {$/;"	f
+delete_case5	indexes/rbtree.c	/^void delete_case5(rbtree t, node n) {$/;"	f
+delete_case6	indexes/rbtree.c	/^void delete_case6(rbtree t, node n) {$/;"	f
+delete_internal_node	indexes/cpp-btree/btree.h	/^  void delete_internal_node(node_type *node) {$/;"	f	class:btree::btree
+delete_internal_root_node	indexes/cpp-btree/btree.h	/^  void delete_internal_root_node() {$/;"	f	class:btree::btree
+delete_leaf_node	indexes/cpp-btree/btree.h	/^  void delete_leaf_node(node_type *node) {$/;"	f	class:btree::btree
+destroy	indexes/cpp-btree/btree.h	/^  void destroy() {$/;"	f	class:btree::btree_node
+destroy_art_tree	indexes/art.h	120;"	d
+destroy_node	indexes/art.c	/^static void destroy_node(art_node *n) {$/;"	f	file:
+die	utils.h	9;"	d
+difference_type	indexes/cpp-btree/btree.h	/^  typedef ptrdiff_t difference_type;$/;"	t	struct:btree::btree_common_params
+difference_type	indexes/cpp-btree/btree.h	/^  typedef typename Node::difference_type difference_type;$/;"	t	struct:btree::btree_iterator
+difference_type	indexes/cpp-btree/btree.h	/^  typedef typename Params::difference_type difference_type;$/;"	t	class:btree::btree
+difference_type	indexes/cpp-btree/btree.h	/^  typedef typename Params::difference_type difference_type;$/;"	t	class:btree::btree_node
+difference_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::difference_type difference_type;$/;"	t	class:btree::btree_container
+dirty	pagecache.h	/^   int dirty;$/;"	m	struct:lru
+disk_data	ioengine.c	/^static __thread char *disk_data;$/;"	v	file:
+dispatch	indexes/cpp-btree/btree.h	/^  static std::pair<Iter, int> dispatch(const K &k, const T &t, Iter iter) {$/;"	f	struct:btree::btree_internal_locate_compare_to
+dispatch	indexes/cpp-btree/btree.h	/^  static std::pair<Iter, int> dispatch(const K &k, const T &t, Iter iter) {$/;"	f	struct:btree::btree_internal_locate_plain_compare
+do_io	ioengine.c	/^void do_io(void) {$/;"	f
+do_libaio	microbench.c	/^void *do_libaio(void *data) {$/;"	f
+do_workload_thread	workload-common.c	/^void* do_workload_thread(void *pdata) {$/;"	f
+dst	scripts/parse_log.cpp	/^   uint32_t dst;$/;"	m	struct:e_t	file:
+dummy	indexes/cpp-btree/btree.h	/^  char dummy[2];$/;"	m	struct:btree::big_
+dump	indexes/cpp-btree/btree.h	/^  void dump(std::ostream &os) const {$/;"	f	class:btree::btree
+dump	indexes/cpp-btree/btree_container.h	/^  void dump(std::ostream &os) const {$/;"	f	class:btree::btree_container
+e_t	scripts/parse_log.cpp	/^struct e_t{$/;"	s	file:
+empty	indexes/cpp-btree/btree.h	/^  bool empty() const { return root() == NULL; }$/;"	f	class:btree::btree
+empty	indexes/cpp-btree/btree_container.h	/^  bool empty() const { return tree_.empty(); }$/;"	f	class:btree::btree_container
+empty_base_handle	indexes/cpp-btree/btree.h	/^    empty_base_handle(const Base &b, const Data &d)$/;"	f	struct:btree::btree::empty_base_handle
+empty_base_handle	indexes/cpp-btree/btree.h	/^  struct empty_base_handle : public Base {$/;"	s	class:btree::btree
+end	indexes/cpp-btree/btree.h	/^  const_iterator end() const {$/;"	f	class:btree::btree
+end	indexes/cpp-btree/btree.h	/^  iterator end() {$/;"	f	class:btree::btree
+end	indexes/cpp-btree/btree_container.h	/^  const_iterator end() const { return tree_.end(); }$/;"	f	class:btree::btree_container
+end	indexes/cpp-btree/btree_container.h	/^  iterator end() { return tree_.end(); }$/;"	f	class:btree::btree_container
+end	workload-common.c	/^   size_t end;$/;"	m	struct:rebuild_pdata	file:
+enqueue_slab_callback	slabworker.c	/^static void enqueue_slab_callback(struct slab_context *ctx, enum slab_action action, struct slab_callback *callback) {$/;"	f	file:
+entries	indexes/memory-item.h	/^   struct index_entry *entries;$/;"	m	struct:index_scan	typeref:struct:index_scan::index_entry
+entries	indexes/rbtree.h	/^   struct rbtree_node_t *entries;$/;"	m	struct:rbtree_scan_tmp	typeref:struct:rbtree_scan_tmp::rbtree_node_t
+equal_range	indexes/cpp-btree/btree.h	/^  std::pair<const_iterator,const_iterator> equal_range(const key_type &key) const {$/;"	f	class:btree::btree
+equal_range	indexes/cpp-btree/btree.h	/^  std::pair<iterator,iterator> equal_range(const key_type &key) {$/;"	f	class:btree::btree
+equal_range	indexes/cpp-btree/btree_container.h	/^  std::pair<const_iterator,const_iterator> equal_range(const key_type &key) const {$/;"	f	class:btree::btree_container
+equal_range	indexes/cpp-btree/btree_container.h	/^  std::pair<iterator,iterator> equal_range(const key_type &key) {$/;"	f	class:btree::btree_container
+erase	indexes/cpp-btree/btree_container.h	/^  int erase(const key_type &key) {$/;"	f	class:btree::btree_multi_container
+erase	indexes/cpp-btree/btree_container.h	/^  int erase(const key_type &key) {$/;"	f	class:btree::btree_unique_container
+erase	indexes/cpp-btree/btree_container.h	/^  iterator erase(const iterator &iter) {$/;"	f	class:btree::btree_multi_container
+erase	indexes/cpp-btree/btree_container.h	/^  iterator erase(const iterator &iter) {$/;"	f	class:btree::btree_unique_container
+erase	indexes/cpp-btree/btree_container.h	/^  void erase(const iterator &first, const iterator &last) {$/;"	f	class:btree::btree_multi_container
+erase	indexes/cpp-btree/btree_container.h	/^  void erase(const iterator &first, const iterator &last) {$/;"	f	class:btree::btree_unique_container
+eta	random.c	/^static double eta; \/\/initialized in init_zipf_generator function$/;"	v	file:
+events	ioengine.c	/^   struct io_event *events;$/;"	m	struct:io_context	typeref:struct:io_context::io_event	file:
+expand_mult	indexes/uthash.h	/^   unsigned expand_mult;$/;"	m	struct:UT_hash_bucket
+fd	microbench.c	/^   int fd;$/;"	m	struct:pdata	file:
+fd	slab.h	/^   int fd;$/;"	m	struct:slab
+field_type	indexes/cpp-btree/btree.h	/^    typedef typename Params::node_count_type field_type;$/;"	t	struct:btree::btree_node::base_fields
+fields_	indexes/cpp-btree/btree.h	/^  root_fields fields_;$/;"	m	class:btree::btree_node
+find	indexes/cpp-btree/btree_container.h	/^  const_iterator find(const key_type &key) const {$/;"	f	class:btree::btree_multi_container
+find	indexes/cpp-btree/btree_container.h	/^  const_iterator find(const key_type &key) const {$/;"	f	class:btree::btree_unique_container
+find	indexes/cpp-btree/btree_container.h	/^  iterator find(const key_type &key) {$/;"	f	class:btree::btree_multi_container
+find	indexes/cpp-btree/btree_container.h	/^  iterator find(const key_type &key) {$/;"	f	class:btree::btree_unique_container
+find_child	indexes/art.c	/^static art_node** find_child(art_node *n, unsigned char c) {$/;"	f	file:
+find_closest	indexes/cpp-btree/btree.h	/^  iterator find_closest(const key_type &key) {$/;"	f	class:btree::btree
+find_closest	indexes/cpp-btree/btree_container.h	/^  iterator find_closest(const key_type &key) {$/;"	f	class:btree::btree_unique_container
+find_multi	indexes/cpp-btree/btree.h	/^  const_iterator find_multi(const key_type &key) const {$/;"	f	class:btree::btree
+find_multi	indexes/cpp-btree/btree.h	/^  iterator find_multi(const key_type &key) {$/;"	f	class:btree::btree
+find_unique	indexes/cpp-btree/btree.h	/^  const_iterator find_unique(const key_type &key) const {$/;"	f	class:btree::btree
+find_unique	indexes/cpp-btree/btree.h	/^  iterator find_unique(const key_type &key) {$/;"	f	class:btree::btree
+flags	indexes/rax.h	/^    int flags;$/;"	m	struct:raxIterator
+foreach	utils.h	90;"	d
+free_callback	workload-common.c	/^void free_callback(struct slab_callback *cb, void *item) {$/;"	f
+free_payload	stats.c	/^void free_payload(struct slab_callback *c) {$/;"	f
+freed_items	slab.h	/^   struct freelist_entry *freed_items, *freed_items_tail;$/;"	m	struct:slab	typeref:struct:slab::freelist_entry
+freed_items_pointed_to	slab.h	/^   btree_t *freed_items_recovery, *freed_items_pointed_to;$/;"	m	struct:slab
+freed_items_recovery	slab.h	/^   btree_t *freed_items_recovery, *freed_items_pointed_to;$/;"	m	struct:slab
+freed_items_tail	slab.h	/^   struct freelist_entry *freed_items, *freed_items_tail;$/;"	m	struct:slab	typeref:struct:slab::
+freelist_entry	freelist.c	/^struct freelist_entry {$/;"	s	file:
+freq	utils.c	/^static uint64_t freq = 0;$/;"	v	file:
+fullness	indexes/cpp-btree/btree.h	/^  double fullness() const {$/;"	f	class:btree::btree
+fullness	indexes/cpp-btree/btree_container.h	/^  double fullness() const { return tree_.fullness(); }$/;"	f	class:btree::btree_container
+generate_value	indexes/cpp-btree/btree_container.h	/^    generate_value(const key_type &k)$/;"	f	struct:btree::btree_map_container::generate_value
+generate_value	indexes/cpp-btree/btree_container.h	/^  struct generate_value {$/;"	s	class:btree::btree_map_container
+get16bits	indexes/uthash.h	708;"	d
+get16bits	indexes/uthash.h	711;"	d
+get16bits	indexes/uthash.h	715;"	d
+get_api	workload-common.c	/^struct workload_api *get_api(bench_t b) {$/;"	f
+get_cpu_freq	utils.c	/^static uint64_t get_cpu_freq(void) {$/;"	f	file:
+get_database_size	slabworker.c	/^size_t get_database_size(void) {$/;"	f
+get_free_item_idx	freelist.c	/^void get_free_item_idx(struct slab_callback *cb) {$/;"	f
+get_function_name	random.c	/^const char *get_function_name(random_gen_t f) {$/;"	f
+get_hash_for_item	slabworker.c	/^static uint64_t get_hash_for_item(char *item) {$/;"	f	file:
+get_hash_for_page	ioengine.c	/^static uint64_t get_hash_for_page(int fd, uint64_t page_num) {$/;"	f	file:
+get_io_context	slabworker.c	/^struct io_context *get_io_context(struct slab_context *ctx) {$/;"	f
+get_item_size	slabworker.c	/^size_t get_item_size(char *item) {$/;"	f
+get_item_slab	slabworker.c	/^struct slab *get_item_slab(int worker_id, void *item) {$/;"	f
+get_memory_usage	utils.h	226;"	d
+get_nb_disks	slabworker.c	/^int get_nb_disks(void) {$/;"	f
+get_nb_workers	benchcomponents.c	/^int get_nb_workers(void) {$/;"	f
+get_nb_workers	slabworker.c	/^int get_nb_workers(void) {$/;"	f
+get_origin_from_payload	stats.c	/^uint64_t get_origin_from_payload(struct slab_callback *c, size_t pos) {$/;"	f
+get_page	pagecache.c	/^int get_page(struct pagecache *p, uint64_t hash, void **page, struct lru **lru) {$/;"	f
+get_pagecache	slabworker.c	/^struct pagecache *get_pagecache(struct slab_context *ctx) {$/;"	f
+get_prefix_for_item	in-memory-index-art.c	/^static uint64_t get_prefix_for_item(char *item) {$/;"	f	file:
+get_prefix_for_item	in-memory-index-btree.c	/^static uint64_t get_prefix_for_item(char *item) {$/;"	f	file:
+get_prefix_for_item	in-memory-index-rax.c	/^static uint64_t get_prefix_for_item(char *item) {$/;"	f	file:
+get_prefix_for_item	in-memory-index-rbtree.c	/^static uint64_t get_prefix_for_item(char *item) {$/;"	f	file:
+get_rdt	slabworker.c	/^uint64_t get_rdt(struct slab_context *ctx) {$/;"	f
+get_slab	slabworker.c	/^static struct slab *get_slab(struct slab_context *ctx, void *item) {$/;"	f	file:
+get_slab_buffer	slabworker.c	/^static size_t get_slab_buffer(struct slab_context *ctx) {$/;"	f	file:
+get_slab_context	slabworker.c	/^static struct slab_context *get_slab_context(void *item) {$/;"	f	file:
+get_time_from_payload	stats.c	/^uint64_t get_time_from_payload(struct slab_callback *c, size_t pos) {$/;"	f
+get_worker	slabworker.c	/^int get_worker(struct slab *s) {$/;"	f
+grandparent	indexes/rbtree.c	/^node grandparent(node n) {$/;"	f
+handles	workload-common.h	/^   int (*handles)(bench_t w); \/\/ do we handle that workload?$/;"	m	struct:workload_api
+handles_prod	workload-production.c	/^static int handles_prod(bench_t w) {$/;"	f	file:
+handles_ycsb	workload-ycsb.c	/^static int handles_ycsb(bench_t w) {$/;"	f	file:
+hash	pagecache.h	/^   uint64_t hash;$/;"	m	struct:lru
+hash_t	pagecache.h	/^typedef art_tree* hash_t;$/;"	t
+hash_t	pagecache.h	/^typedef btree_t* hash_t;$/;"	t
+hash_t	pagecache.h	/^typedef rax* hash_t;$/;"	t
+hash_t	pagecache.h	/^typedef rbtree hash_t;$/;"	t
+hash_to_page	pagecache.h	/^   hash_t hash_to_page;$/;"	m	struct:pagecache
+hashes	indexes/memory-item.h	/^   uint64_t *hashes;$/;"	m	struct:index_scan
+hashv	indexes/uthash.h	/^   unsigned hashv;                   \/* result of hash-fcn(key)        *\/$/;"	m	struct:UT_hash_handle
+head	indexes/rax.h	/^    raxNode *head;$/;"	m	struct:rax
+height	indexes/cpp-btree/btree.h	/^  size_type height() const {$/;"	f	class:btree::btree
+height	indexes/cpp-btree/btree_container.h	/^  size_type height() const { return tree_.height(); }$/;"	f	class:btree::btree_container
+hh_head	indexes/uthash.h	/^   struct UT_hash_handle *hh_head;$/;"	m	struct:UT_hash_bucket	typeref:struct:UT_hash_bucket::UT_hash_handle
+hh_next	indexes/uthash.h	/^   struct UT_hash_handle *hh_next;   \/* next hh in bucket order        *\/$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_handle
+hh_prev	indexes/uthash.h	/^   struct UT_hash_handle *hh_prev;   \/* previous hh in bucket order    *\/$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_handle
+hho	indexes/uthash.h	/^   ptrdiff_t hho; \/* hash handle offset (byte pos of hash handle in element *\/$/;"	m	struct:UT_hash_table
+i	indexes/cpp-btree/btree.h	/^    *mutable_child(i) = NULL;$/;"	m	namespace:btree	typeref:class:btree::btree
+i	microbench.c	/^   size_t i;$/;"	m	struct:counter	file:
+id	workload-common.c	/^   size_t id;$/;"	m	struct:rebuild_pdata	file:
+id	workload-common.c	/^   size_t id;$/;"	m	struct:thread_data	file:
+ideal_chain_maxlen	indexes/uthash.h	/^   unsigned ideal_chain_maxlen;$/;"	m	struct:UT_hash_table
+if_	indexes/cpp-btree/btree.h	/^  typedef typename if_<$/;"	t	struct:btree::btree_common_params
+if_	indexes/cpp-btree/btree.h	/^struct if_<false, A, B> {$/;"	s	namespace:btree
+if_	indexes/cpp-btree/btree.h	/^struct if_{$/;"	s	namespace:btree
+increment	indexes/cpp-btree/btree.h	/^  void increment() {$/;"	f	struct:btree::btree_iterator
+index	indexes/art.c	/^   size_t index;$/;"	m	struct:key_index	file:
+index_entry	indexes/memory-item.h	/^struct index_entry { \/\/ This index entry could be made much smaller by, e.g., have 64b for [slab_size, slab_idx] it is then easy to do size -> slab* given a slab context$/;"	s
+index_entry_t	indexes/memory-item.h	/^typedef struct index_entry index_entry_t;$/;"	t	typeref:struct:index_entry
+index_scan	indexes/memory-item.h	/^struct index_scan {$/;"	s
+ineff_expands	indexes/uthash.h	/^   unsigned ineff_expands, noexpand;$/;"	m	struct:UT_hash_table
+init_art_tree	indexes/art.h	107;"	d
+init_internal	indexes/cpp-btree/btree.h	/^  static btree_node* init_internal(internal_fields *f, btree_node *parent) {$/;"	f	class:btree::btree_node
+init_leaf	indexes/cpp-btree/btree.h	/^  static btree_node* init_leaf($/;"	f	class:btree::btree_node
+init_root	indexes/cpp-btree/btree.h	/^  static btree_node* init_root(root_fields *f, btree_node *parent) {$/;"	f	class:btree::btree_node
+init_seed	random.c	/^void init_seed(void) {$/;"	f
+init_zipf_generator	random.c	/^void init_zipf_generator(long min, long max){$/;"	f
+insert	indexes/cpp-btree/btree_container.h	/^  iterator insert(const value_type &x) {$/;"	f	class:btree::btree_multi_container
+insert	indexes/cpp-btree/btree_container.h	/^  iterator insert(iterator position, const value_type &x) {$/;"	f	class:btree::btree_multi_container
+insert	indexes/cpp-btree/btree_container.h	/^  iterator insert(iterator position, const value_type &x) {$/;"	f	class:btree::btree_unique_container
+insert	indexes/cpp-btree/btree_container.h	/^  std::pair<iterator,bool> insert(const value_type &x) {$/;"	f	class:btree::btree_unique_container
+insert	indexes/cpp-btree/btree_container.h	/^  void insert(InputIterator b, InputIterator e) {$/;"	f	class:btree::btree_multi_container
+insert	indexes/cpp-btree/btree_container.h	/^  void insert(InputIterator b, InputIterator e) {$/;"	f	class:btree::btree_unique_container
+insert_case1	indexes/rbtree.c	/^void insert_case1(rbtree t, node n) {$/;"	f
+insert_case2	indexes/rbtree.c	/^void insert_case2(rbtree t, node n) {$/;"	f
+insert_case3	indexes/rbtree.c	/^void insert_case3(rbtree t, node n) {$/;"	f
+insert_case4	indexes/rbtree.c	/^void insert_case4(rbtree t, node n) {$/;"	f
+insert_case5	indexes/rbtree.c	/^void insert_case5(rbtree t, node n) {$/;"	f
+insert_multi	indexes/cpp-btree/btree.h	/^  iterator insert_multi(const value_type &v) {$/;"	f	class:btree::btree
+insert_unique	indexes/cpp-btree/btree.h	/^  std::pair<iterator,bool> insert_unique(const value_type &v) {$/;"	f	class:btree::btree
+internal_allocator	indexes/cpp-btree/btree.h	/^  const internal_allocator_type& internal_allocator() const {$/;"	f	class:btree::btree
+internal_allocator_type	indexes/cpp-btree/btree.h	/^    internal_allocator_type;$/;"	t	class:btree::btree
+internal_end	indexes/cpp-btree/btree.h	/^  const_iterator internal_end(const_iterator iter) const {$/;"	f	class:btree::btree
+internal_end	indexes/cpp-btree/btree.h	/^  iterator internal_end(iterator iter) {$/;"	f	class:btree::btree
+internal_fields	indexes/cpp-btree/btree.h	/^  struct internal_fields : public leaf_fields {$/;"	s	class:btree::btree_node
+internal_fields	indexes/cpp-btree/btree.h	/^  typedef typename node_type::internal_fields internal_fields;$/;"	t	class:btree::btree
+internal_locate_type	indexes/cpp-btree/btree.h	/^    btree_internal_locate_plain_compare>::type internal_locate_type;$/;"	t	class:btree::btree
+internal_nodes	indexes/cpp-btree/btree.h	/^    ssize_t internal_nodes;$/;"	m	struct:btree::btree::node_stats
+internal_nodes	indexes/cpp-btree/btree.h	/^  size_type internal_nodes() const {$/;"	f	class:btree::btree
+internal_nodes	indexes/cpp-btree/btree_container.h	/^  size_type internal_nodes() const { return tree_.internal_nodes(); }$/;"	f	class:btree::btree_container
+internal_stats	indexes/cpp-btree/btree.h	/^  node_stats internal_stats(const node_type *node) const {$/;"	f	class:btree::btree
+io_cb	slab.h	/^   io_cb_t *io_cb;$/;"	m	struct:slab_callback
+io_cb_t	ioengine.h	/^typedef void (io_cb_t)(struct slab_callback *);$/;"	t
+io_context	ioengine.c	/^struct io_context {$/;"	s	file:
+io_ctx	slabworker.c	/^   struct io_context *io_ctx;$/;"	m	struct:slab_context	typeref:struct:slab_context::io_context	file:
+io_destroy	microbench.c	/^static int io_destroy(aio_context_t ctx) {$/;"	f	file:
+io_getevents	ioengine.c	/^static int io_getevents(aio_context_t ctx, long min_nr, long max_nr,$/;"	f	file:
+io_getevents	microbench.c	/^static int io_getevents(aio_context_t ctx, long min_nr, long max_nr,$/;"	f	file:
+io_pending	ioengine.c	/^int io_pending(struct io_context *ctx) {$/;"	f
+io_setup	ioengine.c	/^static int io_setup(unsigned nr, aio_context_t *ctxp) {$/;"	f	file:
+io_setup	microbench.c	/^static int io_setup(unsigned nr, aio_context_t *ctxp) {$/;"	f	file:
+io_submit	ioengine.c	/^static int io_submit(aio_context_t ctx, long nr, struct iocb **iocbpp) {$/;"	f	file:
+io_submit	microbench.c	/^static int io_submit(aio_context_t ctx, long nr, struct iocb **iocbpp) {$/;"	f	file:
+iocb	ioengine.c	/^   struct iocb *iocb;$/;"	m	struct:io_context	typeref:struct:io_context::iocb	file:
+iocbs	ioengine.c	/^   struct iocb **iocbs;$/;"	m	struct:io_context	typeref:struct:io_context::iocb	file:
+ios_sent_to_disk	ioengine.c	/^   size_t ios_sent_to_disk;$/;"	m	struct:io_context	file:
+is_key_compare_to	indexes/cpp-btree/btree.h	/^  typedef btree_is_key_compare_to<key_compare> is_key_compare_to;$/;"	t	struct:btree::btree_common_params
+is_key_compare_to	indexes/cpp-btree/btree.h	/^  typedef typename Params::is_key_compare_to is_key_compare_to;$/;"	t	class:btree::btree
+is_root	indexes/cpp-btree/btree.h	/^  bool is_root() const { return parent()->leaf(); }$/;"	f	class:btree::btree_node
+iscompr	indexes/rax.h	/^    uint32_t iscompr:1;   \/* Node is compressed. *\/$/;"	m	struct:raxNode
+iskey	indexes/rax.h	/^    uint32_t iskey:1;     \/* Does this node contain a key? *\/$/;"	m	struct:raxNode
+isnull	indexes/rax.h	/^    uint32_t isnull:1;    \/* Associated value is NULL (don't store it). *\/$/;"	m	struct:raxNode
+item	slab.h	/^   void *item;$/;"	m	struct:slab_callback
+item_in_page_offset	slab.c	/^static off_t item_in_page_offset(struct slab *s, size_t idx) {$/;"	f	file:
+item_metadata	items.h	/^struct item_metadata {$/;"	s
+item_page_num	slab.c	/^off_t item_page_num(struct slab *s, size_t idx) {$/;"	f
+item_size	slab.h	/^   size_t item_size;$/;"	m	struct:slab
+items	indexes/rax.h	/^    size_t items, maxitems; \/* Number of items contained and total space. *\/$/;"	m	struct:raxStack
+items	random.c	/^static long items; \/\/initialized in init_zipf_generator function$/;"	v	file:
+items_location_locks	in-memory-index-art.c	/^static pthread_spinlock_t *items_location_locks;$/;"	v	file:
+items_location_locks	in-memory-index-btree.c	/^static pthread_spinlock_t *items_location_locks;$/;"	v	file:
+items_location_locks	in-memory-index-rax.c	/^static pthread_spinlock_t *items_location_locks;$/;"	v	file:
+items_location_locks	in-memory-index-rbtree.c	/^static pthread_spinlock_t *items_location_locks;$/;"	v	file:
+items_locations	in-memory-index-art.c	/^static art_tree *items_locations;$/;"	v	file:
+items_locations	in-memory-index-btree.c	/^static btree_t **items_locations;$/;"	v	file:
+items_locations	in-memory-index-rax.c	/^static rax **items_locations;$/;"	v	file:
+items_locations	in-memory-index-rbtree.c	/^static rbtree *items_locations;$/;"	v	file:
+iterator	indexes/cpp-btree/btree.h	/^    normal_node, normal_reference, normal_pointer> iterator;$/;"	t	struct:btree::btree_iterator
+iterator	indexes/cpp-btree/btree.h	/^  typedef btree_iterator<node_type, reference, pointer> iterator;$/;"	t	class:btree::btree
+iterator	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::iterator iterator;$/;"	t	class:btree::btree_container
+iterator	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::iterator iterator;$/;"	t	class:btree::btree_multi_container
+iterator	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::iterator iterator;$/;"	t	class:btree::btree_unique_container
+iterator_category	indexes/cpp-btree/btree.h	/^  typedef std::bidirectional_iterator_tag iterator_category;$/;"	t	struct:btree::btree_iterator
+j	microbench.c	/^   size_t j;$/;"	m	struct:counter	file:
+kExactMatch	indexes/cpp-btree/btree.h	/^    kExactMatch = 1 << 30,$/;"	e	enum:btree::btree_node::__anon19
+kExactMatch	indexes/cpp-btree/btree.h	/^    kExactMatch = node_type::kExactMatch,$/;"	e	enum:btree::btree::__anon20
+kMatchMask	indexes/cpp-btree/btree.h	/^    kMatchMask = kExactMatch - 1,$/;"	e	enum:btree::btree_node::__anon19
+kMatchMask	indexes/cpp-btree/btree.h	/^    kMatchMask = node_type::kMatchMask,$/;"	e	enum:btree::btree::__anon20
+kMinNodeValues	indexes/cpp-btree/btree.h	/^    kMinNodeValues = kNodeValues \/ 2,$/;"	e	enum:btree::btree::__anon20
+kNodeTargetValues	indexes/cpp-btree/btree.h	/^    kNodeTargetValues = (kTargetNodeSize - sizeof(base_fields)) \/ kValueSize,$/;"	e	enum:btree::btree_node::__anon19
+kNodeValueSpace	indexes/cpp-btree/btree.h	/^    kNodeValueSpace = TargetNodeSize - 2 * sizeof(void*),$/;"	e	enum:btree::btree_common_params::__anon16
+kNodeValues	indexes/cpp-btree/btree.h	/^    kNodeValues = kNodeTargetValues >= 3 ? kNodeTargetValues : 3,$/;"	e	enum:btree::btree_node::__anon19
+kNodeValues	indexes/cpp-btree/btree.h	/^    kNodeValues = node_type::kNodeValues,$/;"	e	enum:btree::btree::__anon20
+kTargetNodeSize	indexes/cpp-btree/btree.h	/^    kTargetNodeSize = TargetNodeSize,$/;"	e	enum:btree::btree_common_params::__anon16
+kTargetNodeSize	indexes/cpp-btree/btree.h	/^    kTargetNodeSize = params_type::kTargetNodeSize,$/;"	e	enum:btree::btree_node::__anon19
+kValueSize	indexes/cpp-btree/btree.h	/^    kValueSize = node_type::kValueSize,$/;"	e	enum:btree::btree::__anon20
+kValueSize	indexes/cpp-btree/btree.h	/^    kValueSize = params_type::kValueSize,$/;"	e	enum:btree::btree_node::__anon19
+kValueSize	indexes/cpp-btree/btree.h	/^    kValueSize = sizeof(Key) + sizeof(data_type),$/;"	e	enum:btree::btree_map_params::__anon17
+kValueSize	indexes/cpp-btree/btree.h	/^    kValueSize = sizeof(Key),$/;"	e	enum:btree::btree_set_params::__anon18
+key	indexes/art.c	/^   unsigned char key;$/;"	m	struct:key_index	file:
+key	indexes/art.h	/^    unsigned char key[];$/;"	m	struct:__anon7
+key	indexes/cpp-btree/btree.h	/^  const key_type& key() const {$/;"	f	struct:btree::btree_iterator
+key	indexes/cpp-btree/btree.h	/^  const key_type& key(int i) const {$/;"	f	class:btree::btree_node
+key	indexes/cpp-btree/btree.h	/^  static const Key& key(const mutable_value_type &x) { return x.first; }$/;"	f	struct:btree::btree_map_params
+key	indexes/cpp-btree/btree.h	/^  static const Key& key(const value_type &x) { return x.first; }$/;"	f	struct:btree::btree_map_params
+key	indexes/cpp-btree/btree.h	/^  static const Key& key(const value_type &x) { return x; }$/;"	f	struct:btree::btree_set_params
+key	indexes/cpp-btree/btree_container.h	/^    const key_type &key;$/;"	m	struct:btree::btree_map_container::generate_value
+key	indexes/rax.h	/^    unsigned char *key;     \/* The current string. *\/$/;"	m	struct:raxIterator
+key	indexes/rbtree.h	/^    void* key;$/;"	m	struct:rbtree_node_t
+key	indexes/uthash.h	/^   void *key;                        \/* ptr to enclosing struct's key  *\/$/;"	m	struct:UT_hash_handle
+key_comp	indexes/cpp-btree/btree.h	/^  const key_compare& key_comp() const {$/;"	f	class:btree::btree
+key_compare	indexes/cpp-btree/btree.h	/^    Compare, btree_key_compare_to_adapter<Compare> >::type key_compare;$/;"	t	struct:btree::btree_common_params
+key_compare	indexes/cpp-btree/btree.h	/^  typedef typename Params::key_compare key_compare;$/;"	t	class:btree::btree
+key_compare	indexes/cpp-btree/btree.h	/^  typedef typename Params::key_compare key_compare;$/;"	t	class:btree::btree_node
+key_compare	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::key_compare key_compare;$/;"	t	class:btree::btree_container
+key_compare	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::key_compare key_compare;$/;"	t	class:btree::btree_map_container
+key_compare	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::key_compare key_compare;$/;"	t	class:btree::btree_multi_container
+key_compare	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::key_compare key_compare;$/;"	t	class:btree::btree_unique_container
+key_compare	indexes/cpp-btree/btree_map.h	/^  typedef typename btree_type::key_compare key_compare;$/;"	t	class:btree::btree_map
+key_compare	indexes/cpp-btree/btree_map.h	/^  typedef typename btree_type::key_compare key_compare;$/;"	t	class:btree::btree_multimap
+key_compare	indexes/cpp-btree/btree_set.h	/^  typedef typename btree_type::key_compare key_compare;$/;"	t	class:btree::btree_multiset
+key_compare	indexes/cpp-btree/btree_set.h	/^  typedef typename btree_type::key_compare key_compare;$/;"	t	class:btree::btree_set
+key_comparison_function_must_return_bool	indexes/cpp-btree/btree.h	/^      key_comparison_function_must_return_bool);$/;"	m	class:btree::btree
+key_index	indexes/art.c	/^struct key_index {$/;"	s	file:
+key_len	indexes/art.h	/^    uint32_t key_len;$/;"	m	struct:__anon7
+key_len	indexes/rax.h	/^    size_t key_len;         \/* Current key length. *\/$/;"	m	struct:raxIterator
+key_max	indexes/rax.h	/^    size_t key_max;         \/* Max key len the current key buffer can hold. *\/$/;"	m	struct:raxIterator
+key_size	items.h	/^   size_t key_size;$/;"	m	struct:item_metadata
+key_static_string	indexes/rax.h	/^    unsigned char key_static_string[RAX_ITER_STATIC_LEN];$/;"	m	struct:raxIterator
+key_to_index	indexes/art.c	/^} key_to_index[256];$/;"	v	typeref:struct:key_index
+key_type	indexes/cpp-btree/btree.h	/^  typedef Key key_type;$/;"	t	struct:btree::btree_common_params
+key_type	indexes/cpp-btree/btree.h	/^  typedef typename Node::key_type key_type;$/;"	t	struct:btree::btree_iterator
+key_type	indexes/cpp-btree/btree.h	/^  typedef typename Params::key_type key_type;$/;"	t	class:btree::btree
+key_type	indexes/cpp-btree/btree.h	/^  typedef typename Params::key_type key_type;$/;"	t	class:btree::btree_node
+key_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::key_type key_type;$/;"	t	class:btree::btree_container
+key_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::key_type key_type;$/;"	t	class:btree::btree_map_container
+key_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::key_type key_type;$/;"	t	class:btree::btree_multi_container
+key_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::key_type key_type;$/;"	t	class:btree::btree_unique_container
+keylen	indexes/uthash.h	/^   unsigned keylen;                  \/* enclosing struct's key len     *\/$/;"	m	struct:UT_hash_handle
+keys	indexes/art.h	/^    unsigned char keys[16];$/;"	m	struct:__anon4
+keys	indexes/art.h	/^    unsigned char keys[256];$/;"	m	struct:__anon5
+keys	indexes/art.h	/^    unsigned char keys[4];$/;"	m	struct:__anon3
+kv_add_async	slabworker.c	/^void kv_add_async(struct slab_callback *callback) {$/;"	f
+kv_add_or_update_async	slabworker.c	/^void kv_add_or_update_async(struct slab_callback *callback) {$/;"	f
+kv_init_scan	slabworker.c	/^tree_scan_res_t kv_init_scan(void *item, size_t scan_size) {$/;"	f
+kv_read_async	slabworker.c	/^void kv_read_async(struct slab_callback *callback) {$/;"	f
+kv_read_async_no_lookup	slabworker.c	/^void kv_read_async_no_lookup(struct slab_callback *callback, struct slab *s, size_t slab_idx) {$/;"	f
+kv_read_sync	slabworker.c	/^void *kv_read_sync(void *item) {$/;"	f
+kv_remove_async	slabworker.c	/^void kv_remove_async(struct slab_callback *callback) {$/;"	f
+kv_update_async	slabworker.c	/^void kv_update_async(struct slab_callback *callback) {$/;"	f
+last_item	slab.h	/^   size_t last_item;  \/\/ Total number of items, including freed$/;"	m	struct:slab
+last_visited_node	indexes/rbtree.h	/^    rbtree_node last_visited_node;$/;"	m	struct:rbtree_t
+launch	workload-common.h	/^   void (*launch)(struct workload *w, bench_t b); \/\/ launch workload$/;"	m	struct:workload_api
+launch_prod	workload-production.c	/^static void launch_prod(struct workload *w, bench_t b) {$/;"	f	file:
+launch_ycsb	workload-ycsb.c	/^static void launch_ycsb(struct workload *w, bench_t b) {$/;"	f	file:
+leaf	indexes/cpp-btree/btree.h	/^    bool leaf;$/;"	m	struct:btree::btree_node::base_fields
+leaf	indexes/cpp-btree/btree.h	/^  bool leaf() const { return fields_.leaf; }$/;"	f	class:btree::btree_node
+leaf_fields	indexes/cpp-btree/btree.h	/^  struct leaf_fields : public base_fields {$/;"	s	class:btree::btree_node
+leaf_fields	indexes/cpp-btree/btree.h	/^  typedef typename node_type::leaf_fields leaf_fields;$/;"	t	class:btree::btree
+leaf_matches	indexes/art.c	/^static int leaf_matches(const art_leaf *n, const unsigned char *key, int key_len, int depth) {$/;"	f	file:
+leaf_nodes	indexes/cpp-btree/btree.h	/^    ssize_t leaf_nodes;$/;"	m	struct:btree::btree::node_stats
+leaf_nodes	indexes/cpp-btree/btree.h	/^  size_type leaf_nodes() const {$/;"	f	class:btree::btree
+leaf_nodes	indexes/cpp-btree/btree_container.h	/^  size_type leaf_nodes() const { return tree_.leaf_nodes(); }$/;"	f	class:btree::btree_container
+leaf_prefix_matches	indexes/art.c	/^static int leaf_prefix_matches(const art_leaf *n, const unsigned char *prefix, int prefix_len) {$/;"	f	file:
+left	indexes/rbtree.h	/^    struct rbtree_node_t* left;$/;"	m	struct:rbtree_node_t	typeref:struct:rbtree_node_t::rbtree_node_t
+leftmost	indexes/cpp-btree/btree.h	/^  const node_type* leftmost() const { return root() ? root()->parent() : NULL; }$/;"	f	class:btree::btree
+leftmost	indexes/cpp-btree/btree.h	/^  node_type* leftmost() { return root() ? root()->parent() : NULL; }$/;"	f	class:btree::btree
+linear_search_compare_to	indexes/cpp-btree/btree.h	/^  int linear_search_compare_to($/;"	f	class:btree::btree_node
+linear_search_compare_to_type	indexes/cpp-btree/btree.h	/^    key_type, self_type, key_compare> linear_search_compare_to_type;$/;"	t	class:btree::btree_node
+linear_search_plain_compare	indexes/cpp-btree/btree.h	/^  int linear_search_plain_compare($/;"	f	class:btree::btree_node
+linear_search_plain_compare_type	indexes/cpp-btree/btree.h	/^    key_type, self_type, key_compare> linear_search_plain_compare_type;$/;"	t	class:btree::btree_node
+linear_search_type	indexes/cpp-btree/btree.h	/^    linear_search_plain_compare_type>::type linear_search_type;$/;"	t	class:btree::btree_node
+linked_callbacks	ioengine.c	/^   struct linked_callbacks *linked_callbacks;$/;"	m	struct:io_context	typeref:struct:io_context::linked_callbacks	file:
+linked_callbacks	ioengine.c	/^struct linked_callbacks {$/;"	s	file:
+locxorshf96	random.c	/^unsigned long locxorshf96(void) {          \/\/period 2^96-1$/;"	f
+log2_num_buckets	indexes/uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;"	m	struct:UT_hash_table
+longest_common_prefix	indexes/art.c	/^static int longest_common_prefix(art_leaf *l1, art_leaf *l2, int depth) {$/;"	f	file:
+lookup_closest_node	indexes/rbtree.c	/^node lookup_closest_node(rbtree t, void* key, compare_func compare) {$/;"	f
+lookup_node	indexes/rbtree.c	/^node lookup_node(rbtree t, void* key, compare_func compare) {$/;"	f
+lower_bound	indexes/cpp-btree/btree.h	/^  const_iterator lower_bound(const key_type &key) const {$/;"	f	class:btree::btree
+lower_bound	indexes/cpp-btree/btree.h	/^  int lower_bound(const key_type &k, const Compare &comp) const {$/;"	f	class:btree::btree_node
+lower_bound	indexes/cpp-btree/btree.h	/^  iterator lower_bound(const key_type &key) {$/;"	f	class:btree::btree
+lower_bound	indexes/cpp-btree/btree.h	/^  static int lower_bound(const K &k, const N &n, Compare comp)  {$/;"	f	struct:btree::btree_binary_search_plain_compare
+lower_bound	indexes/cpp-btree/btree.h	/^  static int lower_bound(const K &k, const N &n, Compare comp)  {$/;"	f	struct:btree::btree_linear_search_plain_compare
+lower_bound	indexes/cpp-btree/btree.h	/^  static int lower_bound(const K &k, const N &n, CompareTo comp)  {$/;"	f	struct:btree::btree_binary_search_compare_to
+lower_bound	indexes/cpp-btree/btree.h	/^  static int lower_bound(const K &k, const N &n, CompareTo comp)  {$/;"	f	struct:btree::btree_linear_search_compare_to
+lower_bound	indexes/cpp-btree/btree_container.h	/^  const_iterator lower_bound(const key_type &key) const {$/;"	f	class:btree::btree_container
+lower_bound	indexes/cpp-btree/btree_container.h	/^  iterator lower_bound(const key_type &key) {$/;"	f	class:btree::btree_container
+lru	indexes/memory-item.h	/^      void *lru;$/;"	m	union:index_entry::__anon10
+lru	pagecache.h	/^struct lru {$/;"	s
+lru_entry	slab.h	/^   struct lru *lru_entry;$/;"	m	struct:slab_callback	typeref:struct:slab_callback::lru
+main	benchcomponents.c	/^int main(int argc, char **argv) {$/;"	f
+main	indexes/cpp-btree/btree_test.cc	/^int main(int argc, char**argv) {$/;"	f
+main	main.c	/^int main(int argc, char **argv) {$/;"	f
+main	microbench.c	/^int main(int argc, char **argv) {$/;"	f
+main	scripts/parse_log.cpp	/^int main(int argc, char** argv) {$/;"	f
+make_leaf	indexes/art.c	/^static art_leaf* make_leaf(const unsigned char *key, int key_len, void *value) {$/;"	f	file:
+make_root	indexes/cpp-btree/btree.h	/^  void make_root() {$/;"	f	class:btree::btree_node
+mapped_type	indexes/cpp-btree/btree.h	/^  typedef Data mapped_type;$/;"	t	struct:btree::btree_map_params
+mapped_type	indexes/cpp-btree/btree.h	/^  typedef std::false_type mapped_type;$/;"	t	struct:btree::btree_set_params
+mapped_type	indexes/cpp-btree/btree.h	/^  typedef typename Params::mapped_type mapped_type;$/;"	t	class:btree::btree
+mapped_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::mapped_type mapped_type;$/;"	t	class:btree::btree_map_container
+mapped_type	indexes/cpp-btree/btree_map.h	/^  typedef typename btree_type::mapped_type mapped_type;$/;"	t	class:btree::btree_multimap
+max_count	indexes/cpp-btree/btree.h	/^    field_type max_count;$/;"	m	struct:btree::btree_node::base_fields
+max_count	indexes/cpp-btree/btree.h	/^  int max_count() const { return fields_.max_count; }$/;"	f	class:btree::btree_node
+max_pending_callbacks	slabworker.c	/^   size_t max_pending_callbacks;                         \/\/ Maximum number of enqueued requests$/;"	m	struct:slab_context	file:
+max_pending_io	ioengine.c	/^   size_t max_pending_io;$/;"	m	struct:io_context	file:
+max_size	indexes/cpp-btree/btree.h	/^  size_type max_size() const { return std::numeric_limits<size_type>::max(); }$/;"	f	class:btree::btree
+max_size	indexes/cpp-btree/btree_container.h	/^  size_type max_size() const { return tree_.max_size(); }$/;"	f	class:btree::btree_container
+max_timing_idx	stats.c	/^   size_t max_timing_idx;$/;"	m	struct:stats	file:
+maximum	indexes/art.c	/^static art_leaf* maximum(const art_node *n) {$/;"	f	file:
+maximum_node	indexes/rbtree.c	/^static node maximum_node(node n) {$/;"	f	file:
+maxitems	indexes/rax.h	/^    size_t items, maxitems; \/* Number of items contained and total space. *\/$/;"	m	struct:raxStack
+maybe_unused	utils.h	35;"	d
+memory_index_add	in-memory-index-art.h	8;"	d
+memory_index_add	in-memory-index-btree.h	8;"	d
+memory_index_add	in-memory-index-rax.h	8;"	d
+memory_index_add	in-memory-index-rbtree.h	8;"	d
+memory_index_delete	in-memory-index-art.h	10;"	d
+memory_index_delete	in-memory-index-btree.h	10;"	d
+memory_index_delete	in-memory-index-rax.h	10;"	d
+memory_index_delete	in-memory-index-rbtree.h	10;"	d
+memory_index_init	in-memory-index-art.h	7;"	d
+memory_index_init	in-memory-index-btree.h	7;"	d
+memory_index_init	in-memory-index-rax.h	7;"	d
+memory_index_init	in-memory-index-rbtree.h	7;"	d
+memory_index_lookup	in-memory-index-art.h	9;"	d
+memory_index_lookup	in-memory-index-btree.h	9;"	d
+memory_index_lookup	in-memory-index-rax.h	9;"	d
+memory_index_lookup	in-memory-index-rbtree.h	9;"	d
+memory_index_scan	in-memory-index-art.h	11;"	d
+memory_index_scan	in-memory-index-btree.h	11;"	d
+memory_index_scan	in-memory-index-rax.h	11;"	d
+memory_index_scan	in-memory-index-rbtree.h	11;"	d
+min	indexes/art.c	/^static inline int min(int a, int b) {$/;"	f	file:
+minimum	indexes/art.c	/^static art_leaf* minimum(const art_node *n) {$/;"	f	file:
+mutable_child	indexes/cpp-btree/btree.h	/^  btree_node** mutable_child(int i) { return &fields_.children[i]; }$/;"	f	class:btree::btree_node
+mutable_internal_allocator	indexes/cpp-btree/btree.h	/^  internal_allocator_type* mutable_internal_allocator() {$/;"	f	class:btree::btree
+mutable_key_comp	indexes/cpp-btree/btree.h	/^  key_compare* mutable_key_comp() {$/;"	f	class:btree::btree
+mutable_rightmost	indexes/cpp-btree/btree.h	/^  btree_node** mutable_rightmost() { return &fields_.rightmost; }$/;"	f	class:btree::btree_node
+mutable_rightmost	indexes/cpp-btree/btree.h	/^  node_type** mutable_rightmost() { return root()->mutable_rightmost(); }$/;"	f	class:btree::btree
+mutable_root	indexes/cpp-btree/btree.h	/^  node_type** mutable_root() { return &root_.data; }$/;"	f	class:btree::btree
+mutable_size	indexes/cpp-btree/btree.h	/^  size_type* mutable_size() { return &fields_.size; }$/;"	f	class:btree::btree_node
+mutable_size	indexes/cpp-btree/btree.h	/^  size_type* mutable_size() { return root()->mutable_size(); }$/;"	f	class:btree::btree
+mutable_value	indexes/cpp-btree/btree.h	/^  mutable_value_type* mutable_value(int i) {$/;"	f	class:btree::btree_node
+mutable_value_type	indexes/cpp-btree/btree.h	/^  typedef std::pair<Key, data_type> mutable_value_type;$/;"	t	struct:btree::btree_map_params
+mutable_value_type	indexes/cpp-btree/btree.h	/^  typedef typename Params::mutable_value_type mutable_value_type;$/;"	t	class:btree::btree_node
+mutable_value_type	indexes/cpp-btree/btree.h	/^  typedef value_type mutable_value_type;$/;"	t	struct:btree::btree_set_params
+n	indexes/art.h	/^    art_node n;$/;"	m	struct:__anon3
+n	indexes/art.h	/^    art_node n;$/;"	m	struct:__anon4
+n	indexes/art.h	/^    art_node n;$/;"	m	struct:__anon5
+n	indexes/art.h	/^    art_node n;$/;"	m	struct:__anon6
+name	workload-common.h	/^   const char* (*name)(bench_t w); \/\/ pretty print the benchmark (e.g., "YCSB A - Uniform")$/;"	m	struct:workload_api
+name_prod	workload-production.c	/^static const char *name_prod(bench_t w) {$/;"	f	file:
+name_ycsb	workload-ycsb.c	/^static const char *name_ycsb(bench_t w) {$/;"	f	file:
+nb_accesses	microbench.c	/^   size_t nb_accesses;$/;"	m	struct:pdata	file:
+nb_disks	slabworker.c	/^static int nb_disks = 0;$/;"	v	file:
+nb_elements	indexes/rbtree.h	/^    int nb_elements;$/;"	m	struct:rbtree_t
+nb_entries	indexes/memory-item.h	/^   size_t nb_entries;$/;"	m	struct:index_scan
+nb_entries	indexes/rbtree.h	/^   size_t nb_entries;$/;"	m	struct:rbtree_scan_tmp
+nb_free_items	slab.h	/^   size_t nb_free_items, nb_free_items_in_memory;$/;"	m	struct:slab
+nb_free_items_in_memory	slab.h	/^   size_t nb_free_items, nb_free_items_in_memory;$/;"	m	struct:slab
+nb_items	slab.h	/^   size_t nb_items;   \/\/ Number of non freed items$/;"	m	struct:slab
+nb_items_in_db	workload-common.h	/^   uint64_t nb_items_in_db;$/;"	m	struct:workload
+nb_load_injectors	workload-common.h	/^   int nb_load_injectors;$/;"	m	struct:workload
+nb_max_items	slab.h	/^   size_t nb_max_items;$/;"	m	struct:slab
+nb_pages	microbench.c	/^   size_t nb_pages;$/;"	m	struct:pdata	file:
+nb_requests	workload-common.h	/^   uint64_t nb_requests;$/;"	m	struct:workload
+nb_requests_per_thread	workload-common.h	/^   uint64_t nb_requests_per_thread;$/;"	m	struct:workload
+nb_threads	microbench.c	/^static int nb_threads = 0;$/;"	v	file:
+nb_workers	slabworker.c	/^static int nb_workers = 0;$/;"	v	file:
+nb_workers	workload-common.h	/^   int nb_workers;$/;"	m	struct:workload
+nb_workers_launched	slabworker.c	/^static int nb_workers_launched = 0;$/;"	v	file:
+nb_workers_ready	slabworker.c	/^static int nb_workers_ready = 0;$/;"	v	file:
+new_internal_node	indexes/cpp-btree/btree.h	/^  node_type* new_internal_node(node_type *parent) {$/;"	f	class:btree::btree
+new_internal_root_node	indexes/cpp-btree/btree.h	/^  node_type* new_internal_root_node() {$/;"	f	class:btree::btree
+new_leaf_node	indexes/cpp-btree/btree.h	/^  node_type* new_leaf_node(node_type *parent) {$/;"	f	class:btree::btree
+new_leaf_root_node	indexes/cpp-btree/btree.h	/^  node_type* new_leaf_root_node(int max_count) {$/;"	f	class:btree::btree
+new_node	indexes/rbtree.c	/^node new_node(void* key, index_entry_t* value, color node_color, node left, node right) {$/;"	f
+newest_page	pagecache.h	/^   struct lru *used_pages, *oldest_page, *newest_page;$/;"	m	struct:pagecache	typeref:struct:pagecache::
+next	freelist.c	/^   struct freelist_entry *next;$/;"	m	struct:freelist_entry	typeref:struct:freelist_entry::freelist_entry	file:
+next	indexes/uthash.h	/^   void *next;                       \/* next element in app order      *\/$/;"	m	struct:UT_hash_handle
+next	ioengine.c	/^   struct linked_callbacks *next;$/;"	m	struct:linked_callbacks	typeref:struct:linked_callbacks::linked_callbacks	file:
+next	pagecache.h	/^   struct lru *next;$/;"	m	struct:lru	typeref:struct:lru::lru
+next_long	random.c	/^long next_long(long itemcount){$/;"	f
+node	indexes/cpp-btree/btree.h	/^  Node *node;$/;"	m	struct:btree::btree_iterator
+node	indexes/rax.h	/^    raxNode *node;          \/* Current node. Only for unsafe iteration. *\/$/;"	m	struct:raxIterator
+node	indexes/rbtree.c	/^typedef rbtree_node node;$/;"	t	file:
+node_cb	indexes/rax.h	/^    raxNodeCallback node_cb; \/* Optional node callback. Normally set to NULL. *\/$/;"	m	struct:raxIterator
+node_color	indexes/rbtree.c	/^color node_color(node n) {$/;"	f
+node_count_type	indexes/cpp-btree/btree.h	/^    uint8_t>::type node_count_type;$/;"	t	struct:btree::btree_common_params
+node_stats	indexes/cpp-btree/btree.h	/^    node_stats(ssize_t l, ssize_t i)$/;"	f	struct:btree::btree::node_stats
+node_stats	indexes/cpp-btree/btree.h	/^  struct node_stats {$/;"	s	class:btree::btree
+node_type	indexes/cpp-btree/btree.h	/^  typedef Node node_type;$/;"	t	struct:btree::btree_iterator
+node_type	indexes/cpp-btree/btree.h	/^  typedef btree_node<Params> node_type;$/;"	t	class:btree::btree
+nodes	indexes/cpp-btree/btree.h	/^  size_type nodes() const {$/;"	f	class:btree::btree
+nodes	indexes/cpp-btree/btree_container.h	/^  size_type nodes() const { return tree_.nodes(); }$/;"	f	class:btree::btree_container
+noexpand	indexes/uthash.h	/^   unsigned ineff_expands, noexpand;$/;"	m	struct:UT_hash_table
+nonideal_items	indexes/uthash.h	/^   unsigned nonideal_items;$/;"	m	struct:UT_hash_table
+normal_node	indexes/cpp-btree/btree.h	/^  typedef typename std::remove_const<Node>::type normal_node;$/;"	t	struct:btree::btree_iterator
+normal_pointer	indexes/cpp-btree/btree.h	/^  typedef typename params_type::pointer normal_pointer;$/;"	t	struct:btree::btree_iterator
+normal_reference	indexes/cpp-btree/btree.h	/^  typedef typename params_type::reference normal_reference;$/;"	t	struct:btree::btree_iterator
+num_buckets	indexes/uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;"	m	struct:UT_hash_table
+num_children	indexes/art.h	/^    uint8_t num_children;$/;"	m	struct:__anon2
+num_items	indexes/uthash.h	/^   unsigned num_items;$/;"	m	struct:UT_hash_table
+numele	indexes/rax.h	/^    uint64_t numele;$/;"	m	struct:rax
+numnodes	indexes/rax.h	/^    uint64_t numnodes;$/;"	m	struct:rax
+oldest_page	pagecache.h	/^   struct lru *used_pages, *oldest_page, *newest_page;$/;"	m	struct:pagecache	typeref:struct:pagecache::
+oom	indexes/rax.h	/^    int oom; \/* True if pushing into this stack failed for OOM at some point. *\/$/;"	m	struct:raxStack
+operator !=	indexes/cpp-btree/btree.h	/^  bool operator!=(const const_iterator &x) const {$/;"	f	struct:btree::btree_iterator
+operator !=	indexes/cpp-btree/btree_container.h	/^  bool operator!=(const self_type& other) const {$/;"	f	class:btree::btree_container
+operator ()	indexes/cpp-btree/btree.h	/^  bool operator()(const Key &a, const Key &b) const {$/;"	f	struct:btree::btree_upper_bound_adapter
+operator ()	indexes/cpp-btree/btree.h	/^  bool operator()(const Key &x, const Key &y) const {$/;"	f	struct:btree::btree_key_comparer
+operator ()	indexes/cpp-btree/btree.h	/^  int operator()(const Key &a, const Key &b) const {$/;"	f	struct:btree::btree_upper_bound_compare_to_adapter
+operator ()	indexes/cpp-btree/btree.h	/^  int operator()(const std::string &a, const std::string &b) const {$/;"	f	struct:btree::btree_key_compare_to_adapter
+operator *	indexes/cpp-btree/btree.h	/^  reference operator*() const {$/;"	f	struct:btree::btree_iterator
+operator *	indexes/cpp-btree/btree_container.h	/^    value_type operator*() const {$/;"	f	struct:btree::btree_map_container::generate_value
+operator ++	indexes/cpp-btree/btree.h	/^  self_type operator++(int) {$/;"	f	struct:btree::btree_iterator
+operator ++	indexes/cpp-btree/btree.h	/^  self_type& operator++() {$/;"	f	struct:btree::btree_iterator
+operator +=	indexes/cpp-btree/btree.h	/^    node_stats& operator+=(const node_stats &x) {$/;"	f	struct:btree::btree::node_stats
+operator --	indexes/cpp-btree/btree.h	/^  self_type operator--(int) {$/;"	f	struct:btree::btree_iterator
+operator --	indexes/cpp-btree/btree.h	/^  self_type& operator--() {$/;"	f	struct:btree::btree_iterator
+operator ->	indexes/cpp-btree/btree.h	/^  pointer operator->() const {$/;"	f	struct:btree::btree_iterator
+operator <<	indexes/cpp-btree/btree_container.h	/^inline std::ostream& operator<<(std::ostream &os, const btree_container<T> &b) {$/;"	f	namespace:btree
+operator =	indexes/cpp-btree/btree.h	/^  self_type& operator=(const self_type &x) {$/;"	f	class:btree::btree
+operator ==	indexes/cpp-btree/btree.h	/^  bool operator==(const const_iterator &x) const {$/;"	f	struct:btree::btree_iterator
+operator ==	indexes/cpp-btree/btree_container.h	/^  bool operator==(const self_type& x) const {$/;"	f	class:btree::btree_container
+operator []	indexes/cpp-btree/btree_container.h	/^  data_type& operator[](const key_type &key) {$/;"	f	class:btree::btree_map_container
+origin	stats.c	/^   size_t origin;$/;"	m	struct:timing_s	file:
+overhead	indexes/cpp-btree/btree.h	/^  double overhead() const {$/;"	f	class:btree::btree
+overhead	indexes/cpp-btree/btree_container.h	/^  double overhead() const { return tree_.overhead(); }$/;"	f	class:btree::btree_container
+p	benchcomponents.c	/^static struct pagecache *p;$/;"	v	typeref:struct:pagecache	file:
+page	indexes/memory-item.h	/^      void *page;$/;"	m	union:index_entry::__anon9
+page	pagecache.h	/^   void *page;$/;"	m	struct:lru
+page_cache_init	pagecache.c	/^void page_cache_init(struct pagecache *p) {$/;"	f
+pagecache	pagecache.h	/^struct pagecache {$/;"	s
+pagecache	slabworker.c	/^   struct pagecache *pagecache __attribute__((aligned(64)));$/;"	m	struct:slab_context	typeref:struct:slab_context::pagecache	file:
+pagecache_entry_t	pagecache.h	/^typedef struct index_entry pagecache_entry_t;$/;"	t	typeref:struct:index_entry
+params_type	indexes/cpp-btree/btree.h	/^  typedef Params params_type;$/;"	t	class:btree::btree
+params_type	indexes/cpp-btree/btree.h	/^  typedef Params params_type;$/;"	t	class:btree::btree_node
+params_type	indexes/cpp-btree/btree.h	/^  typedef typename Node::params_type params_type;$/;"	t	struct:btree::btree_iterator
+params_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::params_type params_type;$/;"	t	class:btree::btree_container
+params_type	indexes/cpp-btree/btree_map.h	/^    Key, Value, Compare, Alloc, TargetNodeSize> params_type;$/;"	t	class:btree::btree_map
+params_type	indexes/cpp-btree/btree_map.h	/^    Key, Value, Compare, Alloc, TargetNodeSize> params_type;$/;"	t	class:btree::btree_multimap
+params_type	indexes/cpp-btree/btree_set.h	/^  typedef btree_set_params<Key, Compare, Alloc, TargetNodeSize> params_type;$/;"	t	class:btree::btree_multiset
+params_type	indexes/cpp-btree/btree_set.h	/^  typedef btree_set_params<Key, Compare, Alloc, TargetNodeSize> params_type;$/;"	t	class:btree::btree_set
+parent	indexes/cpp-btree/btree.h	/^    btree_node *parent;$/;"	m	struct:btree::btree_node::base_fields
+parent	indexes/cpp-btree/btree.h	/^  btree_node* parent() const { return fields_.parent; }$/;"	f	class:btree::btree_node
+parent	indexes/rbtree.h	/^    struct rbtree_node_t* parent;$/;"	m	struct:rbtree_node_t	typeref:struct:rbtree_node_t::rbtree_node_t
+partial	indexes/art.h	/^    unsigned char partial[MAX_PREFIX_LEN];$/;"	m	struct:__anon2
+partial_len	indexes/art.h	/^    uint32_t partial_len;$/;"	m	struct:__anon2
+path	microbench.c	/^static char *path = NULL;$/;"	v	file:
+payload	slab.h	/^   void *payload;$/;"	m	struct:slab_callback
+pdata	microbench.c	/^struct pdata {$/;"	s	file:
+periodic_count	utils.h	113;"	d
+perr	utils.h	15;"	d
+pin_me_on	utils.c	/^void pin_me_on(int core) {$/;"	f
+pointer	indexes/cpp-btree/btree.h	/^  typedef Pointer pointer;$/;"	t	struct:btree::btree_iterator
+pointer	indexes/cpp-btree/btree.h	/^  typedef typename Params::pointer pointer;$/;"	t	class:btree::btree
+pointer	indexes/cpp-btree/btree.h	/^  typedef typename Params::pointer pointer;$/;"	t	class:btree::btree_node
+pointer	indexes/cpp-btree/btree.h	/^  typedef value_type* pointer;$/;"	t	struct:btree::btree_map_params
+pointer	indexes/cpp-btree/btree.h	/^  typedef value_type* pointer;$/;"	t	struct:btree::btree_set_params
+pointer	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::pointer pointer;$/;"	t	class:btree::btree_container
+pointer_cmp	indexes/rbtree.c	/^int pointer_cmp(void *left, void *right) {$/;"	f
+pos	workload-common.c	/^   size_t *pos;$/;"	m	struct:rebuild_pdata	file:
+position	indexes/cpp-btree/btree.h	/^    field_type position;$/;"	m	struct:btree::btree_node::base_fields
+position	indexes/cpp-btree/btree.h	/^  int position() const { return fields_.position; }$/;"	f	class:btree::btree_node
+position	indexes/cpp-btree/btree.h	/^  int position;$/;"	m	struct:btree::btree_iterator
+prefix_mismatch	indexes/art.c	/^static int prefix_mismatch(const art_node *n, const unsigned char *key, int key_len, int depth) {$/;"	f	file:
+prev	freelist.c	/^   struct freelist_entry *prev;$/;"	m	struct:freelist_entry	typeref:struct:freelist_entry::freelist_entry	file:
+prev	indexes/uthash.h	/^   void *prev;                       \/* prev element in app order      *\/$/;"	m	struct:UT_hash_handle
+prev	pagecache.h	/^   struct lru *prev;$/;"	m	struct:lru	typeref:struct:lru::lru
+print_free_list	freelist.c	/^void print_free_list(struct slab *s, int depth, struct item_metadata *item) {$/;"	f
+print_item	workload-common.c	/^void print_item(size_t idx, void* _item) {$/;"	f
+print_stats	stats.c	/^void print_stats(void) {$/;"	f
+process_existing_chunk	slab.c	/^void process_existing_chunk(int slab_worker_id, struct slab *s, size_t nb_files, size_t file_idx, char *data, size_t start, size_t length, struct slab_callback *callback) {$/;"	f
+process_linked_callbacks	ioengine.c	/^static void process_linked_callbacks(struct io_context *ctx) {$/;"	f	file:
+processed_callbacks	slabworker.c	/^   volatile size_t processed_callbacks;                  \/\/ Number of requests fully submitted and processed on disk$/;"	m	struct:slab_context	file:
+processed_io	ioengine.c	/^   volatile size_t processed_io;$/;"	m	struct:io_context	file:
+prod1	workload-common.h	/^   prod1,$/;"	e	enum:available_bench
+prod2	workload-common.h	/^   prod2,$/;"	e	enum:available_bench
+production_random1	random.c	/^long production_random1(void) {$/;"	f
+production_random2	random.c	/^long production_random2(void) {$/;"	f
+queue_size	microbench.c	/^   int queue_size;$/;"	m	struct:pdata	file:
+random_gen_t	random.h	/^typedef long (*random_gen_t)(void);$/;"	t
+random_get_put	workload-ycsb.c	/^static int random_get_put(int test) {$/;"	f	file:
+rax	indexes/rax.h	/^typedef struct rax {$/;"	s
+rax	indexes/rax.h	/^} rax;$/;"	t	typeref:struct:rax
+raxAddChild	indexes/rax.c	/^raxNode *raxAddChild(raxNode *n, unsigned char c, raxNode **childptr, raxNode ***parentlink) {$/;"	f
+raxCompare	indexes/rax.c	/^int raxCompare(raxIterator *iter, const char *op, unsigned char *key, size_t key_len) {$/;"	f
+raxCompressNode	indexes/rax.c	/^raxNode *raxCompressNode(raxNode *n, unsigned char *s, size_t len, raxNode **child) {$/;"	f
+raxDebugMsg	indexes/rax.c	/^static int raxDebugMsg = 1;$/;"	v	file:
+raxDebugShowNode	indexes/rax.c	/^void raxDebugShowNode(const char *msg, raxNode *n) {$/;"	f
+raxEOF	indexes/rax.c	/^int raxEOF(raxIterator *it) {$/;"	f
+raxFind	indexes/rax.c	/^void *raxFind(rax *rax, unsigned char *s, size_t len) {$/;"	f
+raxFindParentLink	indexes/rax.c	/^raxNode **raxFindParentLink(raxNode *parent, raxNode *child) {$/;"	f
+raxFree	indexes/rax.c	/^void raxFree(rax *rax) {$/;"	f
+raxFreeWithCallback	indexes/rax.c	/^void raxFreeWithCallback(rax *rax, void (*free_callback)(void*)) {$/;"	f
+raxGenericInsert	indexes/rax.c	/^int raxGenericInsert(rax *rax, unsigned char *s, size_t len, void *data, void **old, int overwrite) {$/;"	f
+raxGetData	indexes/rax.c	/^void *raxGetData(raxNode *n) {$/;"	f
+raxInsert	indexes/rax.c	/^int raxInsert(rax *rax, unsigned char *s, size_t len, void *data, void **old) {$/;"	f
+raxIterator	indexes/rax.h	/^typedef struct raxIterator {$/;"	s
+raxIterator	indexes/rax.h	/^} raxIterator;$/;"	t	typeref:struct:raxIterator
+raxIteratorAddChars	indexes/rax.c	/^int raxIteratorAddChars(raxIterator *it, unsigned char *s, size_t len) {$/;"	f
+raxIteratorDelChars	indexes/rax.c	/^void raxIteratorDelChars(raxIterator *it, size_t count) {$/;"	f
+raxIteratorNextStep	indexes/rax.c	/^int raxIteratorNextStep(raxIterator *it, int noup) {$/;"	f
+raxIteratorPrevStep	indexes/rax.c	/^int raxIteratorPrevStep(raxIterator *it, int noup) {$/;"	f
+raxLowWalk	indexes/rax.c	/^static inline size_t raxLowWalk(rax *rax, unsigned char *s, size_t len, raxNode **stopnode, raxNode ***plink, int *splitpos, raxStack *ts) {$/;"	f	file:
+raxNew	indexes/rax.c	/^rax *raxNew(void) {$/;"	f
+raxNewNode	indexes/rax.c	/^raxNode *raxNewNode(size_t children, int datafield) {$/;"	f
+raxNext	indexes/rax.c	/^int raxNext(raxIterator *it) {$/;"	f
+raxNode	indexes/rax.h	/^typedef struct raxNode {$/;"	s
+raxNode	indexes/rax.h	/^} raxNode;$/;"	t	typeref:struct:raxNode
+raxNodeCallback	indexes/rax.h	/^typedef int (*raxNodeCallback)(raxNode **noderef);$/;"	t
+raxNodeCurrentLength	indexes/rax.c	175;"	d	file:
+raxNodeFirstChildPtr	indexes/rax.c	167;"	d	file:
+raxNodeLastChildPtr	indexes/rax.c	159;"	d	file:
+raxNotFound	indexes/rax.c	/^void *raxNotFound = (void*)"rax-not-found-pointer";$/;"	v
+raxPadding	indexes/rax.c	155;"	d	file:
+raxPrev	indexes/rax.c	/^int raxPrev(raxIterator *it) {$/;"	f
+raxRandomWalk	indexes/rax.c	/^int raxRandomWalk(raxIterator *it, size_t steps) {$/;"	f
+raxReallocForData	indexes/rax.c	/^raxNode *raxReallocForData(raxNode *n, void *data) {$/;"	f
+raxRecursiveFree	indexes/rax.c	/^void raxRecursiveFree(rax *rax, raxNode *n, void (*free_callback)(void*)) {$/;"	f
+raxRecursiveShow	indexes/rax.c	/^void raxRecursiveShow(int level, int lpad, raxNode *n) {$/;"	f
+raxRemove	indexes/rax.c	/^int raxRemove(rax *rax, unsigned char *s, size_t len, void **old) {$/;"	f
+raxRemoveChild	indexes/rax.c	/^raxNode *raxRemoveChild(raxNode *parent, raxNode *child) {$/;"	f
+raxSeek	indexes/rax.c	/^int raxSeek(raxIterator *it, const char *op, unsigned char *ele, size_t len) {$/;"	f
+raxSeekGreatest	indexes/rax.c	/^int raxSeekGreatest(raxIterator *it) {$/;"	f
+raxSetData	indexes/rax.c	/^void raxSetData(raxNode *n, void *data) {$/;"	f
+raxSetDebugMsg	indexes/rax.c	/^void raxSetDebugMsg(int onoff) {$/;"	f
+raxShow	indexes/rax.c	/^void raxShow(rax *rax) {$/;"	f
+raxSize	indexes/rax.c	/^uint64_t raxSize(rax *rax) {$/;"	f
+raxStack	indexes/rax.h	/^typedef struct raxStack {$/;"	s
+raxStack	indexes/rax.h	/^} raxStack;$/;"	t	typeref:struct:raxStack
+raxStackFree	indexes/rax.c	/^static inline void raxStackFree(raxStack *ts) {$/;"	f	file:
+raxStackInit	indexes/rax.c	/^static inline void raxStackInit(raxStack *ts) {$/;"	f	file:
+raxStackPeek	indexes/rax.c	/^static inline void *raxStackPeek(raxStack *ts) {$/;"	f	file:
+raxStackPop	indexes/rax.c	/^static inline void *raxStackPop(raxStack *ts) {$/;"	f	file:
+raxStackPush	indexes/rax.c	/^static inline int raxStackPush(raxStack *ts, void *ptr) {$/;"	f	file:
+raxStart	indexes/rax.c	/^void raxStart(raxIterator *it, rax *rt) {$/;"	f
+raxStop	indexes/rax.c	/^void raxStop(raxIterator *it) {$/;"	f
+raxTouch	indexes/rax.c	/^unsigned long raxTouch(raxNode *n) {$/;"	f
+raxTryInsert	indexes/rax.c	/^int raxTryInsert(rax *rax, unsigned char *s, size_t len, void *data, void **old) {$/;"	f
+rax_free	indexes/rax_malloc.h	42;"	d
+rax_index_add	in-memory-index-rax.c	/^void rax_index_add(struct slab_callback *cb, void *item) {$/;"	f
+rax_init	in-memory-index-rax.c	/^void rax_init(void) {$/;"	f
+rax_init_scan	in-memory-index-rax.c	/^struct index_scan rax_init_scan(void *item, size_t scan_size) {$/;"	f
+rax_malloc	indexes/rax_malloc.h	40;"	d
+rax_realloc	indexes/rax_malloc.h	41;"	d
+rax_worker_delete	in-memory-index-rax.c	/^void rax_worker_delete(int worker_id, void *item) {$/;"	f
+rax_worker_insert	in-memory-index-rax.c	/^void rax_worker_insert(int worker_id, void *item, index_entry_t *e) {$/;"	f
+rax_worker_lookup	in-memory-index-rax.c	/^index_entry_t *rax_worker_lookup(int worker_id, void *item) {$/;"	f
+rbegin	indexes/cpp-btree/btree.h	/^  const_reverse_iterator rbegin() const {$/;"	f	class:btree::btree
+rbegin	indexes/cpp-btree/btree.h	/^  reverse_iterator rbegin() {$/;"	f	class:btree::btree
+rbegin	indexes/cpp-btree/btree_container.h	/^  const_reverse_iterator rbegin() const { return tree_.rbegin(); }$/;"	f	class:btree::btree_container
+rbegin	indexes/cpp-btree/btree_container.h	/^  reverse_iterator rbegin() { return tree_.rbegin(); }$/;"	f	class:btree::btree_container
+rbtree	indexes/rbtree.h	/^} *rbtree;$/;"	t	typeref:struct:rbtree_t
+rbtree_create	indexes/rbtree.c	/^rbtree rbtree_create() {$/;"	f
+rbtree_delete	indexes/rbtree.c	/^void rbtree_delete(rbtree t, void* key, compare_func compare) {$/;"	f
+rbtree_fill_scan	indexes/rbtree.c	/^void rbtree_fill_scan(rbtree t, node n, size_t max, struct rbtree_scan_tmp *res) {$/;"	f
+rbtree_fill_scan_up	indexes/rbtree.c	/^void rbtree_fill_scan_up(rbtree t, node n, size_t max, struct rbtree_scan_tmp *res) {$/;"	f
+rbtree_index_add	in-memory-index-rbtree.c	/^void rbtree_index_add(struct slab_callback *cb, void *item) {$/;"	f
+rbtree_init	in-memory-index-rbtree.c	/^void rbtree_init(void) {$/;"	f
+rbtree_init_scan	in-memory-index-rbtree.c	/^struct index_scan rbtree_init_scan(void *item, size_t scan_size) {$/;"	f
+rbtree_insert	indexes/rbtree.c	/^void rbtree_insert(rbtree t, void* key, index_entry_t* value, compare_func compare) {$/;"	f
+rbtree_lookup	indexes/rbtree.c	/^index_entry_t* rbtree_lookup(rbtree t, void* key, compare_func compare) {$/;"	f
+rbtree_lookup_n	indexes/rbtree.c	/^struct rbtree_scan_tmp rbtree_lookup_n(rbtree t, void *key, size_t n, compare_func compare) {$/;"	f
+rbtree_node	indexes/rbtree.h	/^} *rbtree_node;$/;"	t	typeref:struct:rbtree_node_t
+rbtree_node_color	indexes/rbtree.h	/^enum rbtree_node_color { RED, BLACK };$/;"	g
+rbtree_node_t	indexes/rbtree.h	/^typedef struct rbtree_node_t {$/;"	s
+rbtree_print	indexes/rbtree.c	/^void rbtree_print(rbtree t, compare_func show) {$/;"	f
+rbtree_print_nodes	indexes/rbtree.c	/^void rbtree_print_nodes(node n, compare_func show) {$/;"	f
+rbtree_scan_tmp	indexes/rbtree.h	/^struct rbtree_scan_tmp {$/;"	s
+rbtree_t	indexes/rbtree.h	/^typedef struct rbtree_t {$/;"	s
+rbtree_worker_delete	in-memory-index-rbtree.c	/^void rbtree_worker_delete(int worker_id, void *item) {$/;"	f
+rbtree_worker_insert	in-memory-index-rbtree.c	/^void rbtree_worker_insert(int worker_id, void *item, index_entry_t *e) {$/;"	f
+rbtree_worker_lookup	in-memory-index-rbtree.c	/^index_entry_t *rbtree_worker_lookup(int worker_id, void *item) {$/;"	f
+rdt	items.h	/^   size_t rdt;$/;"	m	struct:item_metadata
+rdt	slabworker.c	/^   uint64_t rdt;                                         \/\/ Latest timestamp$/;"	m	struct:slab_context	file:
+rdtscll	utils.h	24;"	d
+rdtscll	utils.h	30;"	d
+read_item	slab.c	/^void *read_item(struct slab *s, size_t idx) {$/;"	f
+read_item_async	slab.c	/^void read_item_async(struct slab_callback *callback) {$/;"	f
+read_item_async_cb	slab.c	/^void read_item_async_cb(struct slab_callback *callback) {$/;"	f
+read_page_async	ioengine.c	/^char *read_page_async(struct slab_callback *callback) {$/;"	f
+rebuild_free_list	freelist.c	/^void rebuild_free_list(struct slab *s) {$/;"	f
+rebuild_index	slab.c	/^void rebuild_index(int slab_worker_id, struct slab *s, struct slab_callback *callback) {$/;"	f
+rebuild_pdata	workload-common.c	/^struct rebuild_pdata {$/;"	s	file:
+recursive_delete	indexes/art.c	/^static art_leaf* recursive_delete(art_node *n, art_node **ref, const unsigned char *key, int key_len, int depth) {$/;"	f	file:
+recursive_insert	indexes/art.c	/^static void* recursive_insert(art_node *n, art_node **ref, const unsigned char *key, int key_len, void *value, int depth, int *old) {$/;"	f	file:
+recursive_iter	indexes/art.c	/^static int recursive_iter(art_node *n, art_callback cb, void *data) {$/;"	f	file:
+recursive_iter_ordered	indexes/art.c	/^static int recursive_iter_ordered(art_node *n, size_t depth, unsigned char *key, size_t len, art_callback cb, void *data, size_t scan_size) {$/;"	f	file:
+reference	indexes/cpp-btree/btree.h	/^  typedef Reference reference;$/;"	t	struct:btree::btree_iterator
+reference	indexes/cpp-btree/btree.h	/^  typedef typename Params::reference reference;$/;"	t	class:btree::btree
+reference	indexes/cpp-btree/btree.h	/^  typedef typename Params::reference reference;$/;"	t	class:btree::btree_node
+reference	indexes/cpp-btree/btree.h	/^  typedef value_type& reference;$/;"	t	struct:btree::btree_map_params
+reference	indexes/cpp-btree/btree.h	/^  typedef value_type& reference;$/;"	t	struct:btree::btree_set_params
+reference	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::reference reference;$/;"	t	class:btree::btree_container
+remove_child	indexes/art.c	/^static void remove_child(art_node *n, art_node **ref, unsigned char c, art_node **l) {$/;"	f	file:
+remove_child16	indexes/art.c	/^static void remove_child16(art_node16 *n, art_node **ref, art_node **l) {$/;"	f	file:
+remove_child256	indexes/art.c	/^static void remove_child256(art_node256 *n, art_node **ref, unsigned char c) {$/;"	f	file:
+remove_child4	indexes/art.c	/^static void remove_child4(art_node4 *n, art_node **ref, art_node **l) {$/;"	f	file:
+remove_child48	indexes/art.c	/^static void remove_child48(art_node48 *n, art_node **ref, unsigned char c) {$/;"	f	file:
+remove_item_async	slab.c	/^void remove_item_async(struct slab_callback *callback) {$/;"	f
+remove_item_by_idx_async_cb1	slab.c	/^void remove_item_by_idx_async_cb1(struct slab_callback *callback) {$/;"	f
+rend	indexes/cpp-btree/btree.h	/^  const_reverse_iterator rend() const {$/;"	f	class:btree::btree
+rend	indexes/cpp-btree/btree.h	/^  reverse_iterator rend() {$/;"	f	class:btree::btree
+rend	indexes/cpp-btree/btree_container.h	/^  const_reverse_iterator rend() const { return tree_.rend(); }$/;"	f	class:btree::btree_container
+rend	indexes/cpp-btree/btree_container.h	/^  reverse_iterator rend() { return tree_.rend(); }$/;"	f	class:btree::btree_container
+replace_node	indexes/rbtree.c	/^void replace_node(rbtree t, node oldn, node newn) {$/;"	f
+repopulate_db	workload-common.c	/^void repopulate_db(struct workload *w) {$/;"	f
+repopulate_db_worker	workload-common.c	/^void *repopulate_db_worker(void *pdata) {$/;"	f
+resize_slab	slab.c	/^struct slab* resize_slab(struct slab *s) {$/;"	f
+reverse_iterator	indexes/cpp-btree/btree.h	/^  typedef std::reverse_iterator<iterator> reverse_iterator;$/;"	t	class:btree::btree
+reverse_iterator	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::reverse_iterator reverse_iterator;$/;"	t	class:btree::btree_container
+right	indexes/rbtree.h	/^    struct rbtree_node_t* right;$/;"	m	struct:rbtree_node_t	typeref:struct:rbtree_node_t::rbtree_node_t
+rightmost	indexes/cpp-btree/btree.h	/^    btree_node *rightmost;$/;"	m	struct:btree::btree_node::root_fields
+rightmost	indexes/cpp-btree/btree.h	/^  btree_node* rightmost() const { return fields_.rightmost; }$/;"	f	class:btree::btree_node
+rightmost	indexes/cpp-btree/btree.h	/^  const node_type* rightmost() const {$/;"	f	class:btree::btree
+rightmost	indexes/cpp-btree/btree.h	/^  node_type* rightmost() {$/;"	f	class:btree::btree
+root	indexes/art.h	/^    art_node *root;$/;"	m	struct:__anon8
+root	indexes/cpp-btree/btree.h	/^  const node_type* root() const { return root_.data; }$/;"	f	class:btree::btree
+root	indexes/cpp-btree/btree.h	/^  node_type* root() { return root_.data; }$/;"	f	class:btree::btree
+root	indexes/rbtree.h	/^    rbtree_node root;$/;"	m	struct:rbtree_t
+root_	indexes/cpp-btree/btree.h	/^  empty_base_handle<internal_allocator_type, node_type*> root_;$/;"	m	class:btree::btree
+root_fields	indexes/cpp-btree/btree.h	/^  struct root_fields : public internal_fields {$/;"	s	class:btree::btree_node
+root_fields	indexes/cpp-btree/btree.h	/^  typedef typename node_type::root_fields root_fields;$/;"	t	class:btree::btree
+rotate_left	indexes/rbtree.c	/^void rotate_left(rbtree t, node n) {$/;"	f
+rotate_right	indexes/rbtree.c	/^void rotate_right(rbtree t, node n) {$/;"	f
+rt	indexes/rax.h	/^    rax *rt;                \/* Radix tree we are iterating. *\/$/;"	m	struct:raxIterator
+run_workload	workload-common.c	/^void run_workload(struct workload *w, bench_t b) {$/;"	f
+rw	microbench.c	/^   size_t rw;$/;"	m	struct:pdata	file:
+rw_to_str	microbench.c	/^const char* rw_to_str(size_t rw) {$/;"	f
+safe_pread	ioengine.c	/^void *safe_pread(int fd, off_t offset) {$/;"	f
+search_type	indexes/cpp-btree/btree.h	/^    linear_search_type, binary_search_type>::type search_type;$/;"	t	class:btree::btree_node
+seed	random.c	/^static unsigned int __thread seed;$/;"	v	file:
+self_type	indexes/cpp-btree/btree.h	/^  typedef btree<Params> self_type;$/;"	t	class:btree::btree
+self_type	indexes/cpp-btree/btree.h	/^  typedef btree_iterator<Node, Reference, Pointer> self_type;$/;"	t	struct:btree::btree_iterator
+self_type	indexes/cpp-btree/btree.h	/^  typedef btree_node<Params> self_type;$/;"	t	class:btree::btree_node
+self_type	indexes/cpp-btree/btree_container.h	/^  typedef btree_container<Tree> self_type;$/;"	t	class:btree::btree_container
+self_type	indexes/cpp-btree/btree_container.h	/^  typedef btree_map_container<Tree> self_type;$/;"	t	class:btree::btree_map_container
+self_type	indexes/cpp-btree/btree_container.h	/^  typedef btree_multi_container<Tree> self_type;$/;"	t	class:btree::btree_multi_container
+self_type	indexes/cpp-btree/btree_container.h	/^  typedef btree_unique_container<Tree> self_type;$/;"	t	class:btree::btree_unique_container
+self_type	indexes/cpp-btree/btree_map.h	/^  typedef btree_map<Key, Value, Compare, Alloc, TargetNodeSize> self_type;$/;"	t	class:btree::btree_map
+self_type	indexes/cpp-btree/btree_map.h	/^  typedef btree_multimap<Key, Value, Compare, Alloc, TargetNodeSize> self_type;$/;"	t	class:btree::btree_multimap
+self_type	indexes/cpp-btree/btree_set.h	/^  typedef btree_multiset<Key, Compare, Alloc, TargetNodeSize> self_type;$/;"	t	class:btree::btree_multiset
+self_type	indexes/cpp-btree/btree_set.h	/^  typedef btree_set<Key, Compare, Alloc, TargetNodeSize> self_type;$/;"	t	class:btree::btree_set
+sent_callbacks	slabworker.c	/^   volatile size_t sent_callbacks;                       \/\/ Number of requests fully enqueued$/;"	m	struct:slab_context	file:
+sent_io	ioengine.c	/^   volatile size_t sent_io;$/;"	m	struct:io_context	file:
+set_child	indexes/cpp-btree/btree.h	/^  void set_child(int i, btree_node *c) {$/;"	f	class:btree::btree_node
+set_count	indexes/cpp-btree/btree.h	/^  void set_count(int v) { fields_.count = v; }$/;"	f	class:btree::btree_node
+set_position	indexes/cpp-btree/btree.h	/^  void set_position(int v) { fields_.position = v; }$/;"	f	class:btree::btree_node
+set_rdt	slabworker.c	/^void set_rdt(struct slab_context *ctx, uint64_t val) {$/;"	f
+show_breakdown_periodic	utils.h	186;"	d
+show_item	workload-common.c	/^void show_item(struct slab_callback *cb, void *item) {$/;"	f
+shuffle	utils.c	/^void shuffle(size_t *array, size_t n) {$/;"	f
+sibling	indexes/rbtree.c	/^node sibling(node n) {$/;"	f
+signature	indexes/uthash.h	/^   uint32_t signature; \/* used only to find hash tables in external analysis *\/$/;"	m	struct:UT_hash_table
+size	indexes/art.h	/^    uint64_t size;$/;"	m	struct:__anon8
+size	indexes/cpp-btree/btree.h	/^    size_type size;$/;"	m	struct:btree::btree_node::root_fields
+size	indexes/cpp-btree/btree.h	/^  size_type size() const { return fields_.size; }$/;"	f	class:btree::btree_node
+size	indexes/cpp-btree/btree.h	/^  size_type size() const {$/;"	f	class:btree::btree
+size	indexes/cpp-btree/btree_container.h	/^  size_type size() const { return tree_.size(); }$/;"	f	class:btree::btree_container
+size	indexes/rax.h	/^    uint32_t size:29;     \/* Number of children, or compressed string len. *\/$/;"	m	struct:raxNode
+size_on_disk	slab.h	/^   size_t size_on_disk;$/;"	m	struct:slab
+size_type	indexes/cpp-btree/btree.h	/^  typedef ssize_t size_type;$/;"	t	struct:btree::btree_common_params
+size_type	indexes/cpp-btree/btree.h	/^  typedef typename Node::size_type size_type;$/;"	t	struct:btree::btree_iterator
+size_type	indexes/cpp-btree/btree.h	/^  typedef typename Params::size_type size_type;$/;"	t	class:btree::btree
+size_type	indexes/cpp-btree/btree.h	/^  typedef typename Params::size_type size_type;$/;"	t	class:btree::btree_node
+size_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::size_type size_type;$/;"	t	class:btree::btree_container
+size_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::size_type size_type;$/;"	t	class:btree::btree_multi_container
+size_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::size_type size_type;$/;"	t	class:btree::btree_unique_container
+sizeof	indexes/cpp-btree/btree.h	/^      sizeof(big_),$/;"	m	class:btree::btree
+slab	indexes/memory-item.h	/^      struct slab *slab;$/;"	m	union:index_entry::__anon9	typeref:struct:index_entry::__anon9::slab
+slab	slab.h	/^   struct slab *slab;$/;"	m	struct:slab_callback	typeref:struct:slab_callback::slab
+slab	slab.h	/^struct slab {$/;"	s
+slab_action	slab.h	/^enum slab_action { ADD, UPDATE, DELETE, READ, READ_NO_LOOKUP, ADD_OR_UPDATE };$/;"	g
+slab_callback	slab.h	/^struct slab_callback {$/;"	s
+slab_cb_t	slab.h	/^typedef void (slab_cb_t)(struct slab_callback *, void *item);$/;"	t
+slab_context	slabworker.c	/^struct slab_context {$/;"	s	file:
+slab_contexts	slabworker.c	/^} *slab_contexts;$/;"	v	typeref:struct:slab_context
+slab_idx	freelist.c	/^   uint64_t slab_idx;$/;"	m	struct:freelist_entry	file:
+slab_idx	indexes/memory-item.h	/^      size_t slab_idx;$/;"	m	union:index_entry::__anon10
+slab_idx	slab.h	/^      uint64_t slab_idx;$/;"	m	union:slab_callback::__anon1
+slab_sizes	slabworker.c	/^size_t slab_sizes[] = { 100, 128, 256, 400, 512, 1024, 1365, 2048, 4096 };$/;"	v
+slab_workers_init	slabworker.c	/^void slab_workers_init(int _nb_disks, int nb_workers_per_disk) {$/;"	f
+slabs	slabworker.c	/^   struct slab **slabs;                                  \/\/ Files managed by this worker$/;"	m	struct:slab_context	typeref:struct:slab_context::slab	file:
+small_	indexes/cpp-btree/btree.h	/^typedef char small_;$/;"	t	namespace:btree
+src	scripts/parse_log.cpp	/^   uint32_t src;$/;"	m	struct:e_t	file:
+stack	indexes/rax.h	/^    raxStack stack;         \/* Stack used for unsafe iteration. *\/$/;"	m	struct:raxIterator
+stack	indexes/rax.h	/^    void **stack; \/* Points to static_items or an heap allocated array. *\/$/;"	m	struct:raxStack
+start	workload-common.c	/^   size_t start;$/;"	m	struct:rebuild_pdata	file:
+start_debug_timer	utils.h	71;"	d
+start_debug_timer	utils.h	82;"	d
+start_timer	utils.h	51;"	d
+static_items	indexes/rax.h	/^    void *static_items[RAX_STACK_STATIC_ITEMS];$/;"	m	struct:raxStack
+stats	stats.c	/^struct stats {$/;"	s	file:
+stats	stats.c	/^} stats;$/;"	v	typeref:struct:stats
+stop_debug_timer	utils.h	73;"	d
+stop_debug_timer	utils.h	83;"	d
+stop_timer	utils.h	53;"	d
+submit_slab_buffer	slabworker.c	/^static size_t submit_slab_buffer(struct slab_context *ctx, int buffer_idx) {$/;"	f	file:
+super_type	indexes/cpp-btree/btree_container.h	/^  typedef btree_container<Tree> super_type;$/;"	t	class:btree::btree_multi_container
+super_type	indexes/cpp-btree/btree_container.h	/^  typedef btree_container<Tree> super_type;$/;"	t	class:btree::btree_unique_container
+super_type	indexes/cpp-btree/btree_container.h	/^  typedef btree_unique_container<Tree> super_type;$/;"	t	class:btree::btree_map_container
+super_type	indexes/cpp-btree/btree_map.h	/^  typedef btree_map_container<btree_type> super_type;$/;"	t	class:btree::btree_map
+super_type	indexes/cpp-btree/btree_map.h	/^  typedef btree_multi_container<btree_type> super_type;$/;"	t	class:btree::btree_multimap
+super_type	indexes/cpp-btree/btree_set.h	/^  typedef btree_multi_container<btree_type> super_type;$/;"	t	class:btree::btree_multiset
+super_type	indexes/cpp-btree/btree_set.h	/^  typedef btree_unique_container<btree_type> super_type;$/;"	t	class:btree::btree_set
+swap	indexes/cpp-btree/btree.h	/^  static void swap(mutable_value_type *a, mutable_value_type *b) {$/;"	f	struct:btree::btree_map_params
+swap	indexes/cpp-btree/btree.h	/^  static void swap(mutable_value_type *a, mutable_value_type *b) {$/;"	f	struct:btree::btree_set_params
+swap	indexes/cpp-btree/btree_container.h	/^  void swap(self_type &x) {$/;"	f	class:btree::btree_container
+swap	indexes/cpp-btree/btree_map.h	/^inline void swap(btree_map<K, V, C, A, N> &x,$/;"	f	namespace:btree
+swap	indexes/cpp-btree/btree_map.h	/^inline void swap(btree_multimap<K, V, C, A, N> &x,$/;"	f	namespace:btree
+swap	indexes/cpp-btree/btree_set.h	/^inline void swap(btree_multiset<K, C, A, N> &x,$/;"	f	namespace:btree
+swap	indexes/cpp-btree/btree_set.h	/^inline void swap(btree_set<K, C, A, N> &x, btree_set<K, C, A, N> &y) {$/;"	f	namespace:btree
+tail	indexes/uthash.h	/^   struct UT_hash_handle *tail; \/* tail hh in app order, for fast append    *\/$/;"	m	struct:UT_hash_table	typeref:struct:UT_hash_table::UT_hash_handle
+tbl	indexes/uthash.h	/^   struct UT_hash_table *tbl;$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_table
+theta	random.c	/^static double theta; \/\/initialized in init_zipf_generator function$/;"	v	file:
+thread_data	workload-common.c	/^struct thread_data {$/;"	s	file:
+time	stats.c	/^   size_t time;$/;"	m	struct:timing_s	file:
+timing_idx	stats.c	/^   size_t timing_idx;$/;"	m	struct:stats	file:
+timing_s	stats.c	/^struct timing_s {$/;"	s	file:
+timing_time	stats.c	/^   uint64_t *timing_time;$/;"	m	struct:stats	file:
+timing_value	stats.c	/^   uint64_t *timing_value;$/;"	m	struct:stats	file:
+tmp_entry	in-memory-index-btree.c	/^static __thread index_entry_t tmp_entry;$/;"	v	file:
+tmp_page_number	slab.h	/^      uint64_t tmp_page_number; \/\/ when we add a new item we don't always know it's idx directly, sometimes we just know which page it will be placed on$/;"	m	union:slab_callback::__anon1
+tree_	indexes/cpp-btree/btree_container.h	/^  Tree tree_;$/;"	m	class:btree::btree_container
+tree_create	pagecache.h	10;"	d
+tree_create	pagecache.h	23;"	d
+tree_create	pagecache.h	40;"	d
+tree_create	pagecache.h	57;"	d
+tree_delete	pagecache.h	12;"	d
+tree_delete	pagecache.h	25;"	d
+tree_delete	pagecache.h	42;"	d
+tree_delete	pagecache.h	59;"	d
+tree_insert	pagecache.h	13;"	d
+tree_insert	pagecache.h	26;"	d
+tree_insert	pagecache.h	43;"	d
+tree_insert	pagecache.h	63;"	d
+tree_lookup	pagecache.h	11;"	d
+tree_lookup	pagecache.h	24;"	d
+tree_lookup	pagecache.h	41;"	d
+tree_lookup	pagecache.h	58;"	d
+tree_scan_res_t	slabworker.h	/^typedef struct index_scan tree_scan_res_t;$/;"	t	typeref:struct:index_scan
+type	indexes/art.h	/^    uint8_t type;$/;"	m	struct:__anon2
+type	indexes/cpp-btree/btree.h	/^  typedef A type;$/;"	t	struct:btree::if_
+type	indexes/cpp-btree/btree.h	/^  typedef B type;$/;"	t	struct:btree::if_
+uint16_t	indexes/cpp-btree/btree.h	/^    uint16_t,$/;"	t	struct:btree::btree_common_params
+uint32_t	indexes/uthash.h	/^typedef unsigned int uint32_t;$/;"	t
+uint8_t	indexes/uthash.h	/^typedef unsigned char uint8_t;$/;"	t
+uncle	indexes/rbtree.c	/^node uncle(node n) {$/;"	f
+uniform_next	random.c	/^long uniform_next() {$/;"	f
+update_item_async	slab.c	/^void update_item_async(struct slab_callback *callback) {$/;"	f
+update_item_async_cb1	slab.c	/^void update_item_async_cb1(struct slab_callback *callback) {$/;"	f
+update_item_async_cb2	slab.c	/^void update_item_async_cb2(struct slab_callback *callback) {$/;"	f
+upper_bound	indexes/cpp-btree/btree.h	/^  const_iterator upper_bound(const key_type &key) const {$/;"	f	class:btree::btree
+upper_bound	indexes/cpp-btree/btree.h	/^  int upper_bound(const key_type &k, const Compare &comp) const {$/;"	f	class:btree::btree_node
+upper_bound	indexes/cpp-btree/btree.h	/^  iterator upper_bound(const key_type &key) {$/;"	f	class:btree::btree
+upper_bound	indexes/cpp-btree/btree.h	/^  static int upper_bound(const K &k, const N &n, Compare comp)  {$/;"	f	struct:btree::btree_binary_search_plain_compare
+upper_bound	indexes/cpp-btree/btree.h	/^  static int upper_bound(const K &k, const N &n, Compare comp)  {$/;"	f	struct:btree::btree_linear_search_plain_compare
+upper_bound	indexes/cpp-btree/btree.h	/^  static int upper_bound(const K &k, const N &n, CompareTo comp)  {$/;"	f	struct:btree::btree_binary_search_compare_to
+upper_bound	indexes/cpp-btree/btree.h	/^  static int upper_bound(const K &k, const N &n, CompareTo comp)  {$/;"	f	struct:btree::btree_linear_search_compare_to
+upper_bound	indexes/cpp-btree/btree_container.h	/^  const_iterator upper_bound(const key_type &key) const {$/;"	f	class:btree::btree_container
+upper_bound	indexes/cpp-btree/btree_container.h	/^  iterator upper_bound(const key_type &key) {$/;"	f	class:btree::btree_container
+usage	scripts/profile.sh	/^function usage() {$/;"	f
+used_page_size	pagecache.h	/^   size_t used_page_size;$/;"	m	struct:pagecache
+used_pages	pagecache.h	/^   struct lru *used_pages, *oldest_page, *newest_page;$/;"	m	struct:pagecache	typeref:struct:pagecache::lru
+uthash_bzero	indexes/uthash.h	89;"	d
+uthash_expand_fyi	indexes/uthash.h	110;"	d
+uthash_fatal	indexes/uthash.h	131;"	d
+uthash_free	indexes/uthash.h	86;"	d
+uthash_malloc	indexes/uthash.h	83;"	d
+uthash_memcmp	indexes/uthash.h	99;"	d
+uthash_noexpand_fyi	indexes/uthash.h	107;"	d
+uthash_nonfatal_oom	indexes/uthash.h	121;"	d
+uthash_strlen	indexes/uthash.h	92;"	d
+value	indexes/art.h	/^    void *value;$/;"	m	struct:__anon7
+value	indexes/cpp-btree/btree.h	/^  const_reference value(int i) const {$/;"	f	class:btree::btree_node
+value	indexes/cpp-btree/btree.h	/^  reference value(int i) {$/;"	f	class:btree::btree_node
+value	indexes/rbtree.h	/^    index_entry_t value;$/;"	m	struct:rbtree_node_t
+value_destroy	indexes/cpp-btree/btree.h	/^  void value_destroy(int i) {$/;"	f	class:btree::btree_node
+value_init	indexes/cpp-btree/btree.h	/^  void value_init(int i) {$/;"	f	class:btree::btree_node
+value_init	indexes/cpp-btree/btree.h	/^  void value_init(int i, const value_type &x) {$/;"	f	class:btree::btree_node
+value_size	items.h	/^   size_t value_size;$/;"	m	struct:item_metadata
+value_swap	indexes/cpp-btree/btree.h	/^  void value_swap(int i, btree_node *x, int j) {$/;"	f	class:btree::btree_node
+value_type	indexes/cpp-btree/btree.h	/^  typedef Key value_type;$/;"	t	struct:btree::btree_set_params
+value_type	indexes/cpp-btree/btree.h	/^  typedef std::pair<const Key, data_type> value_type;$/;"	t	struct:btree::btree_map_params
+value_type	indexes/cpp-btree/btree.h	/^  typedef typename Params::value_type value_type;$/;"	t	class:btree::btree
+value_type	indexes/cpp-btree/btree.h	/^  typedef typename Params::value_type value_type;$/;"	t	class:btree::btree_node
+value_type	indexes/cpp-btree/btree.h	/^  typedef typename params_type::value_type value_type;$/;"	t	struct:btree::btree_iterator
+value_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::value_type value_type;$/;"	t	class:btree::btree_container
+value_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::value_type value_type;$/;"	t	class:btree::btree_map_container
+value_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::value_type value_type;$/;"	t	class:btree::btree_multi_container
+value_type	indexes/cpp-btree/btree_container.h	/^  typedef typename Tree::value_type value_type;$/;"	t	class:btree::btree_unique_container
+values	indexes/cpp-btree/btree.h	/^    mutable_value_type values[kNodeValues];$/;"	m	struct:btree::btree_node::leaf_fields
+verify	indexes/cpp-btree/btree_container.h	/^  void verify() const {$/;"	f	class:btree::btree_container
+verify_properties	indexes/rbtree.c	/^void verify_properties(rbtree t) {$/;"	f
+verify_property_1	indexes/rbtree.c	/^void verify_property_1(node n) {$/;"	f
+verify_property_2	indexes/rbtree.c	/^void verify_property_2(node root) {$/;"	f
+verify_property_4	indexes/rbtree.c	/^void verify_property_4(node n) {$/;"	f
+verify_property_5	indexes/rbtree.c	/^void verify_property_5(node root) {$/;"	f
+verify_property_5_helper	indexes/rbtree.c	/^void verify_property_5_helper(node n, int black_count, int* path_black_count) {$/;"	f
+w	workload-common.c	/^   struct workload *w;$/;"	m	struct:rebuild_pdata	typeref:struct:rebuild_pdata::workload	file:
+wait_for	utils.h	235;"	d
+worker_dequeue_requests	slabworker.c	/^static void worker_dequeue_requests(struct slab_context *ctx) {$/;"	f	file:
+worker_do_io	ioengine.c	/^static void worker_do_io(struct io_context *ctx) {$/;"	f	file:
+worker_id	slabworker.c	/^   size_t worker_id __attribute__((aligned(64)));        \/\/ ID$/;"	m	struct:slab_context	file:
+worker_ioengine_enqueue_ios	ioengine.c	/^void worker_ioengine_enqueue_ios(struct io_context *ctx) {$/;"	f
+worker_ioengine_get_completed_ios	ioengine.c	/^void worker_ioengine_get_completed_ios(struct io_context *ctx) {$/;"	f
+worker_ioengine_init	ioengine.c	/^struct io_context *worker_ioengine_init(size_t nb_callbacks) {$/;"	f
+worker_ioengine_process_completed_ios	ioengine.c	/^void worker_ioengine_process_completed_ios(struct io_context *ctx) {$/;"	f
+worker_slab_init	slabworker.c	/^static void *worker_slab_init(void *pdata) {$/;"	f	file:
+worker_slab_init_cb	slabworker.c	/^static void worker_slab_init_cb(struct slab_callback *cb, void *item) {$/;"	f	file:
+workload	workload-common.c	/^   struct workload *workload;$/;"	m	struct:thread_data	typeref:struct:thread_data::workload	file:
+workload	workload-common.h	/^struct workload {$/;"	s
+workload_api	workload-common.h	/^struct workload_api {$/;"	s
+write_page_async	ioengine.c	/^char *write_page_async(struct slab_callback *callback) {$/;"	f
+x	indexes/cpp-btree/btree_test.cc	/^static unsigned long x=123456789, y=362436069, z=521288629;$/;"	v	file:
+x	random.c	/^static unsigned long x=123456789, y=362436069, z=521288629;$/;"	v	file:
+xorshf96	indexes/cpp-btree/btree_test.cc	/^unsigned long xorshf96(void) {          \/\/period 2^96-1$/;"	f
+xorshf96	random.c	/^unsigned long xorshf96(void) {          \/\/period 2^96-1$/;"	f
+y	indexes/cpp-btree/btree_test.cc	/^static unsigned long x=123456789, y=362436069, z=521288629;$/;"	v	file:
+y	random.c	/^static unsigned long x=123456789, y=362436069, z=521288629;$/;"	v	file:
+ycsb_a_uniform	workload-common.h	/^   ycsb_a_uniform,$/;"	e	enum:available_bench
+ycsb_a_zipfian	workload-common.h	/^   ycsb_a_zipfian,$/;"	e	enum:available_bench
+ycsb_b_uniform	workload-common.h	/^   ycsb_b_uniform,$/;"	e	enum:available_bench
+ycsb_b_zipfian	workload-common.h	/^   ycsb_b_zipfian,$/;"	e	enum:available_bench
+ycsb_c_uniform	workload-common.h	/^   ycsb_c_uniform,$/;"	e	enum:available_bench
+ycsb_c_zipfian	workload-common.h	/^   ycsb_c_zipfian,$/;"	e	enum:available_bench
+ycsb_e_uniform	workload-common.h	/^   ycsb_e_uniform,$/;"	e	enum:available_bench
+ycsb_e_zipfian	workload-common.h	/^   ycsb_e_zipfian,$/;"	e	enum:available_bench
+z	indexes/cpp-btree/btree_test.cc	/^static unsigned long x=123456789, y=362436069, z=521288629;$/;"	v	file:
+z	random.c	/^static unsigned long x=123456789, y=362436069, z=521288629;$/;"	v	file:
+zeta	random.c	/^double zeta(long st, long n, double initialsum) {$/;"	f
+zeta2theta	random.c	/^static double zeta2theta; \/\/initialized in init_zipf_generator function$/;"	v	file:
+zetan	random.c	/^static double zetan; \/\/initialized in init_zipf_generator function$/;"	v	file:
+zetastatic	random.c	/^double zetastatic(long st, long n, double initialsum){$/;"	f
+zipf_next	random.c	/^long zipf_next() {$/;"	f
+zipfianconstant	random.c	/^static double zipfianconstant; \/\/initialized in init_zipf_generator function$/;"	v	file:
+~btree	indexes/cpp-btree/btree.h	/^  ~btree() {$/;"	f	class:btree::btree

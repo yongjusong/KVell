@@ -1,0 +1,1201 @@
+# Configuration:
+# 	Page cache size: 30 GB
+# 	Workers: 4 working on 1 disks
+# 	IO configuration: 64 queue depth (capped: yes, extra waiting: no)
+# 	Queue configuration: 256 maximum pending callbaks per worker
+# 	Datastructures: 3 (memory index) 3 (pagecache)
+# 	Thread pinning: yes
+# 	Bench: YCSB (100000000 elements)
+Initializing random number generator (Zipf) -- this might take a while for large databases...
+(main,40) [  5233ms] Initializing random number generator (Zipf)
+[SLAB WORKER 0] tid 18877
+[SLAB WORKER 1] tid 18878
+[SLAB WORKER 2] tid 18879
+#Reserving memory for page cache...
+[SLAB WORKER 3] tid 18880
+#Reserving memory for page cache...
+#Reserving memory for page cache...
+#Reserving memory for page cache...
+(page_cache_init,29) [  2655ms] Page cache initialization
+(page_cache_init,29) [  2654ms] Page cache initialization
+(page_cache_init,29) [  2657ms] Page cache initialization
+(page_cache_init,29) [  2655ms] Page cache initialization
+(main,45) [  2696ms] Init found 0 elements
+now: 2019-12-5 23:10:51
+Initializing big array to insert elements in random order... This might take a while. (Feel free to comment but then the database will be sorted and scans much faster -- unfair vs other systems)
+(repopulate_db,128) [  8502ms] Big array of random positions
+[WORKER BREAKDOWN] io_submit  0% - io_getevents   0% - io_cb   0% - wait  99% - slab_cb   0% -       1 ops -       0 ops/s -   1 ops / loop - 17839386189 cycles/op
+[WORKER BREAKDOWN] io_submit  0% - io_getevents   0% - io_cb   0% - wait  99% - slab_cb   0% -       1 ops -       0 ops/s -   1 ops / loop - 17823058740 cycles/op
+[WORKER BREAKDOWN] io_submit  0% - io_getevents   0% - io_cb   0% - wait  99% - slab_cb   0% -       1 ops -       0 ops/s -   1 ops / loop - 17841683670 cycles/op
+[WORKER BREAKDOWN] io_submit  0% - io_getevents   0% - io_cb   0% - wait  99% - slab_cb   0% -       2 ops -       0 ops/s -   1 ops / loop - 8907358851 cycles/op
+(repopulate_db_worker,72) [  1s] [ 134965 ops/s] Repopulating database (1%)
+(repopulate_db_worker,72) [  1s] [ 134690 ops/s] Repopulating database (1%)
+(repopulate_db_worker,72) [  1s] [ 134236 ops/s] Repopulating database (1%)
+(repopulate_db_worker,72) [  1s] [ 135377 ops/s] Repopulating database (1%)
+[WORKER BREAKDOWN] io_submit 69% - io_getevents  17% - io_cb   6% - wait   0% - slab_cb   5% -  135208 ops -  135154 ops/s - 225 ops / loop - 20583 cycles/op
+[WORKER BREAKDOWN] io_submit 70% - io_getevents  17% - io_cb   6% - wait   0% - slab_cb   5% -  134428 ops -  134364 ops/s - 199 ops / loop - 20704 cycles/op
+[WORKER BREAKDOWN] io_submit 69% - io_getevents  18% - io_cb   6% - wait   0% - slab_cb   5% -  135155 ops -  135068 ops/s - 199 ops / loop - 20596 cycles/op
+[WORKER BREAKDOWN] io_submit 68% - io_getevents  19% - io_cb   6% - wait   0% - slab_cb   5% -  135211 ops -  135123 ops/s - 176 ops / loop - 20587 cycles/op
+(repopulate_db_worker,72) [  2s] [ 131479 ops/s] Repopulating database (2%)
+(repopulate_db_worker,72) [  2s] [ 132581 ops/s] Repopulating database (2%)
+(repopulate_db_worker,72) [  2s] [ 132199 ops/s] Repopulating database (2%)
+(repopulate_db_worker,72) [  2s] [ 131368 ops/s] Repopulating database (2%)
+[WORKER BREAKDOWN] io_submit 67% - io_getevents  17% - io_cb   7% - wait   0% - slab_cb   6% -  131700 ops -  131691 ops/s - 206 ops / loop - 21124 cycles/op
+[WORKER BREAKDOWN] io_submit 67% - io_getevents  17% - io_cb   7% - wait   0% - slab_cb   6% -  131945 ops -  131869 ops/s - 195 ops / loop - 21096 cycles/op
+[WORKER BREAKDOWN] io_submit 67% - io_getevents  18% - io_cb   7% - wait   0% - slab_cb   6% -  132089 ops -  131986 ops/s - 180 ops / loop - 21077 cycles/op
+[WORKER BREAKDOWN] io_submit 67% - io_getevents  17% - io_cb   7% - wait   0% - slab_cb   6% -  131796 ops -  131666 ops/s - 203 ops / loop - 21128 cycles/op
+(repopulate_db_worker,72) [  3s] [ 129931 ops/s] Repopulating database (2%)
+(repopulate_db_worker,72) [  3s] [ 130933 ops/s] Repopulating database (2%)
+(repopulate_db_worker,72) [  3s] [ 132029 ops/s] Repopulating database (2%)
+(repopulate_db_worker,72) [  3s] [ 130326 ops/s] Repopulating database (2%)
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  18% - io_cb   8% - wait   0% - slab_cb   6% -  131228 ops -  131063 ops/s - 173 ops / loop - 21225 cycles/op
+[WORKER BREAKDOWN] io_submit 68% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   6% -  130828 ops -  130725 ops/s - 245 ops / loop - 21280 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  18% - io_cb   8% - wait   0% - slab_cb   6% -  130740 ops -  130599 ops/s - 166 ops / loop - 21301 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  18% - io_cb   8% - wait   0% - slab_cb   6% -  130593 ops -  130450 ops/s - 163 ops / loop - 21325 cycles/op
+(repopulate_db_worker,72) [  4s] [ 128378 ops/s] Repopulating database (3%)
+(repopulate_db_worker,72) [  4s] [ 128952 ops/s] Repopulating database (3%)
+(repopulate_db_worker,72) [  4s] [ 128648 ops/s] Repopulating database (3%)
+(repopulate_db_worker,72) [  4s] [ 128229 ops/s] Repopulating database (3%)
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   6% -  129315 ops -  129307 ops/s - 164 ops / loop - 21514 cycles/op
+[WORKER BREAKDOWN] io_submit 67% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   7% -  129024 ops -  128865 ops/s - 252 ops / loop - 21587 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  18% - io_cb   8% - wait   1% - slab_cb   6% -  128655 ops -  128470 ops/s - 140 ops / loop - 21654 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  18% - io_cb   8% - wait   1% - slab_cb   6% -  128579 ops -  128395 ops/s - 147 ops / loop - 21666 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  17% - io_cb   8% - wait   0% - slab_cb   7% -  129941 ops -  129904 ops/s - 198 ops / loop - 21415 cycles/op
+(repopulate_db_worker,72) [  5s] [ 130035 ops/s] Repopulating database (3%)
+(repopulate_db_worker,72) [  5s] [ 129952 ops/s] Repopulating database (3%)
+(repopulate_db_worker,72) [  5s] [ 130622 ops/s] Repopulating database (3%)
+(repopulate_db_worker,72) [  5s] [ 130192 ops/s] Repopulating database (3%)
+[WORKER BREAKDOWN] io_submit 67% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   7% -  130284 ops -  130205 ops/s - 228 ops / loop - 21365 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  17% - io_cb   8% - wait   0% - slab_cb   7% -  130382 ops -  130202 ops/s - 185 ops / loop - 21366 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  18% - io_cb   8% - wait   0% - slab_cb   7% -  129952 ops -  129789 ops/s - 184 ops / loop - 21434 cycles/op
+(repopulate_db_worker,72) [  6s] [ 129803 ops/s] Repopulating database (4%)
+(repopulate_db_worker,72) [  6s] [ 130367 ops/s] Repopulating database (4%)
+(repopulate_db_worker,72) [  6s] [ 130594 ops/s] Repopulating database (4%)
+(repopulate_db_worker,72) [  6s] [ 129521 ops/s] Repopulating database (4%)
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   7% -  130116 ops -  130076 ops/s - 230 ops / loop - 21386 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  17% - io_cb   8% - wait   0% - slab_cb   7% -  130025 ops -  129987 ops/s - 224 ops / loop - 21401 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  18% - io_cb   8% - wait   0% - slab_cb   7% -  130408 ops -  130274 ops/s - 181 ops / loop - 21354 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  18% - io_cb   8% - wait   0% - slab_cb   7% -  130848 ops -  130674 ops/s - 197 ops / loop - 21288 cycles/op
+(repopulate_db_worker,72) [  7s] [ 128653 ops/s] Repopulating database (4%)
+(repopulate_db_worker,72) [  7s] [ 126966 ops/s] Repopulating database (4%)
+(repopulate_db_worker,72) [  7s] [ 128528 ops/s] Repopulating database (4%)
+(repopulate_db_worker,72) [  7s] [ 128231 ops/s] Repopulating database (4%)
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  17% - io_cb   8% - wait   0% - slab_cb   7% -  128504 ops -  128461 ops/s - 206 ops / loop - 21655 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   7% -  127967 ops -  127913 ops/s - 209 ops / loop - 21748 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  18% - io_cb   8% - wait   1% - slab_cb   7% -  127904 ops -  127865 ops/s - 155 ops / loop - 21756 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  17% - io_cb   8% - wait   0% - slab_cb   7% -  128436 ops -  128215 ops/s - 168 ops / loop - 21697 cycles/op
+(repopulate_db_worker,72) [  8s] [ 126657 ops/s] Repopulating database (5%)
+(repopulate_db_worker,72) [  8s] [ 126848 ops/s] Repopulating database (5%)
+(repopulate_db_worker,72) [  8s] [ 126557 ops/s] Repopulating database (5%)
+(repopulate_db_worker,72) [  8s] [ 126219 ops/s] Repopulating database (5%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  18% - io_cb   8% - wait   0% - slab_cb   7% -  126546 ops -  126483 ops/s - 152 ops / loop - 21994 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   7% -  125908 ops -  125901 ops/s - 215 ops / loop - 22096 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  18% - io_cb   8% - wait   1% - slab_cb   7% -  127007 ops -  126948 ops/s - 152 ops / loop - 21913 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   7% -  126864 ops -  126687 ops/s - 206 ops / loop - 21958 cycles/op
+(repopulate_db_worker,72) [  9s] [ 129077 ops/s] Repopulating database (5%)
+(repopulate_db_worker,72) [  9s] [ 129452 ops/s] Repopulating database (5%)
+(repopulate_db_worker,72) [  9s] [ 129208 ops/s] Repopulating database (5%)
+(repopulate_db_worker,72) [  9s] [ 128903 ops/s] Repopulating database (5%)
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   8% -  128750 ops -  128634 ops/s - 223 ops / loop - 21626 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   8% -  129272 ops -  129045 ops/s - 232 ops / loop - 21557 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  17% - io_cb   8% - wait   0% - slab_cb   8% -  129649 ops -  129642 ops/s - 223 ops / loop - 21458 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   8% -  128905 ops -  128842 ops/s - 221 ops / loop - 21591 cycles/op
+(repopulate_db_worker,72) [ 10s] [ 128295 ops/s] Repopulating database (6%)
+(repopulate_db_worker,72) [ 10s] [ 128338 ops/s] Repopulating database (6%)
+(repopulate_db_worker,72) [ 10s] [ 127977 ops/s] Repopulating database (6%)
+(repopulate_db_worker,72) [ 10s] [ 128595 ops/s] Repopulating database (6%)
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   8% -  129288 ops -  129092 ops/s - 236 ops / loop - 21549 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   8% -  128044 ops -  128034 ops/s - 227 ops / loop - 21727 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  18% - io_cb   8% - wait   0% - slab_cb   8% -  127963 ops -  127959 ops/s - 165 ops / loop - 21740 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  17% - io_cb   8% - wait   0% - slab_cb   8% -  128598 ops -  128387 ops/s - 190 ops / loop - 21668 cycles/op
+(repopulate_db_worker,72) [ 11s] [ 128716 ops/s] Repopulating database (6%)
+(repopulate_db_worker,72) [ 11s] [ 127619 ops/s] Repopulating database (6%)
+(repopulate_db_worker,72) [ 11s] [ 128122 ops/s] Repopulating database (6%)
+(repopulate_db_worker,72) [ 11s] [ 128623 ops/s] Repopulating database (6%)
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   8% -  128812 ops -  128721 ops/s - 238 ops / loop - 21612 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  17% - io_cb   8% - wait   0% - slab_cb   8% -  128076 ops -  127918 ops/s - 200 ops / loop - 21747 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  18% - io_cb   8% - wait   0% - slab_cb   8% -  128189 ops -  128045 ops/s - 179 ops / loop - 21726 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  17% - io_cb   8% - wait   0% - slab_cb   8% -  128509 ops -  128504 ops/s - 211 ops / loop - 21648 cycles/op
+(repopulate_db_worker,72) [ 12s] [ 124531 ops/s] Repopulating database (7%)
+(repopulate_db_worker,72) [ 12s] [ 126368 ops/s] Repopulating database (7%)
+(repopulate_db_worker,72) [ 12s] [ 125829 ops/s] Repopulating database (7%)
+(repopulate_db_worker,72) [ 12s] [ 126558 ops/s] Repopulating database (7%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  125626 ops -  125502 ops/s - 157 ops / loop - 22166 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  125693 ops -  125525 ops/s - 158 ops / loop - 22162 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   8% -  126008 ops -  125796 ops/s - 232 ops / loop - 22114 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  18% - io_cb   8% - wait   1% - slab_cb   8% -  126135 ops -  126126 ops/s - 160 ops / loop - 22056 cycles/op
+(repopulate_db_worker,72) [ 13s] [ 125416 ops/s] Repopulating database (7%)
+(repopulate_db_worker,72) [ 13s] [ 124453 ops/s] Repopulating database (7%)
+(repopulate_db_worker,72) [ 13s] [ 124606 ops/s] Repopulating database (7%)
+(repopulate_db_worker,72) [ 13s] [ 124940 ops/s] Repopulating database (7%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  124486 ops -  124294 ops/s - 145 ops / loop - 22381 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  125683 ops -  125596 ops/s - 152 ops / loop - 22149 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   8% -  125116 ops -  125012 ops/s - 251 ops / loop - 22253 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  124697 ops -  124502 ops/s - 143 ops / loop - 22344 cycles/op
+(repopulate_db_worker,72) [ 14s] [ 124289 ops/s] Repopulating database (8%)
+(repopulate_db_worker,72) [ 14s] [ 124862 ops/s] Repopulating database (8%)
+(repopulate_db_worker,72) [ 14s] [ 124800 ops/s] Repopulating database (8%)
+(repopulate_db_worker,72) [ 14s] [ 124529 ops/s] Repopulating database (8%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  18% - io_cb   8% - wait   1% - slab_cb   8% -  124605 ops -  124601 ops/s - 142 ops / loop - 22326 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  15% - io_cb   8% - wait   0% - slab_cb   8% -  124740 ops -  124658 ops/s - 252 ops / loop - 22316 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  124747 ops -  124592 ops/s - 151 ops / loop - 22328 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  125108 ops -  124947 ops/s - 148 ops / loop - 22264 cycles/op
+(repopulate_db_worker,72) [ 15s] [ 124376 ops/s] Repopulating database (8%)
+(repopulate_db_worker,72) [ 15s] [ 124753 ops/s] Repopulating database (8%)
+(repopulate_db_worker,72) [ 15s] [ 123644 ops/s] Repopulating database (8%)
+(repopulate_db_worker,72) [ 15s] [ 123542 ops/s] Repopulating database (8%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  123703 ops -  123491 ops/s - 139 ops / loop - 22527 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   8% -  124704 ops -  124496 ops/s - 251 ops / loop - 22345 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  124048 ops -  123854 ops/s - 149 ops / loop - 22461 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  124364 ops -  124300 ops/s - 138 ops / loop - 22380 cycles/op
+(repopulate_db_worker,72) [ 16s] [ 125326 ops/s] Repopulating database (9%)
+(repopulate_db_worker,72) [ 16s] [ 124827 ops/s] Repopulating database (9%)
+(repopulate_db_worker,72) [ 16s] [ 125249 ops/s] Repopulating database (9%)
+(repopulate_db_worker,72) [ 16s] [ 124203 ops/s] Repopulating database (9%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  124639 ops -  124609 ops/s - 150 ops / loop - 22325 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  124549 ops -  124534 ops/s - 153 ops / loop - 22338 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   8% -  124992 ops -  124932 ops/s - 252 ops / loop - 22267 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  124795 ops -  124789 ops/s - 149 ops / loop - 22293 cycles/op
+(repopulate_db_worker,72) [ 17s] [ 124673 ops/s] Repopulating database (9%)
+(repopulate_db_worker,72) [ 17s] [ 124006 ops/s] Repopulating database (9%)
+(repopulate_db_worker,72) [ 17s] [ 125184 ops/s] Repopulating database (9%)
+(repopulate_db_worker,72) [ 17s] [ 125147 ops/s] Repopulating database (9%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  125161 ops -  125000 ops/s - 174 ops / loop - 22255 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  16% - io_cb   8% - wait   0% - slab_cb   9% -  124856 ops -  124768 ops/s - 222 ops / loop - 22296 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  124951 ops -  124731 ops/s - 165 ops / loop - 22303 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   8% - wait   1% - slab_cb   8% -  125164 ops -  125055 ops/s - 169 ops / loop - 22245 cycles/op
+(repopulate_db_worker,72) [ 18s] [ 126631 ops/s] Repopulating database (10%)
+(repopulate_db_worker,72) [ 18s] [ 127087 ops/s] Repopulating database (10%)
+(repopulate_db_worker,72) [ 18s] [ 127399 ops/s] Repopulating database (10%)
+(repopulate_db_worker,72) [ 18s] [ 127257 ops/s] Repopulating database (10%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   8% -  127071 ops -  126933 ops/s - 204 ops / loop - 21916 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   8% -  127300 ops -  127209 ops/s - 237 ops / loop - 21868 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb   8% -  126980 ops -  126824 ops/s - 189 ops / loop - 21935 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   8% -  127697 ops -  127547 ops/s - 213 ops / loop - 21810 cycles/op
+(repopulate_db_worker,72) [ 19s] [ 126235 ops/s] Repopulating database (10%)
+(repopulate_db_worker,72) [ 19s] [ 126160 ops/s] Repopulating database (10%)
+(repopulate_db_worker,72) [ 19s] [ 125976 ops/s] Repopulating database (10%)
+(repopulate_db_worker,72) [ 19s] [ 126343 ops/s] Repopulating database (10%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb   8% -  126021 ops -  125974 ops/s - 189 ops / loop - 22083 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  126432 ops -  126377 ops/s - 235 ops / loop - 22012 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb   8% -  126121 ops -  126025 ops/s - 160 ops / loop - 22074 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb   8% -  126801 ops -  126724 ops/s - 186 ops / loop - 21952 cycles/op
+(repopulate_db_worker,72) [ 20s] [ 127895 ops/s] Repopulating database (11%)
+(repopulate_db_worker,72) [ 20s] [ 128278 ops/s] Repopulating database (11%)
+(repopulate_db_worker,72) [ 20s] [ 128189 ops/s] Repopulating database (11%)
+(repopulate_db_worker,72) [ 20s] [ 127976 ops/s] Repopulating database (11%)
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  128248 ops -  128158 ops/s - 235 ops / loop - 21706 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  127900 ops -  127862 ops/s - 239 ops / loop - 21757 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb   9% -  128394 ops -  128287 ops/s - 189 ops / loop - 21685 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  128171 ops -  127952 ops/s - 210 ops / loop - 21741 cycles/op
+(repopulate_db_worker,72) [ 21s] [ 127165 ops/s] Repopulating database (11%)
+(repopulate_db_worker,72) [ 21s] [ 127604 ops/s] Repopulating database (11%)
+(repopulate_db_worker,72) [ 21s] [ 127617 ops/s] Repopulating database (11%)
+(repopulate_db_worker,72) [ 21s] [ 127217 ops/s] Repopulating database (11%)
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  127684 ops -  127627 ops/s - 224 ops / loop - 21797 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  127732 ops -  127665 ops/s - 236 ops / loop - 21790 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb   8% -  127330 ops -  127322 ops/s - 171 ops / loop - 21849 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb   8% -  126996 ops -  126882 ops/s - 163 ops / loop - 21925 cycles/op
+(repopulate_db_worker,72) [ 22s] [ 127961 ops/s] Repopulating database (12%)
+(repopulate_db_worker,72) [ 22s] [ 127035 ops/s] Repopulating database (12%)
+(repopulate_db_worker,72) [ 22s] [ 127512 ops/s] Repopulating database (12%)
+(repopulate_db_worker,72) [ 22s] [ 127775 ops/s] Repopulating database (12%)
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  128060 ops -  128040 ops/s - 237 ops / loop - 21727 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  127960 ops -  127749 ops/s - 232 ops / loop - 21776 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb   9% -  127516 ops -  127392 ops/s - 173 ops / loop - 21837 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  127204 ops -  127168 ops/s - 173 ops / loop - 21875 cycles/op
+(repopulate_db_worker,72) [ 23s] [ 127221 ops/s] Repopulating database (12%)
+(repopulate_db_worker,72) [ 23s] [ 126896 ops/s] Repopulating database (12%)
+(repopulate_db_worker,72) [ 23s] [ 127743 ops/s] Repopulating database (12%)
+(repopulate_db_worker,72) [ 23s] [ 128161 ops/s] Repopulating database (12%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  127392 ops -  127319 ops/s - 204 ops / loop - 21849 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  127312 ops -  127194 ops/s - 213 ops / loop - 21871 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb   9% -  128047 ops -  127812 ops/s - 177 ops / loop - 21765 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  127380 ops -  127349 ops/s - 199 ops / loop - 21844 cycles/op
+(repopulate_db_worker,72) [ 24s] [ 126302 ops/s] Repopulating database (13%)
+(repopulate_db_worker,72) [ 24s] [ 125954 ops/s] Repopulating database (13%)
+(repopulate_db_worker,72) [ 24s] [ 126146 ops/s] Repopulating database (13%)
+(repopulate_db_worker,72) [ 24s] [ 125755 ops/s] Repopulating database (13%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  126386 ops -  126359 ops/s - 171 ops / loop - 22015 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  126000 ops -  125904 ops/s - 252 ops / loop - 22095 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  125824 ops -  125822 ops/s - 160 ops / loop - 22109 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  126285 ops -  126188 ops/s - 164 ops / loop - 22045 cycles/op
+(repopulate_db_worker,72) [ 25s] [ 121362 ops/s] Repopulating database (13%)
+(repopulate_db_worker,72) [ 25s] [ 121113 ops/s] Repopulating database (13%)
+(repopulate_db_worker,72) [ 25s] [ 121896 ops/s] Repopulating database (13%)
+(repopulate_db_worker,72) [ 25s] [ 122464 ops/s] Repopulating database (13%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   8% - wait   2% - slab_cb   9% -  121602 ops -  121408 ops/s - 121 ops / loop - 22913 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  17% - io_cb   8% - wait   2% - slab_cb   9% -  121569 ops -  121555 ops/s - 118 ops / loop - 22886 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb   9% -  122220 ops -  121958 ops/s - 252 ops / loop - 22810 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  17% - io_cb   8% - wait   2% - slab_cb   9% -  122288 ops -  122201 ops/s - 125 ops / loop - 22765 cycles/op
+(repopulate_db_worker,72) [ 26s] [ 123906 ops/s] Repopulating database (14%)
+(repopulate_db_worker,72) [ 26s] [ 125190 ops/s] Repopulating database (14%)
+(repopulate_db_worker,72) [ 26s] [ 123879 ops/s] Repopulating database (14%)
+(repopulate_db_worker,72) [ 26s] [ 123039 ops/s] Repopulating database (14%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  124060 ops -  123868 ops/s - 139 ops / loop - 22458 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  123480 ops -  123323 ops/s - 252 ops / loop - 22557 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  124746 ops -  124622 ops/s - 150 ops / loop - 22322 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  124562 ops -  124378 ops/s - 146 ops / loop - 22366 cycles/op
+(repopulate_db_worker,72) [ 27s] [ 123358 ops/s] Repopulating database (14%)
+(repopulate_db_worker,72) [ 27s] [ 124405 ops/s] Repopulating database (14%)
+(repopulate_db_worker,72) [ 27s] [ 123528 ops/s] Repopulating database (14%)
+(repopulate_db_worker,72) [ 27s] [ 123751 ops/s] Repopulating database (14%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  123844 ops -  123680 ops/s - 156 ops / loop - 22492 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  17% - io_cb   9% - wait   1% - slab_cb   9% -  123548 ops -  123463 ops/s - 129 ops / loop - 22532 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  123684 ops -  123608 ops/s - 147 ops / loop - 22506 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  123732 ops -  123608 ops/s - 252 ops / loop - 22506 cycles/op
+(repopulate_db_worker,72) [ 28s] [ 123311 ops/s] Repopulating database (15%)
+(repopulate_db_worker,72) [ 28s] [ 123845 ops/s] Repopulating database (15%)
+(repopulate_db_worker,72) [ 28s] [ 123642 ops/s] Repopulating database (15%)
+(repopulate_db_worker,72) [ 28s] [ 123419 ops/s] Repopulating database (15%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  123771 ops -  123656 ops/s - 154 ops / loop - 22497 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  17% - io_cb   9% - wait   1% - slab_cb   9% -  123480 ops -  123381 ops/s - 130 ops / loop - 22547 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  123928 ops -  123816 ops/s - 251 ops / loop - 22468 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  17% - io_cb   9% - wait   1% - slab_cb   9% -  124122 ops -  123951 ops/s - 142 ops / loop - 22443 cycles/op
+(repopulate_db_worker,72) [ 29s] [ 123050 ops/s] Repopulating database (15%)
+(repopulate_db_worker,72) [ 29s] [ 123864 ops/s] Repopulating database (15%)
+(repopulate_db_worker,72) [ 29s] [ 123380 ops/s] Repopulating database (15%)
+(repopulate_db_worker,72) [ 29s] [ 123074 ops/s] Repopulating database (15%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  123769 ops -  123648 ops/s - 152 ops / loop - 22498 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  123221 ops -  123170 ops/s - 156 ops / loop - 22585 cycles/op
+[WORKER BREAKDOWN] io_submit 66% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  123632 ops -  123494 ops/s - 251 ops / loop - 22526 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  17% - io_cb   9% - wait   1% - slab_cb   9% -  123104 ops -  122897 ops/s - 128 ops / loop - 22636 cycles/op
+(repopulate_db_worker,72) [ 30s] [ 124167 ops/s] Repopulating database (16%)
+(repopulate_db_worker,72) [ 30s] [ 123644 ops/s] Repopulating database (16%)
+(repopulate_db_worker,72) [ 30s] [ 123441 ops/s] Repopulating database (16%)
+(repopulate_db_worker,72) [ 30s] [ 124083 ops/s] Repopulating database (16%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  124149 ops -  124133 ops/s - 163 ops / loop - 22410 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  123940 ops -  123899 ops/s - 251 ops / loop - 22453 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  17% - io_cb   9% - wait   1% - slab_cb   9% -  123600 ops -  123560 ops/s - 131 ops / loop - 22514 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  123995 ops -  123829 ops/s - 148 ops / loop - 22465 cycles/op
+(repopulate_db_worker,72) [ 31s] [ 124267 ops/s] Repopulating database (16%)
+(repopulate_db_worker,72) [ 31s] [ 123870 ops/s] Repopulating database (16%)
+(repopulate_db_worker,72) [ 31s] [ 123980 ops/s] Repopulating database (16%)
+(repopulate_db_worker,72) [ 31s] [ 124761 ops/s] Repopulating database (16%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  123925 ops -  123832 ops/s - 163 ops / loop - 22465 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  124461 ops -  124437 ops/s - 157 ops / loop - 22356 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  123924 ops -  123795 ops/s - 251 ops / loop - 22471 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  124636 ops -  124480 ops/s - 147 ops / loop - 22348 cycles/op
+(repopulate_db_worker,72) [ 32s] [ 125302 ops/s] Repopulating database (17%)
+(repopulate_db_worker,72) [ 32s] [ 125045 ops/s] Repopulating database (17%)
+(repopulate_db_worker,72) [ 32s] [ 124922 ops/s] Repopulating database (17%)
+(repopulate_db_worker,72) [ 32s] [ 124338 ops/s] Repopulating database (17%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  124557 ops -  124548 ops/s - 163 ops / loop - 22336 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  124836 ops -  124674 ops/s - 247 ops / loop - 22313 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  125570 ops -  125355 ops/s - 187 ops / loop - 22192 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  125012 ops -  124850 ops/s - 152 ops / loop - 22282 cycles/op
+(repopulate_db_worker,72) [ 33s] [ 123673 ops/s] Repopulating database (17%)
+(repopulate_db_worker,72) [ 33s] [ 123155 ops/s] Repopulating database (17%)
+(repopulate_db_worker,72) [ 33s] [ 123809 ops/s] Repopulating database (17%)
+(repopulate_db_worker,72) [ 33s] [ 124245 ops/s] Repopulating database (17%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  123902 ops -  123868 ops/s - 153 ops / loop - 22458 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  123984 ops -  123894 ops/s - 252 ops / loop - 22454 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  124057 ops -  123969 ops/s - 160 ops / loop - 22440 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  17% - io_cb   9% - wait   1% - slab_cb   9% -  123596 ops -  123512 ops/s - 132 ops / loop - 22523 cycles/op
+(repopulate_db_worker,72) [ 34s] [ 120313 ops/s] Repopulating database (18%)
+(repopulate_db_worker,72) [ 34s] [ 121196 ops/s] Repopulating database (18%)
+(repopulate_db_worker,72) [ 34s] [ 121280 ops/s] Repopulating database (18%)
+(repopulate_db_worker,72) [ 34s] [ 120523 ops/s] Repopulating database (18%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   2% - slab_cb  10% -  120357 ops -  120207 ops/s - 146 ops / loop - 23142 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  14% - io_cb   9% - wait   1% - slab_cb  10% -  120936 ops -  120733 ops/s - 239 ops / loop - 23041 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   2% - slab_cb  10% -  121472 ops -  121250 ops/s - 155 ops / loop - 22943 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   2% - slab_cb  10% -  120952 ops -  120729 ops/s - 140 ops / loop - 23042 cycles/op
+(repopulate_db_worker,72) [ 35s] [ 123221 ops/s] Repopulating database (18%)
+(repopulate_db_worker,72) [ 35s] [ 122758 ops/s] Repopulating database (18%)
+(repopulate_db_worker,72) [ 35s] [ 122257 ops/s] Repopulating database (18%)
+(repopulate_db_worker,72) [ 35s] [ 122036 ops/s] Repopulating database (18%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  123250 ops -  123233 ops/s - 156 ops / loop - 22574 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb   9% -  122472 ops -  122460 ops/s - 252 ops / loop - 22716 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  122658 ops -  122483 ops/s - 139 ops / loop - 22712 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  17% - io_cb   9% - wait   1% - slab_cb   9% -  122700 ops -  122496 ops/s - 128 ops / loop - 22710 cycles/op
+(repopulate_db_worker,72) [ 36s] [ 123268 ops/s] Repopulating database (19%)
+(repopulate_db_worker,72) [ 36s] [ 124255 ops/s] Repopulating database (19%)
+(repopulate_db_worker,72) [ 36s] [ 122630 ops/s] Repopulating database (19%)
+(repopulate_db_worker,72) [ 36s] [ 122823 ops/s] Repopulating database (19%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  123588 ops -  123380 ops/s - 174 ops / loop - 22547 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  123016 ops -  122839 ops/s - 249 ops / loop - 22646 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  123569 ops -  123546 ops/s - 156 ops / loop - 22517 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  17% - io_cb   9% - wait   1% - slab_cb   9% -  123176 ops -  123022 ops/s - 144 ops / loop - 22613 cycles/op
+(repopulate_db_worker,72) [ 37s] [ 123652 ops/s] Repopulating database (19%)
+(repopulate_db_worker,72) [ 37s] [ 122970 ops/s] Repopulating database (19%)
+(repopulate_db_worker,72) [ 37s] [ 124330 ops/s] Repopulating database (19%)
+(repopulate_db_worker,72) [ 37s] [ 123570 ops/s] Repopulating database (19%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  123198 ops -  123165 ops/s - 166 ops / loop - 22586 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  123936 ops -  123916 ops/s - 243 ops / loop - 22450 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  17% - io_cb   9% - wait   1% - slab_cb   9% -  123222 ops -  123058 ops/s - 136 ops / loop - 22606 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  124026 ops -  124000 ops/s - 152 ops / loop - 22434 cycles/op
+(repopulate_db_worker,72) [ 38s] [ 123816 ops/s] Repopulating database (20%)
+(repopulate_db_worker,72) [ 38s] [ 124702 ops/s] Repopulating database (20%)
+(repopulate_db_worker,72) [ 38s] [ 123599 ops/s] Repopulating database (20%)
+(repopulate_db_worker,72) [ 38s] [ 124381 ops/s] Repopulating database (20%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  123990 ops -  123849 ops/s - 172 ops / loop - 22462 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124940 ops -  124905 ops/s - 251 ops / loop - 22272 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb   9% -  124046 ops -  123993 ops/s - 152 ops / loop - 22436 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  124526 ops -  124435 ops/s - 158 ops / loop - 22356 cycles/op
+(repopulate_db_worker,72) [ 39s] [ 123371 ops/s] Repopulating database (20%)
+(repopulate_db_worker,72) [ 39s] [ 124232 ops/s] Repopulating database (20%)
+(repopulate_db_worker,72) [ 39s] [ 123817 ops/s] Repopulating database (20%)
+(repopulate_db_worker,72) [ 39s] [ 124233 ops/s] Repopulating database (20%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  124256 ops -  124055 ops/s - 205 ops / loop - 22424 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  124231 ops -  124139 ops/s - 238 ops / loop - 22409 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb   9% -  124087 ops -  123965 ops/s - 145 ops / loop - 22441 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb   9% -  123067 ops -  123013 ops/s - 139 ops / loop - 22614 cycles/op
+(repopulate_db_worker,72) [ 40s] [ 125074 ops/s] Repopulating database (21%)
+(repopulate_db_worker,72) [ 40s] [ 124069 ops/s] Repopulating database (21%)
+(repopulate_db_worker,72) [ 40s] [ 123973 ops/s] Repopulating database (21%)
+(repopulate_db_worker,72) [ 40s] [ 123524 ops/s] Repopulating database (21%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  124432 ops -  124391 ops/s - 199 ops / loop - 22364 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124645 ops -  124510 ops/s - 248 ops / loop - 22342 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  123936 ops -  123915 ops/s - 152 ops / loop - 22450 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  124378 ops -  124226 ops/s - 168 ops / loop - 22394 cycles/op
+(repopulate_db_worker,72) [ 41s] [ 124713 ops/s] Repopulating database (21%)
+(repopulate_db_worker,72) [ 41s] [ 124228 ops/s] Repopulating database (21%)
+(repopulate_db_worker,72) [ 41s] [ 125252 ops/s] Repopulating database (21%)
+(repopulate_db_worker,72) [ 41s] [ 124605 ops/s] Repopulating database (21%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124980 ops -  124827 ops/s - 218 ops / loop - 22286 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124576 ops -  124398 ops/s - 243 ops / loop - 22363 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  124922 ops -  124709 ops/s - 162 ops / loop - 22307 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb   9% -  124503 ops -  124381 ops/s - 206 ops / loop - 22366 cycles/op
+(repopulate_db_worker,72) [ 42s] [ 123080 ops/s] Repopulating database (22%)
+(repopulate_db_worker,72) [ 42s] [ 123223 ops/s] Repopulating database (22%)
+(repopulate_db_worker,72) [ 42s] [ 124255 ops/s] Repopulating database (22%)
+(repopulate_db_worker,72) [ 42s] [ 124225 ops/s] Repopulating database (22%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124008 ops -  123956 ops/s - 214 ops / loop - 22442 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124064 ops -  123939 ops/s - 205 ops / loop - 22445 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  124124 ops -  123938 ops/s - 149 ops / loop - 22446 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb   9% -  123384 ops -  123200 ops/s - 171 ops / loop - 22580 cycles/op
+(repopulate_db_worker,72) [ 43s] [ 125035 ops/s] Repopulating database (22%)
+(repopulate_db_worker,72) [ 43s] [ 125554 ops/s] Repopulating database (22%)
+(repopulate_db_worker,72) [ 43s] [ 126020 ops/s] Repopulating database (22%)
+(repopulate_db_worker,72) [ 43s] [ 125239 ops/s] Repopulating database (22%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  125345 ops -  125331 ops/s - 236 ops / loop - 22196 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  125232 ops -  125204 ops/s - 240 ops / loop - 22219 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  125701 ops -  125649 ops/s - 220 ops / loop - 22140 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  125561 ops -  125489 ops/s - 177 ops / loop - 22168 cycles/op
+(repopulate_db_worker,72) [ 44s] [ 125505 ops/s] Repopulating database (23%)
+(repopulate_db_worker,72) [ 44s] [ 125101 ops/s] Repopulating database (23%)
+(repopulate_db_worker,72) [ 44s] [ 124174 ops/s] Repopulating database (23%)
+(repopulate_db_worker,72) [ 44s] [ 125075 ops/s] Repopulating database (23%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124365 ops -  124275 ops/s - 188 ops / loop - 22385 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  125147 ops -  125136 ops/s - 235 ops / loop - 22231 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  10% -  125106 ops -  124972 ops/s - 162 ops / loop - 22260 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  125240 ops -  125076 ops/s - 213 ops / loop - 22241 cycles/op
+(repopulate_db_worker,72) [ 45s] [ 124742 ops/s] Repopulating database (23%)
+(repopulate_db_worker,72) [ 45s] [ 124770 ops/s] Repopulating database (23%)
+(repopulate_db_worker,72) [ 45s] [ 124489 ops/s] Repopulating database (23%)
+(repopulate_db_worker,72) [ 45s] [ 124539 ops/s] Repopulating database (23%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  125234 ops -  125185 ops/s - 230 ops / loop - 22222 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124557 ops -  124520 ops/s - 221 ops / loop - 22341 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  10% -  124728 ops -  124586 ops/s - 154 ops / loop - 22329 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  125287 ops -  125161 ops/s - 213 ops / loop - 22226 cycles/op
+(repopulate_db_worker,72) [ 46s] [ 124362 ops/s] Repopulating database (24%)
+(repopulate_db_worker,72) [ 46s] [ 124147 ops/s] Repopulating database (24%)
+(repopulate_db_worker,72) [ 46s] [ 125013 ops/s] Repopulating database (24%)
+(repopulate_db_worker,72) [ 46s] [ 125549 ops/s] Repopulating database (24%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124920 ops -  124873 ops/s - 215 ops / loop - 22277 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124668 ops -  124609 ops/s - 233 ops / loop - 22325 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  125197 ops -  125145 ops/s - 174 ops / loop - 22229 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  123945 ops -  123870 ops/s - 166 ops / loop - 22458 cycles/op
+(repopulate_db_worker,72) [ 47s] [ 125422 ops/s] Repopulating database (24%)
+(repopulate_db_worker,72) [ 47s] [ 124825 ops/s] Repopulating database (24%)
+(repopulate_db_worker,72) [ 47s] [ 125059 ops/s] Repopulating database (24%)
+(repopulate_db_worker,72) [ 47s] [ 125762 ops/s] Repopulating database (24%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  125476 ops -  125248 ops/s - 219 ops / loop - 22211 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  125439 ops -  125226 ops/s - 240 ops / loop - 22215 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  10% -  125439 ops -  125425 ops/s - 172 ops / loop - 22179 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  125604 ops -  125363 ops/s - 188 ops / loop - 22190 cycles/op
+(repopulate_db_worker,72) [ 48s] [ 124867 ops/s] Repopulating database (25%)
+(repopulate_db_worker,72) [ 48s] [ 125654 ops/s] Repopulating database (25%)
+(repopulate_db_worker,72) [ 48s] [ 125049 ops/s] Repopulating database (25%)
+(repopulate_db_worker,72) [ 48s] [ 125422 ops/s] Repopulating database (25%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  125748 ops -  125620 ops/s - 235 ops / loop - 22145 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  125369 ops -  125285 ops/s - 240 ops / loop - 22204 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  125364 ops -  125316 ops/s - 169 ops / loop - 22199 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  125228 ops -  125162 ops/s - 186 ops / loop - 22226 cycles/op
+(repopulate_db_worker,72) [ 49s] [ 124761 ops/s] Repopulating database (25%)
+(repopulate_db_worker,72) [ 49s] [ 124865 ops/s] Repopulating database (25%)
+(repopulate_db_worker,72) [ 49s] [ 124496 ops/s] Repopulating database (25%)
+(repopulate_db_worker,72) [ 49s] [ 125494 ops/s] Repopulating database (25%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  125120 ops -  124978 ops/s - 206 ops / loop - 22259 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124624 ops -  124613 ops/s - 227 ops / loop - 22324 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  125083 ops -  125078 ops/s - 183 ops / loop - 22241 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  124300 ops -  124240 ops/s - 166 ops / loop - 22391 cycles/op
+(repopulate_db_worker,72) [ 50s] [ 123718 ops/s] Repopulating database (26%)
+(repopulate_db_worker,72) [ 50s] [ 122600 ops/s] Repopulating database (26%)
+(repopulate_db_worker,72) [ 50s] [ 122174 ops/s] Repopulating database (26%)
+(repopulate_db_worker,72) [ 50s] [ 122915 ops/s] Repopulating database (26%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123298 ops -  123192 ops/s - 181 ops / loop - 22581 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123264 ops -  123060 ops/s - 243 ops / loop - 22606 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  17% - io_cb   9% - wait   1% - slab_cb  10% -  122503 ops -  122465 ops/s - 131 ops / loop - 22716 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  10% -  123073 ops -  122970 ops/s - 154 ops / loop - 22622 cycles/op
+(repopulate_db_worker,72) [ 51s] [ 122130 ops/s] Repopulating database (26%)
+(repopulate_db_worker,72) [ 51s] [ 122292 ops/s] Repopulating database (26%)
+(repopulate_db_worker,72) [ 51s] [ 122108 ops/s] Repopulating database (26%)
+(repopulate_db_worker,72) [ 51s] [ 122494 ops/s] Repopulating database (26%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  10% -  122090 ops -  121968 ops/s - 138 ops / loop - 22808 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  10% -  122472 ops -  122408 ops/s - 252 ops / loop - 22726 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  10% -  122224 ops -  122171 ops/s - 139 ops / loop - 22770 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  10% -  122931 ops -  122852 ops/s - 153 ops / loop - 22644 cycles/op
+(repopulate_db_worker,72) [ 52s] [ 121628 ops/s] Repopulating database (27%)
+(repopulate_db_worker,72) [ 52s] [ 122328 ops/s] Repopulating database (27%)
+(repopulate_db_worker,72) [ 52s] [ 122850 ops/s] Repopulating database (27%)
+(repopulate_db_worker,72) [ 52s] [ 122688 ops/s] Repopulating database (27%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  10% -  122468 ops -  122444 ops/s - 151 ops / loop - 22720 cycles/op
+[WORKER BREAKDOWN] io_submit 65% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  10% -  122320 ops -  122315 ops/s - 251 ops / loop - 22743 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  10% -  122453 ops -  122240 ops/s - 141 ops / loop - 22757 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  10% -  122216 ops -  122107 ops/s - 136 ops / loop - 22782 cycles/op
+(repopulate_db_worker,72) [ 53s] [ 124293 ops/s] Repopulating database (27%)
+(repopulate_db_worker,72) [ 53s] [ 123919 ops/s] Repopulating database (27%)
+(repopulate_db_worker,72) [ 53s] [ 124361 ops/s] Repopulating database (27%)
+(repopulate_db_worker,72) [ 53s] [ 123889 ops/s] Repopulating database (27%)
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124556 ops -  124550 ops/s - 214 ops / loop - 22335 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124048 ops -  123901 ops/s - 245 ops / loop - 22452 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  124449 ops -  124318 ops/s - 183 ops / loop - 22377 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  10% -  123778 ops -  123709 ops/s - 152 ops / loop - 22487 cycles/op
+(repopulate_db_worker,72) [ 54s] [ 123248 ops/s] Repopulating database (28%)
+(repopulate_db_worker,72) [ 54s] [ 122235 ops/s] Repopulating database (28%)
+(repopulate_db_worker,72) [ 54s] [ 124112 ops/s] Repopulating database (28%)
+(repopulate_db_worker,72) [ 54s] [ 123168 ops/s] Repopulating database (28%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123270 ops -  123102 ops/s - 199 ops / loop - 22598 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123564 ops -  123482 ops/s - 235 ops / loop - 22528 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  10% -  122920 ops -  122822 ops/s - 147 ops / loop - 22649 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  18% - io_cb   9% - wait   0% - slab_cb  10% -  123402 ops -  123294 ops/s - 145 ops / loop - 22563 cycles/op
+(repopulate_db_worker,72) [ 55s] [ 124042 ops/s] Repopulating database (28%)
+(repopulate_db_worker,72) [ 55s] [ 123341 ops/s] Repopulating database (28%)
+(repopulate_db_worker,72) [ 55s] [ 122417 ops/s] Repopulating database (28%)
+(repopulate_db_worker,72) [ 55s] [ 124250 ops/s] Repopulating database (28%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123962 ops -  123943 ops/s - 213 ops / loop - 22445 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123540 ops -  123480 ops/s - 238 ops / loop - 22529 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  123732 ops -  123560 ops/s - 176 ops / loop - 22514 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  123298 ops -  123135 ops/s - 148 ops / loop - 22592 cycles/op
+(repopulate_db_worker,72) [ 56s] [ 123632 ops/s] Repopulating database (29%)
+(repopulate_db_worker,72) [ 56s] [ 121982 ops/s] Repopulating database (29%)
+(repopulate_db_worker,72) [ 56s] [ 121670 ops/s] Repopulating database (29%)
+(repopulate_db_worker,72) [ 56s] [ 122364 ops/s] Repopulating database (29%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  122184 ops -  122043 ops/s - 165 ops / loop - 22794 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123020 ops -  122807 ops/s - 210 ops / loop - 22652 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  17% - io_cb   9% - wait   1% - slab_cb  10% -  121944 ops -  121910 ops/s - 127 ops / loop - 22819 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123462 ops -  123221 ops/s - 191 ops / loop - 22576 cycles/op
+(repopulate_db_worker,72) [ 57s] [ 123180 ops/s] Repopulating database (29%)
+(repopulate_db_worker,72) [ 57s] [ 123846 ops/s] Repopulating database (29%)
+(repopulate_db_worker,72) [ 57s] [ 123994 ops/s] Repopulating database (29%)
+(repopulate_db_worker,72) [ 57s] [ 123601 ops/s] Repopulating database (29%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124028 ops -  123963 ops/s - 210 ops / loop - 22441 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123992 ops -  123829 ops/s - 246 ops / loop - 22465 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  10% -  123132 ops -  122992 ops/s - 146 ops / loop - 22618 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123212 ops -  123109 ops/s - 179 ops / loop - 22597 cycles/op
+(repopulate_db_worker,72) [ 58s] [ 123702 ops/s] Repopulating database (30%)
+(repopulate_db_worker,72) [ 58s] [ 123667 ops/s] Repopulating database (30%)
+(repopulate_db_worker,72) [ 58s] [ 123997 ops/s] Repopulating database (30%)
+(repopulate_db_worker,72) [ 58s] [ 123918 ops/s] Repopulating database (30%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  123308 ops -  123137 ops/s - 176 ops / loop - 22592 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124036 ops -  123998 ops/s - 238 ops / loop - 22435 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  10% -  124466 ops -  124224 ops/s - 163 ops / loop - 22394 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124444 ops -  124435 ops/s - 202 ops / loop - 22356 cycles/op
+(repopulate_db_worker,72) [ 59s] [ 122928 ops/s] Repopulating database (30%)
+(repopulate_db_worker,72) [ 59s] [ 124145 ops/s] Repopulating database (30%)
+(repopulate_db_worker,72) [ 59s] [ 123811 ops/s] Repopulating database (30%)
+(repopulate_db_worker,72) [ 59s] [ 124182 ops/s] Repopulating database (30%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123970 ops -  123889 ops/s - 194 ops / loop - 22455 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124280 ops -  124089 ops/s - 229 ops / loop - 22418 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  10% -  123426 ops -  123329 ops/s - 149 ops / loop - 22556 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123452 ops -  123440 ops/s - 187 ops / loop - 22536 cycles/op
+(repopulate_db_worker,72) [ 60s] [ 124417 ops/s] Repopulating database (31%)
+(repopulate_db_worker,72) [ 60s] [ 123820 ops/s] Repopulating database (31%)
+(repopulate_db_worker,72) [ 60s] [ 123783 ops/s] Repopulating database (31%)
+(repopulate_db_worker,72) [ 60s] [ 123120 ops/s] Repopulating database (31%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123868 ops -  123645 ops/s - 189 ops / loop - 22499 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124028 ops -  123835 ops/s - 216 ops / loop - 22464 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  123719 ops -  123663 ops/s - 163 ops / loop - 22495 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124140 ops -  124044 ops/s - 225 ops / loop - 22426 cycles/op
+(repopulate_db_worker,72) [ 61s] [ 123617 ops/s] Repopulating database (31%)
+(repopulate_db_worker,72) [ 61s] [ 123483 ops/s] Repopulating database (31%)
+(repopulate_db_worker,72) [ 61s] [ 122788 ops/s] Repopulating database (31%)
+(repopulate_db_worker,72) [ 61s] [ 124497 ops/s] Repopulating database (31%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  123670 ops -  123560 ops/s - 184 ops / loop - 22514 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  10% -  123720 ops -  123587 ops/s - 245 ops / loop - 22509 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123738 ops -  123716 ops/s - 199 ops / loop - 22486 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  124110 ops -  123916 ops/s - 159 ops / loop - 22449 cycles/op
+(repopulate_db_worker,72) [ 62s] [ 124256 ops/s] Repopulating database (32%)
+(repopulate_db_worker,72) [ 62s] [ 123381 ops/s] Repopulating database (32%)
+(repopulate_db_worker,72) [ 62s] [ 123550 ops/s] Repopulating database (32%)
+(repopulate_db_worker,72) [ 62s] [ 124076 ops/s] Repopulating database (32%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  124468 ops -  124360 ops/s - 205 ops / loop - 22369 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123804 ops -  123657 ops/s - 236 ops / loop - 22497 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  123916 ops -  123728 ops/s - 178 ops / loop - 22484 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  123991 ops -  123809 ops/s - 166 ops / loop - 22469 cycles/op
+(repopulate_db_worker,72) [ 63s] [ 123325 ops/s] Repopulating database (32%)
+(repopulate_db_worker,72) [ 63s] [ 123154 ops/s] Repopulating database (32%)
+(repopulate_db_worker,72) [ 63s] [ 123092 ops/s] Repopulating database (32%)
+(repopulate_db_worker,72) [ 63s] [ 123055 ops/s] Repopulating database (32%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123360 ops -  123257 ops/s - 178 ops / loop - 22570 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  10% -  123388 ops -  123317 ops/s - 241 ops / loop - 22559 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  122886 ops -  122885 ops/s - 146 ops / loop - 22638 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  123114 ops -  122982 ops/s - 177 ops / loop - 22620 cycles/op
+(repopulate_db_worker,72) [ 64s] [ 123575 ops/s] Repopulating database (33%)
+(repopulate_db_worker,72) [ 64s] [ 122987 ops/s] Repopulating database (33%)
+(repopulate_db_worker,72) [ 64s] [ 122910 ops/s] Repopulating database (33%)
+(repopulate_db_worker,72) [ 64s] [ 122909 ops/s] Repopulating database (33%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  10% -  123292 ops -  123082 ops/s - 174 ops / loop - 22602 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  123288 ops -  123148 ops/s - 249 ops / loop - 22590 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  123434 ops -  123414 ops/s - 187 ops / loop - 22541 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  122882 ops -  122646 ops/s - 148 ops / loop - 22682 cycles/op
+(repopulate_db_worker,72) [ 65s] [ 124812 ops/s] Repopulating database (33%)
+(repopulate_db_worker,72) [ 65s] [ 125093 ops/s] Repopulating database (33%)
+(repopulate_db_worker,72) [ 65s] [ 124736 ops/s] Repopulating database (33%)
+(repopulate_db_worker,72) [ 65s] [ 125033 ops/s] Repopulating database (33%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  125188 ops -  124996 ops/s - 225 ops / loop - 22256 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  124926 ops -  124917 ops/s - 214 ops / loop - 22270 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  124784 ops -  124522 ops/s - 245 ops / loop - 22340 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  124960 ops -  124865 ops/s - 204 ops / loop - 22279 cycles/op
+(repopulate_db_worker,72) [ 66s] [ 120033 ops/s] Repopulating database (34%)
+(repopulate_db_worker,72) [ 66s] [ 119930 ops/s] Repopulating database (34%)
+(repopulate_db_worker,72) [ 66s] [ 119297 ops/s] Repopulating database (34%)
+(repopulate_db_worker,72) [ 66s] [ 119049 ops/s] Repopulating database (34%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   2% - slab_cb  10% -  119259 ops -  119188 ops/s - 131 ops / loop - 23340 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   2% - slab_cb  10% -  119699 ops -  119686 ops/s - 126 ops / loop - 23243 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  10% -  119448 ops -  119189 ops/s - 252 ops / loop - 23340 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   2% - slab_cb  10% -  119862 ops -  119725 ops/s - 128 ops / loop - 23235 cycles/op
+(repopulate_db_worker,72) [ 67s] [ 117986 ops/s] Repopulating database (34%)
+(repopulate_db_worker,72) [ 67s] [ 118512 ops/s] Repopulating database (34%)
+(repopulate_db_worker,72) [ 67s] [ 118249 ops/s] Repopulating database (34%)
+(repopulate_db_worker,72) [ 67s] [ 118540 ops/s] Repopulating database (34%)
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   2% - slab_cb  10% -  118953 ops -  118722 ops/s - 121 ops / loop - 23432 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   2% - slab_cb  10% -  118384 ops -  118273 ops/s - 121 ops / loop - 23521 cycles/op
+[WORKER BREAKDOWN] io_submit 59% - io_getevents  16% - io_cb   9% - wait   2% - slab_cb  10% -  117815 ops -  117782 ops/s - 116 ops / loop - 23619 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  10% -  118692 ops -  118615 ops/s - 252 ops / loop - 23453 cycles/op
+(repopulate_db_worker,72) [ 68s] [ 115817 ops/s] Repopulating database (34%)
+(repopulate_db_worker,72) [ 68s] [ 115799 ops/s] Repopulating database (35%)
+(repopulate_db_worker,72) [ 68s] [ 116366 ops/s] Repopulating database (34%)
+(repopulate_db_worker,72) [ 68s] [ 115860 ops/s] Repopulating database (35%)
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  14% - io_cb   9% - wait   3% - slab_cb  11% -  116156 ops -  116142 ops/s - 205 ops / loop - 23952 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  14% - io_cb   9% - wait   3% - slab_cb  11% -  115893 ops -  115881 ops/s - 179 ops / loop - 24006 cycles/op
+[WORKER BREAKDOWN] io_submit 58% - io_getevents  15% - io_cb   9% - wait   4% - slab_cb  11% -  116183 ops -  116166 ops/s - 157 ops / loop - 23947 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  14% - io_cb   9% - wait   3% - slab_cb  11% -  116464 ops -  116246 ops/s - 217 ops / loop - 23931 cycles/op
+(repopulate_db_worker,72) [ 69s] [ 121338 ops/s] Repopulating database (35%)
+(repopulate_db_worker,72) [ 69s] [ 122045 ops/s] Repopulating database (35%)
+(repopulate_db_worker,72) [ 69s] [ 122568 ops/s] Repopulating database (35%)
+(repopulate_db_worker,72) [ 69s] [ 121568 ops/s] Repopulating database (35%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  122282 ops -  122268 ops/s - 179 ops / loop - 22752 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121713 ops -  121622 ops/s - 195 ops / loop - 22873 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  10% -  121883 ops -  121831 ops/s - 186 ops / loop - 22834 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  121868 ops -  121781 ops/s - 251 ops / loop - 22843 cycles/op
+(repopulate_db_worker,72) [ 70s] [ 119195 ops/s] Repopulating database (35%)
+(repopulate_db_worker,72) [ 70s] [ 119239 ops/s] Repopulating database (35%)
+(repopulate_db_worker,72) [ 70s] [ 119921 ops/s] Repopulating database (35%)
+(repopulate_db_worker,72) [ 70s] [ 119124 ops/s] Repopulating database (35%)
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  17% - io_cb   9% - wait   1% - slab_cb  10% -  118642 ops -  118614 ops/s - 135 ops / loop - 23453 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   1% - slab_cb  10% -  119591 ops -  119547 ops/s - 180 ops / loop - 23270 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   1% - slab_cb  10% -  119593 ops -  119499 ops/s - 167 ops / loop - 23279 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  120072 ops -  119909 ops/s - 250 ops / loop - 23200 cycles/op
+(repopulate_db_worker,72) [ 71s] [ 120710 ops/s] Repopulating database (36%)
+(repopulate_db_worker,72) [ 71s] [ 121384 ops/s] Repopulating database (36%)
+(repopulate_db_worker,72) [ 71s] [ 121794 ops/s] Repopulating database (36%)
+(repopulate_db_worker,72) [ 71s] [ 121537 ops/s] Repopulating database (36%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   1% - slab_cb  11% -  121936 ops -  121706 ops/s - 192 ops / loop - 22857 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121708 ops -  121474 ops/s - 224 ops / loop - 22901 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  11% -  120924 ops -  120744 ops/s - 166 ops / loop - 23039 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  121572 ops -  121555 ops/s - 244 ops / loop - 22886 cycles/op
+(repopulate_db_worker,72) [ 72s] [ 120948 ops/s] Repopulating database (36%)
+(repopulate_db_worker,72) [ 72s] [ 121797 ops/s] Repopulating database (36%)
+(repopulate_db_worker,72) [ 72s] [ 122018 ops/s] Repopulating database (36%)
+(repopulate_db_worker,72) [ 72s] [ 122001 ops/s] Repopulating database (36%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121480 ops -  121318 ops/s - 155 ops / loop - 22930 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121695 ops -  121682 ops/s - 187 ops / loop - 22862 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121722 ops -  121599 ops/s - 172 ops / loop - 22877 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121896 ops -  121758 ops/s - 238 ops / loop - 22847 cycles/op
+(repopulate_db_worker,72) [ 73s] [ 121772 ops/s] Repopulating database (37%)
+(repopulate_db_worker,72) [ 73s] [ 121458 ops/s] Repopulating database (37%)
+(repopulate_db_worker,72) [ 73s] [ 122786 ops/s] Repopulating database (37%)
+(repopulate_db_worker,72) [ 73s] [ 122116 ops/s] Repopulating database (37%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  122468 ops -  122395 ops/s - 204 ops / loop - 22729 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  122040 ops -  121826 ops/s - 170 ops / loop - 22835 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121962 ops -  121739 ops/s - 167 ops / loop - 22851 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  122268 ops -  122054 ops/s - 247 ops / loop - 22792 cycles/op
+(repopulate_db_worker,72) [ 74s] [ 120166 ops/s] Repopulating database (37%)
+(repopulate_db_worker,72) [ 74s] [ 120997 ops/s] Repopulating database (37%)
+(repopulate_db_worker,72) [ 74s] [ 120702 ops/s] Repopulating database (37%)
+(repopulate_db_worker,72) [ 74s] [ 120800 ops/s] Repopulating database (37%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  11% -  120706 ops -  120688 ops/s - 151 ops / loop - 23050 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   1% - slab_cb  11% -  120797 ops -  120768 ops/s - 158 ops / loop - 23035 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  11% -  120334 ops -  120260 ops/s - 150 ops / loop - 23132 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  121212 ops -  120994 ops/s - 252 ops / loop - 22992 cycles/op
+(repopulate_db_worker,72) [ 75s] [ 121789 ops/s] Repopulating database (38%)
+(repopulate_db_worker,72) [ 75s] [ 120541 ops/s] Repopulating database (38%)
+(repopulate_db_worker,72) [ 75s] [ 120281 ops/s] Repopulating database (38%)
+(repopulate_db_worker,72) [ 75s] [ 121647 ops/s] Repopulating database (38%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121982 ops -  121868 ops/s - 169 ops / loop - 22827 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120961 ops -  120887 ops/s - 159 ops / loop - 23012 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  11% -  120952 ops -  120878 ops/s - 152 ops / loop - 23014 cycles/op
+[WORKER BREAKDOWN] io_submit 64% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  121196 ops -  121113 ops/s - 241 ops / loop - 22969 cycles/op
+(repopulate_db_worker,72) [ 76s] [ 121204 ops/s] Repopulating database (38%)
+(repopulate_db_worker,72) [ 76s] [ 120985 ops/s] Repopulating database (38%)
+(repopulate_db_worker,72) [ 76s] [ 120529 ops/s] Repopulating database (38%)
+(repopulate_db_worker,72) [ 76s] [ 121274 ops/s] Repopulating database (38%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120692 ops -  120660 ops/s - 187 ops / loop - 23055 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121135 ops -  121027 ops/s - 175 ops / loop - 22985 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121246 ops -  121178 ops/s - 153 ops / loop - 22957 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  121060 ops -  121034 ops/s - 231 ops / loop - 22984 cycles/op
+(repopulate_db_worker,72) [ 77s] [ 121509 ops/s] Repopulating database (39%)
+(repopulate_db_worker,72) [ 77s] [ 121745 ops/s] Repopulating database (39%)
+(repopulate_db_worker,72) [ 77s] [ 122474 ops/s] Repopulating database (39%)
+(repopulate_db_worker,72) [ 77s] [ 121235 ops/s] Repopulating database (39%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121092 ops -  120876 ops/s - 163 ops / loop - 23014 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121883 ops -  121786 ops/s - 172 ops / loop - 22842 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  122076 ops -  122043 ops/s - 178 ops / loop - 22794 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  122200 ops -  122188 ops/s - 251 ops / loop - 22767 cycles/op
+(repopulate_db_worker,72) [ 78s] [ 121445 ops/s] Repopulating database (39%)
+(repopulate_db_worker,72) [ 78s] [ 121263 ops/s] Repopulating database (39%)
+(repopulate_db_worker,72) [ 78s] [ 121448 ops/s] Repopulating database (39%)
+(repopulate_db_worker,72) [ 78s] [ 122467 ops/s] Repopulating database (39%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121572 ops -  121477 ops/s - 194 ops / loop - 22900 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121687 ops -  121645 ops/s - 178 ops / loop - 22869 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121724 ops -  121571 ops/s - 152 ops / loop - 22883 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  121828 ops -  121707 ops/s - 239 ops / loop - 22857 cycles/op
+(repopulate_db_worker,72) [ 79s] [ 121237 ops/s] Repopulating database (40%)
+(repopulate_db_worker,72) [ 79s] [ 121347 ops/s] Repopulating database (40%)
+(repopulate_db_worker,72) [ 79s] [ 121781 ops/s] Repopulating database (40%)
+(repopulate_db_worker,72) [ 79s] [ 119609 ops/s] Repopulating database (40%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121893 ops -  121710 ops/s - 215 ops / loop - 22856 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121370 ops -  121345 ops/s - 154 ops / loop - 22925 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120751 ops -  120638 ops/s - 150 ops / loop - 23060 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  120788 ops -  120647 ops/s - 219 ops / loop - 23058 cycles/op
+(repopulate_db_worker,72) [ 80s] [ 122100 ops/s] Repopulating database (40%)
+(repopulate_db_worker,72) [ 80s] [ 120912 ops/s] Repopulating database (40%)
+(repopulate_db_worker,72) [ 80s] [ 121364 ops/s] Repopulating database (40%)
+(repopulate_db_worker,72) [ 80s] [ 121152 ops/s] Repopulating database (40%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  122171 ops -  122017 ops/s - 233 ops / loop - 22799 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121270 ops -  121164 ops/s - 157 ops / loop - 22959 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120877 ops -  120708 ops/s - 145 ops / loop - 23046 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121324 ops -  121210 ops/s - 204 ops / loop - 22951 cycles/op
+(repopulate_db_worker,72) [ 81s] [ 122871 ops/s] Repopulating database (41%)
+(repopulate_db_worker,72) [ 81s] [ 121977 ops/s] Repopulating database (41%)
+(repopulate_db_worker,72) [ 81s] [ 122591 ops/s] Repopulating database (41%)
+(repopulate_db_worker,72) [ 81s] [ 122000 ops/s] Repopulating database (41%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  123140 ops -  122977 ops/s - 225 ops / loop - 22621 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  122678 ops -  122439 ops/s - 189 ops / loop - 22720 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  123080 ops -  122844 ops/s - 190 ops / loop - 22645 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121840 ops -  121781 ops/s - 222 ops / loop - 22843 cycles/op
+(repopulate_db_worker,72) [ 82s] [ 121357 ops/s] Repopulating database (41%)
+(repopulate_db_worker,72) [ 82s] [ 121445 ops/s] Repopulating database (41%)
+(repopulate_db_worker,72) [ 82s] [ 121766 ops/s] Repopulating database (41%)
+(repopulate_db_worker,72) [ 82s] [ 122752 ops/s] Repopulating database (41%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  122108 ops -  121996 ops/s - 202 ops / loop - 22803 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121892 ops -  121832 ops/s - 214 ops / loop - 22834 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121908 ops -  121814 ops/s - 164 ops / loop - 22837 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121668 ops -  121575 ops/s - 209 ops / loop - 22882 cycles/op
+(repopulate_db_worker,72) [ 83s] [ 120662 ops/s] Repopulating database (42%)
+(repopulate_db_worker,72) [ 83s] [ 121056 ops/s] Repopulating database (42%)
+(repopulate_db_worker,72) [ 83s] [ 122090 ops/s] Repopulating database (42%)
+(repopulate_db_worker,72) [ 83s] [ 121287 ops/s] Repopulating database (42%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121012 ops -  120988 ops/s - 165 ops / loop - 22993 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121904 ops -  121661 ops/s - 236 ops / loop - 22866 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120508 ops -  120503 ops/s - 180 ops / loop - 23085 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121647 ops -  121502 ops/s - 166 ops / loop - 22896 cycles/op
+(repopulate_db_worker,72) [ 84s] [ 120976 ops/s] Repopulating database (42%)
+(repopulate_db_worker,72) [ 84s] [ 122262 ops/s] Repopulating database (42%)
+(repopulate_db_worker,72) [ 84s] [ 122076 ops/s] Repopulating database (42%)
+(repopulate_db_worker,72) [ 84s] [ 122268 ops/s] Repopulating database (42%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  122534 ops -  122522 ops/s - 206 ops / loop - 22705 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  122000 ops -  121978 ops/s - 241 ops / loop - 22806 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  11% -  121077 ops -  120975 ops/s - 201 ops / loop - 22995 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121991 ops -  121907 ops/s - 155 ops / loop - 22819 cycles/op
+(repopulate_db_worker,72) [ 85s] [ 120358 ops/s] Repopulating database (43%)
+(repopulate_db_worker,72) [ 85s] [ 120275 ops/s] Repopulating database (43%)
+(repopulate_db_worker,72) [ 85s] [ 121028 ops/s] Repopulating database (43%)
+(repopulate_db_worker,72) [ 85s] [ 121165 ops/s] Repopulating database (43%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120561 ops -  120315 ops/s - 144 ops / loop - 23122 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120908 ops -  120867 ops/s - 194 ops / loop - 23016 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120891 ops -  120847 ops/s - 225 ops / loop - 23020 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121242 ops -  121218 ops/s - 163 ops / loop - 22949 cycles/op
+(repopulate_db_worker,72) [ 86s] [ 122031 ops/s] Repopulating database (43%)
+(repopulate_db_worker,72) [ 86s] [ 121282 ops/s] Repopulating database (43%)
+(repopulate_db_worker,72) [ 86s] [ 121145 ops/s] Repopulating database (43%)
+(repopulate_db_worker,72) [ 86s] [ 121086 ops/s] Repopulating database (43%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121029 ops -  120889 ops/s - 169 ops / loop - 23012 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121420 ops -  121194 ops/s - 208 ops / loop - 22954 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121158 ops -  121104 ops/s - 162 ops / loop - 22971 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121940 ops -  121788 ops/s - 228 ops / loop - 22842 cycles/op
+(repopulate_db_worker,72) [ 87s] [ 121598 ops/s] Repopulating database (44%)
+(repopulate_db_worker,72) [ 87s] [ 120932 ops/s] Repopulating database (44%)
+(repopulate_db_worker,72) [ 87s] [ 120501 ops/s] Repopulating database (44%)
+(repopulate_db_worker,72) [ 87s] [ 120673 ops/s] Repopulating database (44%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120311 ops -  120228 ops/s - 144 ops / loop - 23138 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  121668 ops -  121609 ops/s - 237 ops / loop - 22875 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121527 ops -  121396 ops/s - 182 ops / loop - 22916 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120996 ops -  120837 ops/s - 183 ops / loop - 23022 cycles/op
+(repopulate_db_worker,72) [ 88s] [ 121925 ops/s] Repopulating database (44%)
+(repopulate_db_worker,72) [ 88s] [ 122366 ops/s] Repopulating database (44%)
+(repopulate_db_worker,72) [ 88s] [ 121895 ops/s] Repopulating database (44%)
+(repopulate_db_worker,72) [ 88s] [ 122552 ops/s] Repopulating database (44%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121999 ops -  121950 ops/s - 167 ops / loop - 22811 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  122172 ops -  122060 ops/s - 233 ops / loop - 22791 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  122295 ops -  122252 ops/s - 185 ops / loop - 22755 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  122449 ops -  122351 ops/s - 222 ops / loop - 22737 cycles/op
+(repopulate_db_worker,72) [ 89s] [ 122598 ops/s] Repopulating database (45%)
+(repopulate_db_worker,72) [ 89s] [ 121965 ops/s] Repopulating database (45%)
+(repopulate_db_worker,72) [ 89s] [ 121481 ops/s] Repopulating database (45%)
+(repopulate_db_worker,72) [ 89s] [ 122047 ops/s] Repopulating database (45%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  122102 ops -  122052 ops/s - 179 ops / loop - 22792 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  122272 ops -  122226 ops/s - 195 ops / loop - 22760 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121866 ops -  121843 ops/s - 188 ops / loop - 22832 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  122515 ops -  122310 ops/s - 251 ops / loop - 22744 cycles/op
+(repopulate_db_worker,72) [ 90s] [ 120941 ops/s] Repopulating database (45%)
+(repopulate_db_worker,72) [ 90s] [ 120781 ops/s] Repopulating database (45%)
+(repopulate_db_worker,72) [ 90s] [ 120177 ops/s] Repopulating database (45%)
+(repopulate_db_worker,72) [ 90s] [ 120638 ops/s] Repopulating database (45%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   1% - slab_cb  11% -  120480 ops -  120446 ops/s - 161 ops / loop - 23096 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121208 ops -  120973 ops/s - 176 ops / loop - 22996 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  11% -  120622 ops -  120594 ops/s - 143 ops / loop - 23068 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  120617 ops -  120457 ops/s - 251 ops / loop - 23094 cycles/op
+(repopulate_db_worker,72) [ 91s] [ 120746 ops/s] Repopulating database (46%)
+(repopulate_db_worker,72) [ 91s] [ 120914 ops/s] Repopulating database (46%)
+(repopulate_db_worker,72) [ 91s] [ 120388 ops/s] Repopulating database (46%)
+(repopulate_db_worker,72) [ 91s] [ 120870 ops/s] Repopulating database (46%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120612 ops -  120539 ops/s - 156 ops / loop - 23079 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121559 ops -  121352 ops/s - 186 ops / loop - 22924 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120786 ops -  120679 ops/s - 143 ops / loop - 23052 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  120539 ops -  120437 ops/s - 234 ops / loop - 23098 cycles/op
+(repopulate_db_worker,72) [ 92s] [ 120276 ops/s] Repopulating database (46%)
+(repopulate_db_worker,72) [ 92s] [ 120910 ops/s] Repopulating database (46%)
+(repopulate_db_worker,72) [ 92s] [ 119756 ops/s] Repopulating database (46%)
+(repopulate_db_worker,72) [ 92s] [ 120822 ops/s] Repopulating database (46%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120204 ops -  120132 ops/s - 157 ops / loop - 23157 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  11% -  120260 ops -  120108 ops/s - 157 ops / loop - 23161 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120744 ops -  120568 ops/s - 151 ops / loop - 23073 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  120948 ops -  120769 ops/s - 251 ops / loop - 23035 cycles/op
+(repopulate_db_worker,72) [ 93s] [ 121013 ops/s] Repopulating database (47%)
+(repopulate_db_worker,72) [ 93s] [ 121742 ops/s] Repopulating database (47%)
+(repopulate_db_worker,72) [ 93s] [ 121116 ops/s] Repopulating database (47%)
+(repopulate_db_worker,72) [ 93s] [ 121408 ops/s] Repopulating database (47%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121772 ops -  121589 ops/s - 177 ops / loop - 22879 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121676 ops -  121666 ops/s - 162 ops / loop - 22865 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121272 ops -  121127 ops/s - 179 ops / loop - 22966 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  121064 ops -  121012 ops/s - 247 ops / loop - 22988 cycles/op
+(repopulate_db_worker,72) [ 94s] [ 120379 ops/s] Repopulating database (47%)
+(repopulate_db_worker,72) [ 94s] [ 120112 ops/s] Repopulating database (47%)
+(repopulate_db_worker,72) [ 94s] [ 121576 ops/s] Repopulating database (47%)
+(repopulate_db_worker,72) [ 94s] [ 121121 ops/s] Repopulating database (47%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120676 ops -  120616 ops/s - 181 ops / loop - 23064 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  11% -  120247 ops -  120241 ops/s - 138 ops / loop - 23136 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120870 ops -  120816 ops/s - 161 ops / loop - 23026 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  121464 ops -  121335 ops/s - 252 ops / loop - 22927 cycles/op
+(repopulate_db_worker,72) [ 95s] [ 121912 ops/s] Repopulating database (48%)
+(repopulate_db_worker,72) [ 95s] [ 120599 ops/s] Repopulating database (48%)
+(repopulate_db_worker,72) [ 95s] [ 121378 ops/s] Repopulating database (48%)
+(repopulate_db_worker,72) [ 95s] [ 121230 ops/s] Repopulating database (48%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  11% -  121649 ops -  121606 ops/s - 233 ops / loop - 22876 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121233 ops -  121214 ops/s - 155 ops / loop - 22950 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121400 ops -  121362 ops/s - 172 ops / loop - 22922 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121064 ops -  120953 ops/s - 201 ops / loop - 23000 cycles/op
+(repopulate_db_worker,72) [ 96s] [ 121209 ops/s] Repopulating database (48%)
+(repopulate_db_worker,72) [ 96s] [ 120782 ops/s] Repopulating database (48%)
+(repopulate_db_worker,72) [ 96s] [ 120684 ops/s] Repopulating database (48%)
+(repopulate_db_worker,72) [ 96s] [ 120721 ops/s] Repopulating database (48%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120727 ops -  120586 ops/s - 192 ops / loop - 23069 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120831 ops -  120806 ops/s - 150 ops / loop - 23027 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120907 ops -  120835 ops/s - 162 ops / loop - 23022 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  121212 ops -  121137 ops/s - 252 ops / loop - 22965 cycles/op
+(repopulate_db_worker,72) [ 97s] [ 121295 ops/s] Repopulating database (49%)
+(repopulate_db_worker,72) [ 97s] [ 120338 ops/s] Repopulating database (49%)
+(repopulate_db_worker,72) [ 97s] [ 121122 ops/s] Repopulating database (49%)
+(repopulate_db_worker,72) [ 97s] [ 121539 ops/s] Repopulating database (49%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  121632 ops -  121569 ops/s - 250 ops / loop - 22883 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  11% -  120991 ops -  120897 ops/s - 137 ops / loop - 23010 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121572 ops -  121296 ops/s - 172 ops / loop - 22934 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120908 ops -  120724 ops/s - 188 ops / loop - 23043 cycles/op
+(repopulate_db_worker,72) [ 98s] [ 121172 ops/s] Repopulating database (49%)
+(repopulate_db_worker,72) [ 98s] [ 121471 ops/s] Repopulating database (49%)
+(repopulate_db_worker,72) [ 98s] [ 121822 ops/s] Repopulating database (49%)
+(repopulate_db_worker,72) [ 98s] [ 120487 ops/s] Repopulating database (49%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121584 ops -  121422 ops/s - 207 ops / loop - 22911 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121308 ops -  121084 ops/s - 153 ops / loop - 22975 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121156 ops -  121116 ops/s - 189 ops / loop - 22969 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121188 ops -  121020 ops/s - 224 ops / loop - 22987 cycles/op
+(repopulate_db_worker,72) [ 99s] [ 120502 ops/s] Repopulating database (50%)
+(repopulate_db_worker,72) [ 99s] [ 120759 ops/s] Repopulating database (49%)
+(repopulate_db_worker,72) [ 99s] [ 121508 ops/s] Repopulating database (50%)
+(repopulate_db_worker,72) [ 99s] [ 120890 ops/s] Repopulating database (50%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121322 ops -  121317 ops/s - 221 ops / loop - 22930 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120803 ops -  120700 ops/s - 161 ops / loop - 23048 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121024 ops -  120836 ops/s - 206 ops / loop - 23022 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121140 ops -  120944 ops/s - 198 ops / loop - 23001 cycles/op
+(repopulate_db_worker,72) [100s] [ 121311 ops/s] Repopulating database (50%)
+(repopulate_db_worker,72) [100s] [ 120434 ops/s] Repopulating database (50%)
+(repopulate_db_worker,72) [100s] [ 120807 ops/s] Repopulating database (50%)
+(repopulate_db_worker,72) [100s] [ 119644 ops/s] Repopulating database (50%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120173 ops -  120075 ops/s - 176 ops / loop - 23168 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  11% -  120772 ops -  120640 ops/s - 140 ops / loop - 23059 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121224 ops -  121009 ops/s - 197 ops / loop - 22989 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  120740 ops -  120654 ops/s - 223 ops / loop - 23056 cycles/op
+(repopulate_db_worker,72) [101s] [ 121482 ops/s] Repopulating database (51%)
+(repopulate_db_worker,72) [101s] [ 122065 ops/s] Repopulating database (50%)
+(repopulate_db_worker,72) [101s] [ 121179 ops/s] Repopulating database (51%)
+(repopulate_db_worker,72) [101s] [ 121864 ops/s] Repopulating database (50%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121153 ops -  120966 ops/s - 172 ops / loop - 22997 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  122057 ops -  121950 ops/s - 170 ops / loop - 22811 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  122040 ops -  121985 ops/s - 216 ops / loop - 22805 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121680 ops -  121595 ops/s - 232 ops / loop - 22878 cycles/op
+(repopulate_db_worker,72) [102s] [ 121808 ops/s] Repopulating database (51%)
+(repopulate_db_worker,72) [102s] [ 122005 ops/s] Repopulating database (51%)
+(repopulate_db_worker,72) [102s] [ 121223 ops/s] Repopulating database (51%)
+(repopulate_db_worker,72) [102s] [ 121839 ops/s] Repopulating database (51%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121988 ops -  121842 ops/s - 203 ops / loop - 22832 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  122288 ops -  122038 ops/s - 186 ops / loop - 22795 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121584 ops -  121569 ops/s - 199 ops / loop - 22883 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121608 ops -  121607 ops/s - 224 ops / loop - 22876 cycles/op
+(repopulate_db_worker,72) [103s] [ 121558 ops/s] Repopulating database (51%)
+(repopulate_db_worker,72) [103s] [ 121943 ops/s] Repopulating database (52%)
+(repopulate_db_worker,72) [103s] [ 121318 ops/s] Repopulating database (52%)
+(repopulate_db_worker,72) [103s] [ 120321 ops/s] Repopulating database (51%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121749 ops -  121656 ops/s - 188 ops / loop - 22867 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121164 ops -  121107 ops/s - 179 ops / loop - 22970 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120909 ops -  120888 ops/s - 181 ops / loop - 23012 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120900 ops -  120723 ops/s - 220 ops / loop - 23043 cycles/op
+(repopulate_db_worker,72) [104s] [ 121382 ops/s] Repopulating database (52%)
+(repopulate_db_worker,72) [104s] [ 119718 ops/s] Repopulating database (52%)
+(repopulate_db_worker,72) [104s] [ 120733 ops/s] Repopulating database (52%)
+(repopulate_db_worker,72) [104s] [ 120544 ops/s] Repopulating database (52%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120543 ops -  120401 ops/s - 200 ops / loop - 23105 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120872 ops -  120869 ops/s - 168 ops / loop - 23015 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120741 ops -  120659 ops/s - 176 ops / loop - 23056 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  120648 ops -  120474 ops/s - 212 ops / loop - 23091 cycles/op
+(repopulate_db_worker,72) [105s] [ 122229 ops/s] Repopulating database (52%)
+(repopulate_db_worker,72) [105s] [ 122171 ops/s] Repopulating database (52%)
+(repopulate_db_worker,72) [105s] [ 121777 ops/s] Repopulating database (52%)
+(repopulate_db_worker,72) [105s] [ 121373 ops/s] Repopulating database (52%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121676 ops -  121660 ops/s - 177 ops / loop - 22866 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  122104 ops -  122032 ops/s - 188 ops / loop - 22796 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  122523 ops -  122442 ops/s - 219 ops / loop - 22720 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  121840 ops -  121803 ops/s - 241 ops / loop - 22839 cycles/op
+(repopulate_db_worker,72) [106s] [ 121592 ops/s] Repopulating database (53%)
+(repopulate_db_worker,72) [106s] [ 120594 ops/s] Repopulating database (53%)
+(repopulate_db_worker,72) [106s] [ 119685 ops/s] Repopulating database (53%)
+(repopulate_db_worker,72) [106s] [ 120977 ops/s] Repopulating database (53%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120889 ops -  120778 ops/s - 170 ops / loop - 23033 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120227 ops -  120209 ops/s - 151 ops / loop - 23142 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120593 ops -  120558 ops/s - 159 ops / loop - 23075 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  120764 ops -  120532 ops/s - 250 ops / loop - 23080 cycles/op
+(repopulate_db_worker,72) [107s] [ 121610 ops/s] Repopulating database (53%)
+(repopulate_db_worker,72) [107s] [ 121941 ops/s] Repopulating database (53%)
+(repopulate_db_worker,72) [107s] [ 121449 ops/s] Repopulating database (53%)
+(repopulate_db_worker,72) [107s] [ 121340 ops/s] Repopulating database (53%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121883 ops -  121864 ops/s - 195 ops / loop - 22828 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121953 ops -  121835 ops/s - 192 ops / loop - 22833 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121715 ops -  121662 ops/s - 181 ops / loop - 22866 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  121732 ops -  121668 ops/s - 245 ops / loop - 22864 cycles/op
+(repopulate_db_worker,72) [108s] [ 119595 ops/s] Repopulating database (54%)
+(repopulate_db_worker,72) [108s] [ 120560 ops/s] Repopulating database (54%)
+(repopulate_db_worker,72) [108s] [ 120649 ops/s] Repopulating database (54%)
+(repopulate_db_worker,72) [108s] [ 119839 ops/s] Repopulating database (54%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120125 ops -  119922 ops/s - 179 ops / loop - 23197 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120358 ops -  120279 ops/s - 163 ops / loop - 23128 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  12% -  120299 ops -  120086 ops/s - 154 ops / loop - 23166 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  12% -  120176 ops -  120131 ops/s - 228 ops / loop - 23157 cycles/op
+(repopulate_db_worker,72) [109s] [ 120583 ops/s] Repopulating database (54%)
+(repopulate_db_worker,72) [109s] [ 120555 ops/s] Repopulating database (54%)
+(repopulate_db_worker,72) [109s] [ 120740 ops/s] Repopulating database (54%)
+(repopulate_db_worker,72) [109s] [ 119359 ops/s] Repopulating database (54%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120731 ops -  120682 ops/s - 186 ops / loop - 23051 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  11% -  120674 ops -  120560 ops/s - 160 ops / loop - 23074 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  11% -  120335 ops -  120258 ops/s - 158 ops / loop - 23132 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  120460 ops -  120355 ops/s - 249 ops / loop - 23114 cycles/op
+(repopulate_db_worker,72) [110s] [ 120279 ops/s] Repopulating database (55%)
+(repopulate_db_worker,72) [110s] [ 119976 ops/s] Repopulating database (55%)
+(repopulate_db_worker,72) [110s] [ 119691 ops/s] Repopulating database (55%)
+(repopulate_db_worker,72) [110s] [ 120033 ops/s] Repopulating database (55%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  120236 ops -  120004 ops/s - 198 ops / loop - 23181 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  17% - io_cb   9% - wait   1% - slab_cb  11% -  119877 ops -  119699 ops/s - 136 ops / loop - 23241 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  11% -  119929 ops -  119893 ops/s - 147 ops / loop - 23203 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  120532 ops -  120395 ops/s - 235 ops / loop - 23106 cycles/op
+(repopulate_db_worker,72) [111s] [ 121078 ops/s] Repopulating database (55%)
+(repopulate_db_worker,72) [111s] [ 120226 ops/s] Repopulating database (55%)
+(repopulate_db_worker,72) [111s] [ 119972 ops/s] Repopulating database (55%)
+(repopulate_db_worker,72) [111s] [ 119957 ops/s] Repopulating database (55%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  120676 ops -  120622 ops/s - 251 ops / loop - 23063 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  120660 ops -  120593 ops/s - 153 ops / loop - 23068 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  11% -  119813 ops -  119771 ops/s - 136 ops / loop - 23227 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120120 ops -  120071 ops/s - 182 ops / loop - 23169 cycles/op
+(repopulate_db_worker,72) [112s] [ 121071 ops/s] Repopulating database (56%)
+(repopulate_db_worker,72) [112s] [ 121040 ops/s] Repopulating database (56%)
+(repopulate_db_worker,72) [112s] [ 120583 ops/s] Repopulating database (56%)
+(repopulate_db_worker,72) [112s] [ 121510 ops/s] Repopulating database (56%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  11% -  120916 ops -  120814 ops/s - 237 ops / loop - 23026 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120839 ops -  120800 ops/s - 167 ops / loop - 23029 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121577 ops -  121433 ops/s - 173 ops / loop - 22909 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  120588 ops -  120558 ops/s - 207 ops / loop - 23075 cycles/op
+(repopulate_db_worker,72) [113s] [ 120731 ops/s] Repopulating database (56%)
+(repopulate_db_worker,72) [113s] [ 119346 ops/s] Repopulating database (56%)
+(repopulate_db_worker,72) [113s] [ 120272 ops/s] Repopulating database (56%)
+(repopulate_db_worker,72) [113s] [ 119328 ops/s] Repopulating database (56%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  120672 ops -  120612 ops/s - 249 ops / loop - 23064 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  11% -  120072 ops -  120057 ops/s - 157 ops / loop - 23171 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120184 ops -  120049 ops/s - 168 ops / loop - 23173 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  119508 ops -  119464 ops/s - 177 ops / loop - 23286 cycles/op
+(repopulate_db_worker,72) [114s] [ 122149 ops/s] Repopulating database (57%)
+(repopulate_db_worker,72) [114s] [ 121868 ops/s] Repopulating database (57%)
+(repopulate_db_worker,72) [114s] [ 121075 ops/s] Repopulating database (57%)
+(repopulate_db_worker,72) [114s] [ 121278 ops/s] Repopulating database (57%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  121640 ops -  121379 ops/s - 242 ops / loop - 22919 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  121405 ops -  121374 ops/s - 193 ops / loop - 22920 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121936 ops -  121826 ops/s - 178 ops / loop - 22835 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  121524 ops -  121444 ops/s - 221 ops / loop - 22906 cycles/op
+(repopulate_db_worker,72) [115s] [ 122114 ops/s] Repopulating database (57%)
+(repopulate_db_worker,72) [115s] [ 120839 ops/s] Repopulating database (57%)
+(repopulate_db_worker,72) [115s] [ 121436 ops/s] Repopulating database (57%)
+(repopulate_db_worker,72) [115s] [ 119789 ops/s] Repopulating database (57%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  11% -  121304 ops -  121136 ops/s - 205 ops / loop - 22965 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  12% -  121355 ops -  121284 ops/s - 221 ops / loop - 22937 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  11% -  121186 ops -  121119 ops/s - 156 ops / loop - 22968 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  11% -  121316 ops -  121139 ops/s - 208 ops / loop - 22964 cycles/op
+(repopulate_db_worker,72) [116s] [ 122010 ops/s] Repopulating database (58%)
+(repopulate_db_worker,72) [116s] [ 121619 ops/s] Repopulating database (58%)
+(repopulate_db_worker,72) [116s] [ 122806 ops/s] Repopulating database (58%)
+(repopulate_db_worker,72) [116s] [ 122001 ops/s] Repopulating database (58%)
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  122267 ops -  122211 ops/s - 238 ops / loop - 22763 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  11% -  121952 ops -  121861 ops/s - 230 ops / loop - 22828 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  11% -  122712 ops -  122572 ops/s - 185 ops / loop - 22696 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  11% -  121776 ops -  121733 ops/s - 229 ops / loop - 22852 cycles/op
+(repopulate_db_worker,72) [117s] [ 121530 ops/s] Repopulating database (58%)
+(repopulate_db_worker,72) [117s] [ 121135 ops/s] Repopulating database (58%)
+(repopulate_db_worker,72) [117s] [ 120881 ops/s] Repopulating database (58%)
+(repopulate_db_worker,72) [117s] [ 120164 ops/s] Repopulating database (58%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  120632 ops -  120617 ops/s - 213 ops / loop - 23064 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  120655 ops -  120617 ops/s - 185 ops / loop - 23064 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  121184 ops -  120936 ops/s - 170 ops / loop - 23003 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  121548 ops -  121465 ops/s - 223 ops / loop - 22903 cycles/op
+(repopulate_db_worker,72) [118s] [ 121235 ops/s] Repopulating database (59%)
+(repopulate_db_worker,72) [118s] [ 122127 ops/s] Repopulating database (59%)
+(repopulate_db_worker,72) [118s] [ 122386 ops/s] Repopulating database (59%)
+(repopulate_db_worker,72) [118s] [ 121391 ops/s] Repopulating database (59%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  121554 ops -  121524 ops/s - 210 ops / loop - 22891 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  11% -  121921 ops -  121867 ops/s - 225 ops / loop - 22827 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  122036 ops -  121959 ops/s - 180 ops / loop - 22810 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  11% -  121960 ops -  121798 ops/s - 230 ops / loop - 22840 cycles/op
+(repopulate_db_worker,72) [119s] [ 122020 ops/s] Repopulating database (59%)
+(repopulate_db_worker,72) [119s] [ 122077 ops/s] Repopulating database (59%)
+(repopulate_db_worker,72) [119s] [ 121839 ops/s] Repopulating database (59%)
+(repopulate_db_worker,72) [119s] [ 120923 ops/s] Repopulating database (59%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  122427 ops -  122289 ops/s - 220 ops / loop - 22748 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  121020 ops -  120975 ops/s - 178 ops / loop - 22995 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  122212 ops -  121993 ops/s - 197 ops / loop - 22803 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  122000 ops -  121787 ops/s - 232 ops / loop - 22842 cycles/op
+(repopulate_db_worker,72) [120s] [ 121281 ops/s] Repopulating database (60%)
+(repopulate_db_worker,72) [120s] [ 122777 ops/s] Repopulating database (60%)
+(repopulate_db_worker,72) [120s] [ 121940 ops/s] Repopulating database (60%)
+(repopulate_db_worker,72) [120s] [ 122229 ops/s] Repopulating database (60%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  122612 ops -  122473 ops/s - 231 ops / loop - 22714 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  121684 ops -  121664 ops/s - 217 ops / loop - 22865 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  122054 ops -  122043 ops/s - 209 ops / loop - 22794 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  122112 ops -  121891 ops/s - 235 ops / loop - 22823 cycles/op
+(repopulate_db_worker,72) [121s] [ 121537 ops/s] Repopulating database (60%)
+(repopulate_db_worker,72) [121s] [ 122013 ops/s] Repopulating database (60%)
+(repopulate_db_worker,72) [121s] [ 122930 ops/s] Repopulating database (60%)
+(repopulate_db_worker,72) [121s] [ 121951 ops/s] Repopulating database (60%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  122584 ops -  122534 ops/s - 231 ops / loop - 22703 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  121896 ops -  121828 ops/s - 216 ops / loop - 22834 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  122202 ops -  122149 ops/s - 209 ops / loop - 22774 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  11% -  121964 ops -  121748 ops/s - 241 ops / loop - 22849 cycles/op
+(repopulate_db_worker,72) [122s] [ 119107 ops/s] Repopulating database (61%)
+(repopulate_db_worker,72) [122s] [ 120642 ops/s] Repopulating database (61%)
+(repopulate_db_worker,72) [122s] [ 119017 ops/s] Repopulating database (61%)
+(repopulate_db_worker,72) [122s] [ 119567 ops/s] Repopulating database (61%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   1% - slab_cb  11% -  120084 ops -  119954 ops/s - 164 ops / loop - 23191 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   1% - slab_cb  11% -  119440 ops -  119404 ops/s - 159 ops / loop - 23298 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  11% -  119724 ops -  119611 ops/s - 149 ops / loop - 23258 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  11% -  119228 ops -  119169 ops/s - 243 ops / loop - 23344 cycles/op
+(repopulate_db_worker,72) [123s] [ 119142 ops/s] Repopulating database (61%)
+(repopulate_db_worker,72) [123s] [ 119378 ops/s] Repopulating database (61%)
+(repopulate_db_worker,72) [123s] [ 119393 ops/s] Repopulating database (61%)
+(repopulate_db_worker,72) [123s] [ 119111 ops/s] Repopulating database (61%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   1% - slab_cb  11% -  119356 ops -  119198 ops/s - 151 ops / loop - 23338 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   1% - slab_cb  11% -  118808 ops -  118639 ops/s - 138 ops / loop - 23448 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  11% -  119510 ops -  119341 ops/s - 143 ops / loop - 23310 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  12% -  119860 ops -  119619 ops/s - 251 ops / loop - 23256 cycles/op
+(repopulate_db_worker,72) [124s] [ 119996 ops/s] Repopulating database (62%)
+(repopulate_db_worker,72) [124s] [ 120358 ops/s] Repopulating database (62%)
+(repopulate_db_worker,72) [124s] [ 119659 ops/s] Repopulating database (62%)
+(repopulate_db_worker,72) [124s] [ 119956 ops/s] Repopulating database (62%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  120010 ops -  119918 ops/s - 158 ops / loop - 23198 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  119947 ops -  119822 ops/s - 175 ops / loop - 23216 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  120518 ops -  120338 ops/s - 148 ops / loop - 23117 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  119952 ops -  119858 ops/s - 252 ops / loop - 23210 cycles/op
+(repopulate_db_worker,72) [125s] [ 118195 ops/s] Repopulating database (62%)
+(repopulate_db_worker,72) [125s] [ 119409 ops/s] Repopulating database (62%)
+(repopulate_db_worker,72) [125s] [ 119285 ops/s] Repopulating database (62%)
+(repopulate_db_worker,72) [125s] [ 119086 ops/s] Repopulating database (62%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  119458 ops -  119439 ops/s - 164 ops / loop - 23291 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  11% -  119151 ops -  118937 ops/s - 160 ops / loop - 23389 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  119601 ops -  119427 ops/s - 150 ops / loop - 23293 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  12% -  118744 ops -  118552 ops/s - 245 ops / loop - 23465 cycles/op
+(repopulate_db_worker,72) [126s] [ 119085 ops/s] Repopulating database (63%)
+(repopulate_db_worker,72) [126s] [ 119858 ops/s] Repopulating database (63%)
+(repopulate_db_worker,72) [126s] [ 120734 ops/s] Repopulating database (63%)
+(repopulate_db_worker,72) [126s] [ 120488 ops/s] Repopulating database (63%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  120224 ops -  120192 ops/s - 164 ops / loop - 23145 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  120022 ops -  119930 ops/s - 176 ops / loop - 23196 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  120810 ops -  120647 ops/s - 163 ops / loop - 23058 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  120204 ops -  120074 ops/s - 252 ops / loop - 23168 cycles/op
+(repopulate_db_worker,72) [127s] [ 120104 ops/s] Repopulating database (63%)
+(repopulate_db_worker,72) [127s] [ 119805 ops/s] Repopulating database (63%)
+(repopulate_db_worker,72) [127s] [ 119518 ops/s] Repopulating database (63%)
+(repopulate_db_worker,72) [127s] [ 120365 ops/s] Repopulating database (63%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  120303 ops -  120211 ops/s - 159 ops / loop - 23141 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  11% -  119944 ops -  119837 ops/s - 173 ops / loop - 23214 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  119817 ops -  119674 ops/s - 146 ops / loop - 23245 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  119952 ops -  119943 ops/s - 252 ops / loop - 23193 cycles/op
+(repopulate_db_worker,72) [128s] [ 120911 ops/s] Repopulating database (64%)
+(repopulate_db_worker,72) [128s] [ 120776 ops/s] Repopulating database (64%)
+(repopulate_db_worker,72) [128s] [ 120642 ops/s] Repopulating database (64%)
+(repopulate_db_worker,72) [128s] [ 120328 ops/s] Repopulating database (64%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  120953 ops -  120713 ops/s - 156 ops / loop - 23045 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  120388 ops -  120248 ops/s - 193 ops / loop - 23134 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  121112 ops -  120853 ops/s - 163 ops / loop - 23019 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  120736 ops -  120704 ops/s - 247 ops / loop - 23047 cycles/op
+(repopulate_db_worker,72) [129s] [ 120201 ops/s] Repopulating database (64%)
+(repopulate_db_worker,72) [129s] [ 119604 ops/s] Repopulating database (64%)
+(repopulate_db_worker,72) [129s] [ 120216 ops/s] Repopulating database (64%)
+(repopulate_db_worker,72) [129s] [ 119515 ops/s] Repopulating database (64%)
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  12% -  119733 ops -  119566 ops/s - 155 ops / loop - 23266 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  120604 ops -  120524 ops/s - 217 ops / loop - 23081 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  12% -  119912 ops -  119693 ops/s - 152 ops / loop - 23242 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  120060 ops -  119986 ops/s - 232 ops / loop - 23185 cycles/op
+(repopulate_db_worker,72) [130s] [ 119383 ops/s] Repopulating database (64%)
+(repopulate_db_worker,72) [130s] [ 121066 ops/s] Repopulating database (65%)
+(repopulate_db_worker,72) [130s] [ 118739 ops/s] Repopulating database (65%)
+(repopulate_db_worker,72) [130s] [ 120516 ops/s] Repopulating database (64%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  14% - io_cb   9% - wait   1% - slab_cb  12% -  119520 ops -  119494 ops/s - 198 ops / loop - 23280 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   1% - slab_cb  12% -  120415 ops -  120186 ops/s - 178 ops / loop - 23146 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   1% - slab_cb  12% -  120308 ops -  120286 ops/s - 178 ops / loop - 23127 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  119520 ops -  119467 ops/s - 229 ops / loop - 23286 cycles/op
+(repopulate_db_worker,72) [131s] [ 121590 ops/s] Repopulating database (65%)
+(repopulate_db_worker,72) [131s] [ 120259 ops/s] Repopulating database (65%)
+(repopulate_db_worker,72) [131s] [ 121740 ops/s] Repopulating database (65%)
+(repopulate_db_worker,72) [131s] [ 121390 ops/s] Repopulating database (65%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  121029 ops -  121020 ops/s - 194 ops / loop - 22987 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  121288 ops -  121147 ops/s - 204 ops / loop - 22963 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  121184 ops -  121083 ops/s - 175 ops / loop - 22975 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  121342 ops -  121233 ops/s - 236 ops / loop - 22946 cycles/op
+(repopulate_db_worker,72) [132s] [ 119436 ops/s] Repopulating database (65%)
+(repopulate_db_worker,72) [132s] [ 120958 ops/s] Repopulating database (66%)
+(repopulate_db_worker,72) [132s] [ 120237 ops/s] Repopulating database (65%)
+(repopulate_db_worker,72) [132s] [ 120822 ops/s] Repopulating database (66%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  120454 ops -  120363 ops/s - 193 ops / loop - 23112 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  120400 ops -  120231 ops/s - 179 ops / loop - 23138 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  12% -  120061 ops -  120031 ops/s - 142 ops / loop - 23176 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  121314 ops -  121284 ops/s - 245 ops / loop - 22937 cycles/op
+(repopulate_db_worker,72) [133s] [ 122720 ops/s] Repopulating database (66%)
+(repopulate_db_worker,72) [133s] [ 123224 ops/s] Repopulating database (66%)
+(repopulate_db_worker,72) [133s] [ 121555 ops/s] Repopulating database (66%)
+(repopulate_db_worker,72) [133s] [ 121216 ops/s] Repopulating database (66%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  122009 ops -  122008 ops/s - 209 ops / loop - 22801 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  122900 ops -  122686 ops/s - 245 ops / loop - 22675 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  122386 ops -  122283 ops/s - 198 ops / loop - 22749 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  122004 ops -  121995 ops/s - 246 ops / loop - 22803 cycles/op
+(repopulate_db_worker,72) [134s] [ 120650 ops/s] Repopulating database (67%)
+(repopulate_db_worker,72) [134s] [ 121093 ops/s] Repopulating database (66%)
+(repopulate_db_worker,72) [134s] [ 122244 ops/s] Repopulating database (66%)
+(repopulate_db_worker,72) [134s] [ 120584 ops/s] Repopulating database (66%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  120468 ops -  120441 ops/s - 160 ops / loop - 23097 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  121052 ops -  120925 ops/s - 178 ops / loop - 23005 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  121121 ops -  121008 ops/s - 229 ops / loop - 22989 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  121287 ops -  121272 ops/s - 227 ops / loop - 22939 cycles/op
+(repopulate_db_worker,72) [135s] [ 120155 ops/s] Repopulating database (67%)
+(repopulate_db_worker,72) [135s] [ 119451 ops/s] Repopulating database (67%)
+(repopulate_db_worker,72) [135s] [ 120765 ops/s] Repopulating database (67%)
+(repopulate_db_worker,72) [135s] [ 120500 ops/s] Repopulating database (67%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  120163 ops -  120136 ops/s - 170 ops / loop - 23156 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  120390 ops -  120329 ops/s - 165 ops / loop - 23119 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  12% -  120392 ops -  120249 ops/s - 251 ops / loop - 23134 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  120277 ops -  120185 ops/s - 188 ops / loop - 23147 cycles/op
+(repopulate_db_worker,72) [136s] [ 120838 ops/s] Repopulating database (67%)
+(repopulate_db_worker,72) [136s] [ 119861 ops/s] Repopulating database (67%)
+(repopulate_db_worker,72) [136s] [ 120692 ops/s] Repopulating database (67%)
+(repopulate_db_worker,72) [136s] [ 120254 ops/s] Repopulating database (67%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  120685 ops -  120611 ops/s - 176 ops / loop - 23065 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  120254 ops -  120235 ops/s - 161 ops / loop - 23137 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  120556 ops -  120377 ops/s - 233 ops / loop - 23110 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb  10% - wait   0% - slab_cb  12% -  120646 ops -  120505 ops/s - 200 ops / loop - 23085 cycles/op
+(repopulate_db_worker,72) [137s] [ 111031 ops/s] Repopulating database (68%)
+(repopulate_db_worker,72) [137s] [ 110500 ops/s] Repopulating database (68%)
+(repopulate_db_worker,72) [137s] [ 111728 ops/s] Repopulating database (68%)
+(repopulate_db_worker,72) [137s] [ 111185 ops/s] Repopulating database (68%)
+[WORKER BREAKDOWN] io_submit 57% - io_getevents  15% - io_cb   9% - wait   5% - slab_cb  13% -  111190 ops -  111108 ops/s - 145 ops / loop - 25038 cycles/op
+[WORKER BREAKDOWN] io_submit 57% - io_getevents  15% - io_cb   9% - wait   5% - slab_cb  13% -  111264 ops -  111085 ops/s - 141 ops / loop - 25043 cycles/op
+[WORKER BREAKDOWN] io_submit 57% - io_getevents  15% - io_cb   9% - wait   5% - slab_cb  13% -  110991 ops -  110915 ops/s - 143 ops / loop - 25081 cycles/op
+[WORKER BREAKDOWN] io_submit 59% - io_getevents  13% - io_cb   9% - wait   4% - slab_cb  13% -  112014 ops -  111850 ops/s - 220 ops / loop - 24871 cycles/op
+(repopulate_db_worker,72) [138s] [ 119672 ops/s] Repopulating database (68%)
+(repopulate_db_worker,72) [138s] [ 118379 ops/s] Repopulating database (68%)
+(repopulate_db_worker,72) [138s] [ 118099 ops/s] Repopulating database (68%)
+(repopulate_db_worker,72) [138s] [ 117780 ops/s] Repopulating database (68%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  118163 ops -  118053 ops/s - 172 ops / loop - 23565 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  12% -  118732 ops -  118622 ops/s - 143 ops / loop - 23451 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  118685 ops -  118469 ops/s - 153 ops / loop - 23482 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  12% -  118776 ops -  118672 ops/s - 244 ops / loop - 23442 cycles/op
+(repopulate_db_worker,72) [139s] [ 118384 ops/s] Repopulating database (69%)
+(repopulate_db_worker,72) [139s] [ 118049 ops/s] Repopulating database (69%)
+(repopulate_db_worker,72) [139s] [ 117741 ops/s] Repopulating database (69%)
+(repopulate_db_worker,72) [139s] [ 117150 ops/s] Repopulating database (69%)
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  118249 ops -  118025 ops/s - 153 ops / loop - 23570 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  15% - io_cb   9% - wait   1% - slab_cb  12% -  117779 ops -  117551 ops/s - 143 ops / loop - 23665 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  12% -  117324 ops -  117315 ops/s - 135 ops / loop - 23713 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  12% -  118172 ops -  118162 ops/s - 251 ops / loop - 23543 cycles/op
+(repopulate_db_worker,72) [140s] [ 118640 ops/s] Repopulating database (69%)
+(repopulate_db_worker,72) [140s] [ 118643 ops/s] Repopulating database (69%)
+(repopulate_db_worker,72) [140s] [ 117922 ops/s] Repopulating database (69%)
+(repopulate_db_worker,72) [140s] [ 118703 ops/s] Repopulating database (69%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  118882 ops -  118843 ops/s - 190 ops / loop - 23408 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  118941 ops -  118839 ops/s - 153 ops / loop - 23409 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   1% - slab_cb  12% -  118065 ops -  118061 ops/s - 137 ops / loop - 23563 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  12% -  118544 ops -  118333 ops/s - 246 ops / loop - 23509 cycles/op
+(repopulate_db_worker,72) [141s] [ 119606 ops/s] Repopulating database (70%)
+(repopulate_db_worker,72) [141s] [ 119072 ops/s] Repopulating database (70%)
+(repopulate_db_worker,72) [141s] [ 118801 ops/s] Repopulating database (70%)
+(repopulate_db_worker,72) [141s] [ 119773 ops/s] Repopulating database (70%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  12% -  120096 ops -  119935 ops/s - 219 ops / loop - 23195 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  119642 ops -  119411 ops/s - 161 ops / loop - 23296 cycles/op
+[WORKER BREAKDOWN] io_submit 59% - io_getevents  17% - io_cb   9% - wait   0% - slab_cb  12% -  118608 ops -  118519 ops/s - 138 ops / loop - 23472 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb   9% - wait   0% - slab_cb  12% -  119340 ops -  119194 ops/s - 224 ops / loop - 23339 cycles/op
+(repopulate_db_worker,72) [142s] [ 119638 ops/s] Repopulating database (70%)
+(repopulate_db_worker,72) [142s] [ 120535 ops/s] Repopulating database (70%)
+(repopulate_db_worker,72) [142s] [ 120127 ops/s] Repopulating database (70%)
+(repopulate_db_worker,72) [142s] [ 119559 ops/s] Repopulating database (70%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  119928 ops -  119923 ops/s - 201 ops / loop - 23197 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  120101 ops -  120023 ops/s - 172 ops / loop - 23178 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  120143 ops -  120094 ops/s - 174 ops / loop - 23164 cycles/op
+[WORKER BREAKDOWN] io_submit 63% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  120028 ops -  119898 ops/s - 250 ops / loop - 23202 cycles/op
+(repopulate_db_worker,72) [143s] [ 119793 ops/s] Repopulating database (71%)
+(repopulate_db_worker,72) [143s] [ 119426 ops/s] Repopulating database (71%)
+(repopulate_db_worker,72) [143s] [ 120039 ops/s] Repopulating database (71%)
+(repopulate_db_worker,72) [143s] [ 119805 ops/s] Repopulating database (71%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  119728 ops -  119555 ops/s - 201 ops / loop - 23268 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  120061 ops -  120035 ops/s - 155 ops / loop - 23175 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  119502 ops -  119480 ops/s - 153 ops / loop - 23283 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  119976 ops -  119783 ops/s - 244 ops / loop - 23224 cycles/op
+(repopulate_db_worker,72) [144s] [ 119992 ops/s] Repopulating database (71%)
+(repopulate_db_worker,72) [144s] [ 120490 ops/s] Repopulating database (71%)
+(repopulate_db_worker,72) [144s] [ 118786 ops/s] Repopulating database (71%)
+(repopulate_db_worker,72) [144s] [ 119631 ops/s] Repopulating database (71%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  119333 ops -  119277 ops/s - 179 ops / loop - 23323 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  119895 ops -  119820 ops/s - 165 ops / loop - 23217 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  119466 ops -  119452 ops/s - 168 ops / loop - 23288 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  120204 ops -  120164 ops/s - 252 ops / loop - 23150 cycles/op
+(repopulate_db_worker,72) [145s] [ 119465 ops/s] Repopulating database (72%)
+(repopulate_db_worker,72) [145s] [ 119764 ops/s] Repopulating database (72%)
+(repopulate_db_worker,72) [145s] [ 120568 ops/s] Repopulating database (72%)
+(repopulate_db_worker,72) [145s] [ 119541 ops/s] Repopulating database (72%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  120335 ops -  120182 ops/s - 209 ops / loop - 23147 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  119681 ops -  119575 ops/s - 161 ops / loop - 23265 cycles/op
+[WORKER BREAKDOWN] io_submit 61% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  120516 ops -  120331 ops/s - 176 ops / loop - 23118 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  119812 ops -  119725 ops/s - 247 ops / loop - 23235 cycles/op
+(repopulate_db_worker,72) [146s] [ 118775 ops/s] Repopulating database (72%)
+(repopulate_db_worker,72) [146s] [ 118906 ops/s] Repopulating database (72%)
+(repopulate_db_worker,72) [146s] [ 119308 ops/s] Repopulating database (72%)
+(repopulate_db_worker,72) [146s] [ 118640 ops/s] Repopulating database (72%)
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  118540 ops -  118530 ops/s - 171 ops / loop - 23470 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  15% - io_cb   9% - wait   0% - slab_cb  12% -  119195 ops -  119155 ops/s - 157 ops / loop - 23347 cycles/op
+[WORKER BREAKDOWN] io_submit 60% - io_getevents  16% - io_cb   9% - wait   0% - slab_cb  12% -  118704 ops -  118605 ops/s - 147 ops / loop - 23455 cycles/op
+[WORKER BREAKDOWN] io_submit 62% - io_getevents  14% - io_cb  10% - wait   0% - slab_cb  12% -  119580 ops -  119444 ops/s - 251 ops / loop - 23290 cycles/op
+(repopulate_db_worker,72) [147s] [ 119327 ops/s] Repopulating database (73%)
+(repopulate_db_worker,72) [147s] [ 120197 ops/s] Repopulating database (73%)
+(re

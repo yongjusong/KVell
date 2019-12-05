@@ -1,0 +1,19 @@
+# Configuration:
+# 	Page cache size: 30 GB
+# 	Workers: 3 working on 1 disks
+# 	IO configuration: 64 queue depth (capped: yes, extra waiting: no)
+# 	Queue configuration: 256 maximum pending callbaks per worker
+# 	Datastructures: 3 (memory index) 3 (pagecache)
+# 	Thread pinning: yes
+# 	Bench: YCSB (100000000 elements)
+Initializing random number generator (Zipf) -- this might take a while for large databases...
+(main,40) [  5233ms] Initializing random number generator (Zipf)
+[SLAB WORKER 0] tid 18712
+[SLAB WORKER 1] tid 18713
+#Reserving memory for page cache...
+[SLAB WORKER 2] tid 18714
+#Reserving memory for page cache...
+#Reserving memory for page cache...
+(page_cache_init,29) [  3395ms] Page cache initialization
+(page_cache_init,29) [  3395ms] Page cache initialization
+(page_cache_init,29) [  3396ms] Page cache initialization
