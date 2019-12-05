@@ -12,8 +12,8 @@ int main(int argc, char **argv) {
 		struct workload w = {
 				.api = &YCSB,
 				.nb_items_in_db = 100000000LU,
-			 .nb_load_injectors = 4,
-			 //.nb_load_injectors = 12, // For scans (see scripts/run-aws.sh and OVERVIEW.md)
+			 //.nb_load_injectors = 4,
+				.nb_load_injectors = 12, // For scans (see scripts/run-aws.sh and OVERVIEW.md)
 		};
 
 
@@ -51,9 +51,9 @@ int main(int argc, char **argv) {
 
 		/* Launch benchs */
 		bench_t workload, workloads[] = {
-			 ycsb_a_uniform, ycsb_b_uniform, ycsb_c_uniform,
-			 ycsb_a_zipfian, ycsb_b_zipfian, ycsb_c_zipfian,
-			 //ycsb_e_uniform, ycsb_e_zipfian, // Scans
+			 //ycsb_a_uniform, ycsb_b_uniform, ycsb_c_uniform,
+			 //ycsb_a_zipfian, ycsb_b_zipfian, ycsb_c_zipfian,
+				ycsb_e_uniform, ycsb_e_zipfian, // Scans
 		};
 		foreach(workload, workloads) {
 				if(workload == ycsb_e_uniform || workload == ycsb_e_zipfian) {
@@ -63,10 +63,10 @@ int main(int argc, char **argv) {
 				}	
 
 				//start time
-				printf("start: %d-%d-%d %d:%d:%d\n", tm.tm_year+1900, tm.tm_mon+1, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec);				
+			//printf("start: %d-%d-%d %d:%d:%d\n", tm.tm_year+1900, tm.tm_mon+1, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec);				
 				run_workload(&w, workload);
 				//end time
-				printf("end: %d-%d-%d %d:%d:%d\n", tm.tm_year+1900, tm.tm_mon+1, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec);				
+				//printf("end: %d-%d-%d %d:%d:%d\n", tm.tm_year+1900, tm.tm_mon+1, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec);				
 		}
 		return 0;
 }
