@@ -7,13 +7,46 @@
 # 	Thread pinning: yes
 # 	Bench: YCSB (100000000 elements)
 Initializing random number generator (Zipf) -- this might take a while for large databases...
-(main,40) [  5233ms] Initializing random number generator (Zipf)
-[SLAB WORKER 0] tid 18712
-[SLAB WORKER 1] tid 18713
+(main,40) [  5234ms] Initializing random number generator (Zipf)
+[SLAB WORKER 0] tid 23164
+[SLAB WORKER 1] tid 23165
 #Reserving memory for page cache...
-[SLAB WORKER 2] tid 18714
+[SLAB WORKER 2] tid 23166
 #Reserving memory for page cache...
 #Reserving memory for page cache...
-(page_cache_init,29) [  3395ms] Page cache initialization
-(page_cache_init,29) [  3395ms] Page cache initialization
-(page_cache_init,29) [  3396ms] Page cache initialization
+(page_cache_init,29) [  3339ms] Page cache initialization
+(page_cache_init,29) [  3338ms] Page cache initialization
+(page_cache_init,29) [  3337ms] Page cache initialization
+(main,45) [  3380ms] Init found 0 elements
+now: 2019-12-6 12:19:46
+Initializing big array to insert elements in random order... This might take a while. (Feel free to comment but then the database will be sorted and scans much faster -- unfair vs other systems)
+(repopulate_db,128) [  8784ms] Big array of random positions
+[WORKER BREAKDOWN] io_submit  0% - io_getevents   0% - io_cb   0% - wait  99% - slab_cb   0% -       1 ops -       0 ops/s -   1 ops / loop - 18404264655 cycles/op
+[WORKER BREAKDOWN] io_submit  0% - io_getevents   0% - io_cb   0% - wait  99% - slab_cb   0% -       1 ops -       0 ops/s -   1 ops / loop - 18412527420 cycles/op
+[WORKER BREAKDOWN] io_submit  0% - io_getevents   0% - io_cb   0% - wait  99% - slab_cb   0% -       2 ops -       0 ops/s -   1 ops / loop - 9209545699 cycles/op
+# Configuration:
+# 	Page cache size: 30 GB
+# 	Workers: 3 working on 1 disks
+# 	IO configuration: 64 queue depth (capped: yes, extra waiting: no)
+# 	Queue configuration: 256 maximum pending callbaks per worker
+# 	Datastructures: 3 (memory index) 3 (pagecache)
+# 	Thread pinning: yes
+# 	Bench: YCSB (100000000 elements)
+Initializing random number generator (Zipf) -- this might take a while for large databases...
+(main,40) [  5234ms] Initializing random number generator (Zipf)
+[SLAB WORKER 0] tid 23164
+[SLAB WORKER 1] tid 23165
+#Reserving memory for page cache...
+[SLAB WORKER 2] tid 23166
+#Reserving memory for page cache...
+#Reserving memory for page cache...
+(page_cache_init,29) [  3339ms] Page cache initialization
+(page_cache_init,29) [  3338ms] Page cache initialization
+(page_cache_init,29) [  3337ms] Page cache initialization
+(main,45) [  3380ms] Init found 0 elements
+now: 2019-12-6 12:19:46
+Initializing big array to insert elements in random order... This might take a while. (Feel free to comment but then the database will be sorted and scans much faster -- unfair vs other systems)
+(repopulate_db,128) [  8784ms] Big array of random positions
+[WORKER BREAKDOWN] io_submit  0% - io_getevents   0% - io_cb   0% - wait  99% - slab_cb   0% -       1 ops -       0 ops/s -   1 ops / loop - 18404264655 cycles/op
+[WORKER BREAKDOWN] io_submit  0% - io_getevents   0% - io_cb   0% - wait  99% - slab_cb   0% -       1 ops -       0 ops/s -   1 ops / loop - 18412527420 cycles/op
+[WORKER BREAKDOWN] io_submit  0% - io_getevents   0% - io_cb   0% - wait  99% - slab_cb   0% -       2 ops -       0 ops/s -   1 ops / loop - 9209545699 cycles/op

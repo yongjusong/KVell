@@ -246,8 +246,8 @@ void* do_workload_thread(void *pdata) {
 void run_workload(struct workload *w, bench_t b) {
 		struct thread_data *pdata = malloc(w->nb_load_injectors*sizeof(*pdata));
 		// for timestamp
-		time_t t = time(NULL);
-		struct tm tm = *localtime(&t);
+		time_t t;
+		struct tm tm;
 
 
 		w->nb_requests_per_thread = w->nb_requests / w->nb_load_injectors;
@@ -258,6 +258,8 @@ void run_workload(struct workload *w, bench_t b) {
 
 		declare_timer;
 		//start time
+		t = time(NULL);
+		tm = *localtime(&t);
 		printf("start: %d-%d-%d %d:%d:%d\n", tm.tm_year+1900, tm.tm_mon+1, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec);				
 
 		start_timer {
@@ -275,6 +277,8 @@ void run_workload(struct workload *w, bench_t b) {
 				free(threads);
 		} stop_timer("%s - %lu requests (%lu req/s)", w->api->name(b), w->nb_requests, w->nb_requests*1000000/elapsed);
 		//end time
+		t = time(NULL);
+		tm = *localtime(&t);
 		printf("end: %d-%d-%d %d:%d:%d\n", tm.tm_year+1900, tm.tm_mon+1, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec);				
 
 		print_stats();
