@@ -1,0 +1,34 @@
+# Configuration:
+# 	Page cache size: 30 GB
+# 	Workers: 4 working on 1 disks
+# 	IO configuration: 64 queue depth (capped: yes, extra waiting: no)
+# 	Queue configuration: 256 maximum pending callbaks per worker
+# 	Datastructures: 3 (memory index) 3 (pagecache)
+# 	Thread pinning: yes
+# 	Bench: YCSB (10 elements)
+Initializing random number generator (Zipf) -- this might take a while for large databases...
+(main,41) [     0ms] Initializing random number generator (Zipf)
+[SLAB WORKER 0] tid 25810
+[SLAB WORKER 1] tid 25811
+#Reserving memory for page cache...
+#Reserving memory for page cache...
+[SLAB WORKER 2] tid 25812
+[SLAB WORKER 3] tid 25813
+#Reserving memory for page cache...
+#Reserving memory for page cache...
+(page_cache_init,29) [  2684ms] Page cache initialization
+(page_cache_init,29) [  2683ms] Page cache initialization
+(page_cache_init,29) [  2686ms] Page cache initialization
+(page_cache_init,29) [  2696ms] Page cache initialization
+(main,46) [  2724ms] Init found 0 elements
+now: 2019-12-6 16:54:31
+Initializing big array to insert elements in random order... This might take a while. (Feel free to comment but then the database will be sorted and scans much faster -- unfair vs other systems)
+(repopulate_db,128) [     0ms] Big array of random positions
+(repopulate_db,149) [     0ms] Repopulating 10 elements (19342 req/s)
+start: 2019-12-6 16:54:34
+(run_workload,278) [  1121ms] YCSB A - Uniform - 10000000 requests (8914411 req/s)
+end: 2019-12-6 16:54:35
+#Latency:
+#	AVG - 7 us
+#	99p - 43 us
+#	max - 16868 us

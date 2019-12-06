@@ -12,9 +12,7 @@ tcmalloc="env LD_PRELOAD=${HOME}/Downloads/gperftools/.libs/libtcmalloc.so "
 rm -f /scratch*/kvell/*
 
 cp ${mainDir}/main.c ${mainDir}/main.c.bak
-#cat ${mainDir}/main.c | perl -pe 's://.nb_load_injectors = 4:.nb_load_injectors = 4:' | perl -pe 's:[^/].nb_load_injectors = 12: //.nb_load_injectors = 12:' | perl -pe 's:[^/]ycsb_e_uniform,: //ycsb_e_uniform,:' | perl -pe 's://ycsb_a_uniform,:ycsb_a_uniform,:' | perl -pe 's://ycsb_a_zipfian,:ycsb_a_zipfian,:' > ${mainDir}/main.c.tmp
-cat ${mainDir}/main.c | perl -pe 's://.nb_load_injectors = 4:.nb_load_injectors = 4:' | perl -pe 's:[^/].nb_load_injectors = 12: //.nb_load_injectors = 12:' | perl -pe 's:[^/]ycsb_e_uniform,: //ycsb_e_uniform,:' | perl -pe 's://ycsb_a_uniform,:ycsb_a_uniform,:' | perl -pe 's://ycsb_a_zipfian,://ycsb_a_zipfian,:' > ${mainDir}/main.c.tmp
-
+cat ${mainDir}/main.c | perl -pe 's://.nb_load_injectors = 4:.nb_load_injectors = 4:' | perl -pe 's:[^/].nb_load_injectors = 12: //.nb_load_injectors = 12:' | perl -pe 's:[^/]ycsb_e_uniform,: //ycsb_e_uniform,:' | perl -pe 's://ycsb_a_uniform,:ycsb_a_uniform,:' | perl -pe 's://ycsb_a_zipfian,:ycsb_a_zipfian,:' > ${mainDir}/main.c.tmp
 mv ${mainDir}/main.c.tmp ${mainDir}/main.c
 make -C ${mainDir} -j
 

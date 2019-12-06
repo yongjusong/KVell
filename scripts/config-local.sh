@@ -9,7 +9,7 @@ fi
 echo 1 > /sys/devices/system/cpu/intel_pstate/no_turbo
 echo 0 > /proc/sys/kernel/numa_balancing
 systemctl disable ondemand
-for i in $(seq 0 15); do
+for i in $(seq 0 7); do
    echo "performance" > /sys/devices/system/cpu/cpu$i/cpufreq/scaling_governor
 done
 
