@@ -1,0 +1,2150 @@
+Linux 4.14.142-nvmeq-interval-analysis-31+ (yongju) 	2019년 12월 10일 	_x86_64_	(16 CPU)
+
+2019년 12월 10일 14시 36분 46초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           2.01    0.03    1.45    0.00    0.00   96.52
+
+2019년 12월 10일 14시 36분 47초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.43    0.00   21.60    0.00    0.00   49.97
+
+2019년 12월 10일 14시 36분 48초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.39    0.00   21.64    0.00    0.00   49.97
+
+2019년 12월 10일 14시 36분 49초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.56    0.00   21.62    0.00    0.00   49.81
+
+2019년 12월 10일 14시 36분 50초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.07    0.00   20.86    0.00    0.00   50.06
+
+2019년 12월 10일 14시 36분 51초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   20.86    0.00    0.00   50.00
+
+2019년 12월 10일 14시 36분 52초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.96    0.00   21.20    0.06    0.00   49.78
+
+2019년 12월 10일 14시 36분 53초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.80    0.00   21.16    0.00    0.00   50.03
+
+2019년 12월 10일 14시 36분 54초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.29    0.00   20.71    0.00    0.00   50.00
+
+2019년 12월 10일 14시 36분 55초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.56    0.00   20.60    0.00    0.00   49.84
+
+2019년 12월 10일 14시 36분 56초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.68    0.00   20.29    0.00    0.00   50.03
+
+2019년 12월 10일 14시 36분 57초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.78    0.00   20.13    0.00    0.00   50.09
+
+2019년 12월 10일 14시 36분 58초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.79    0.00   21.40    0.00    0.00   49.81
+
+2019년 12월 10일 14시 36분 59초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.72    0.00   20.28    0.00    0.00   50.00
+
+2019년 12월 10일 14시 37분 00초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.53    0.00   21.44    0.00    0.00   50.03
+
+2019년 12월 10일 14시 37분 01초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.29    0.00   20.90    0.00    0.00   49.81
+
+2019년 12월 10일 14시 37분 02초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   20.91    0.00    0.00   50.03
+
+2019년 12월 10일 14시 37분 03초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.26    0.00   20.68    0.00    0.00   50.06
+
+2019년 12월 10일 14시 37분 04초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.33    0.00   20.89    0.00    0.00   49.78
+
+2019년 12월 10일 14시 37분 05초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.66    0.00   21.34    0.00    0.00   50.00
+
+2019년 12월 10일 14시 37분 06초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.75    0.00   20.31    0.00    0.00   49.94
+
+2019년 12월 10일 14시 37분 07초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.71    0.00   21.54    0.06    0.00   49.69
+
+2019년 12월 10일 14시 37분 08초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.03    0.00   21.10    0.00    0.00   49.88
+
+2019년 12월 10일 14시 37분 09초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.74    0.00   21.23    0.00    0.00   50.03
+
+2019년 12월 10일 14시 37분 10초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.09    0.00   21.00    0.00    0.00   49.91
+
+2019년 12월 10일 14시 37분 11초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.97    0.00   21.03    0.00    0.00   50.00
+
+2019년 12월 10일 14시 37분 12초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.99    0.00   20.98    0.00    0.00   50.03
+
+2019년 12월 10일 14시 37분 13초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   20.99    0.00    0.00   49.87
+
+2019년 12월 10일 14시 37분 14초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.88    0.00   21.05    0.00    0.00   50.06
+
+2019년 12월 10일 14시 37분 15초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.54    0.00   20.46    0.00    0.00   50.00
+
+2019년 12월 10일 14시 37분 16초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.78    0.00   21.32    0.00    0.00   49.91
+
+2019년 12월 10일 14시 37분 17초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.91    0.00   21.03    0.06    0.00   50.00
+
+2019년 12월 10일 14시 37분 18초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.57    0.00   21.43    0.00    0.00   50.00
+
+2019년 12월 10일 14시 37분 19초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.32    0.00   20.74    0.00    0.00   49.94
+
+2019년 12월 10일 14시 37분 20초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.30    0.00   20.66    0.00    0.00   50.03
+
+2019년 12월 10일 14시 37분 21초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.60    0.00   21.40    0.00    0.00   50.00
+
+2019년 12월 10일 14시 37분 22초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.33    0.00   20.89    0.00    0.00   49.78
+
+2019년 12월 10일 14시 37분 23초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.95    0.00   20.99    0.00    0.00   50.06
+
+2019년 12월 10일 14시 37분 24초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.27    0.00   20.76    0.00    0.00   49.97
+
+2019년 12월 10일 14시 37분 25초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.37    0.00   20.79    0.00    0.00   49.84
+
+2019년 12월 10일 14시 37분 26초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.93    0.00   21.04    0.00    0.00   50.03
+
+2019년 12월 10일 14시 37분 27초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.28    0.00   20.63    0.00    0.00   50.09
+
+2019년 12월 10일 14시 37분 28초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.15    0.00   20.94    0.00    0.00   49.91
+
+2019년 12월 10일 14시 37분 29초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.88    0.00   21.05    0.00    0.00   50.06
+
+2019년 12월 10일 14시 37분 30초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.37    0.00   20.60    0.00    0.00   50.03
+
+2019년 12월 10일 14시 37분 31초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.18    0.00   20.98    0.00    0.00   49.84
+
+2019년 12월 10일 14시 37분 32초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.94    0.00   21.06    0.06    0.00   49.94
+
+2019년 12월 10일 14시 37분 33초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.24    0.00   20.73    0.00    0.00   50.03
+
+2019년 12월 10일 14시 37분 34초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.63    0.00   21.49    0.00    0.00   49.87
+
+2019년 12월 10일 14시 37분 35초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   20.85    0.00    0.00   50.03
+
+2019년 12월 10일 14시 37분 36초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.22    0.00   20.69    0.00    0.00   50.09
+
+2019년 12월 10일 14시 37분 37초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.16    0.00   21.03    0.00    0.00   49.81
+
+2019년 12월 10일 14시 37분 38초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.03    0.00   20.88    0.00    0.00   50.09
+
+2019년 12월 10일 14시 37분 39초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.87    0.00   21.10    0.00    0.00   50.03
+
+2019년 12월 10일 14시 37분 40초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   21.04    0.00    0.00   49.84
+
+2019년 12월 10일 14시 37분 41초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.47    0.00   20.53    0.00    0.00   50.00
+
+2019년 12월 10일 14시 37분 42초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.00    0.00   21.00    0.06    0.00   49.94
+
+2019년 12월 10일 14시 37분 43초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.90    0.00   21.19    0.00    0.00   49.91
+
+2019년 12월 10일 14시 37분 44초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.97    0.00   21.03    0.00    0.00   50.00
+
+2019년 12월 10일 14시 37분 45초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.27    0.00   20.76    0.00    0.00   49.97
+
+2019년 12월 10일 14시 37분 46초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.07    0.00   21.05    0.00    0.00   49.87
+
+2019년 12월 10일 14시 37분 47초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.90    0.00   21.22    0.00    0.00   49.88
+
+2019년 12월 10일 14시 37분 48초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.36    0.00   20.74    0.00    0.00   49.91
+
+2019년 12월 10일 14시 37분 49초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.72    0.00   21.46    0.00    0.00   49.81
+
+2019년 12월 10일 14시 37분 50초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.20    0.00   20.74    0.00    0.00   50.06
+
+2019년 12월 10일 14시 37분 51초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.93    0.00   21.04    0.00    0.00   50.03
+
+2019년 12월 10일 14시 37분 52초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.68    0.00   21.35    0.00    0.00   49.97
+
+2019년 12월 10일 14시 37분 53초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.80    0.00   21.20    0.00    0.00   50.00
+
+2019년 12월 10일 14시 37분 54초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.33    0.00   20.70    0.00    0.00   49.97
+
+2019년 12월 10일 14시 37분 55초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.97    0.00   21.03    0.00    0.00   50.00
+
+2019년 12월 10일 14시 37분 56초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.79    0.00   21.40    0.00    0.00   49.81
+
+2019년 12월 10일 14시 37분 57초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.39    0.00   20.58    0.06    0.00   49.97
+
+2019년 12월 10일 14시 37분 58초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.50    0.00   20.56    0.00    0.00   49.94
+
+2019년 12월 10일 14시 37분 59초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.93    0.00   21.23    0.00    0.00   49.84
+
+2019년 12월 10일 14시 38분 00초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.09    0.00   20.88    0.00    0.00   50.03
+
+2019년 12월 10일 14시 38분 01초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.10    0.00   20.90    0.00    0.00   50.00
+
+2019년 12월 10일 14시 38분 02초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.93    0.00   21.23    0.00    0.00   49.84
+
+2019년 12월 10일 14시 38분 03초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.66    0.00   20.34    0.00    0.00   50.00
+
+2019년 12월 10일 14시 38분 04초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.91    0.00   21.09    0.00    0.00   50.00
+
+2019년 12월 10일 14시 38분 05초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.35    0.00   20.84    0.00    0.00   49.81
+
+2019년 12월 10일 14시 38분 06초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   20.91    0.00    0.00   50.03
+
+2019년 12월 10일 14시 38분 07초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.01    0.00   20.93    0.00    0.00   50.06
+
+2019년 12월 10일 14시 38분 08초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.85    0.00   21.34    0.00    0.00   49.81
+
+2019년 12월 10일 14시 38분 09초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.39    0.00   20.55    0.00    0.00   50.06
+
+2019년 12월 10일 14시 38분 10초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.07    0.00   20.86    0.00    0.00   50.06
+
+2019년 12월 10일 14시 38분 11초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.30    0.00   20.79    0.00    0.00   49.91
+
+2019년 12월 10일 14시 38분 12초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.18    0.00   20.79    0.06    0.00   49.97
+
+2019년 12월 10일 14시 38분 13초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.30    0.00   20.66    0.00    0.00   50.03
+
+2019년 12월 10일 14시 38분 14초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.95    0.00   21.18    0.00    0.00   49.87
+
+2019년 12월 10일 14시 38분 15초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.95    0.00   20.99    0.00    0.00   50.06
+
+2019년 12월 10일 14시 38분 16초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.84    0.00   21.07    0.00    0.00   50.09
+
+2019년 12월 10일 14시 38분 17초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.20    0.00   20.93    0.00    0.00   49.87
+
+2019년 12월 10일 14시 38분 18초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.51    0.00   21.43    0.00    0.00   50.06
+
+2019년 12월 10일 14시 38분 19초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.24    0.00   20.73    0.00    0.00   50.03
+
+2019년 12월 10일 14시 38분 20초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.07    0.00   21.05    0.00    0.00   49.87
+
+2019년 12월 10일 14시 38분 21초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.03    0.00   20.88    0.00    0.00   50.09
+
+2019년 12월 10일 14시 38분 22초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.91    0.00   21.09    0.00    0.00   50.00
+
+2019년 12월 10일 14시 38분 23초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.62    0.00   20.54    0.00    0.00   49.84
+
+2019년 12월 10일 14시 38분 24초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.42    0.00   20.45    0.00    0.00   50.13
+
+2019년 12월 10일 14시 38분 25초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.02    0.00   21.01    0.00    0.00   49.97
+
+2019년 12월 10일 14시 38분 26초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.72    0.00   21.40    0.00    0.00   49.87
+
+2019년 12월 10일 14시 38분 27초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.66    0.00   21.34    0.06    0.00   49.94
+
+2019년 12월 10일 14시 38분 28초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.09    0.00   20.82    0.00    0.00   50.09
+
+2019년 12월 10일 14시 38분 29초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.37    0.00   20.79    0.00    0.00   49.84
+
+2019년 12월 10일 14시 38분 30초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   20.80    0.00    0.00   50.06
+
+2019년 12월 10일 14시 38분 31초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.62    0.00   20.35    0.00    0.00   50.03
+
+2019년 12월 10일 14시 38분 32초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.64    0.00   21.58    0.00    0.00   49.78
+
+2019년 12월 10일 14시 38분 33초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.80    0.00   21.16    0.00    0.00   50.03
+
+2019년 12월 10일 14시 38분 34초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.99    0.00   20.98    0.00    0.00   50.03
+
+2019년 12월 10일 14시 38분 35초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   21.04    0.00    0.00   49.84
+
+2019년 12월 10일 14시 38분 36초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.74    0.00   21.23    0.00    0.00   50.03
+
+2019년 12월 10일 14시 38분 37초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.02    0.00   20.95    0.06    0.00   49.97
+
+2019년 12월 10일 14시 38분 38초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.10    0.00   21.09    0.00    0.00   49.81
+
+2019년 12월 10일 14시 38분 39초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.81    0.00   21.25    0.00    0.00   49.94
+
+2019년 12월 10일 14시 38분 40초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.91    0.00   21.09    0.00    0.00   50.00
+
+2019년 12월 10일 14시 38분 41초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.55    0.00   21.60    0.00    0.00   49.84
+
+2019년 12월 10일 14시 38분 42초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.78    0.00   21.13    0.00    0.00   50.09
+
+2019년 12월 10일 14시 38분 43초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.89    0.00   21.14    0.00    0.00   49.97
+
+2019년 12월 10일 14시 38분 44초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.22    0.00   20.96    0.00    0.00   49.81
+
+2019년 12월 10일 14시 38분 45초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.46    0.00   20.58    0.00    0.00   49.97
+
+2019년 12월 10일 14시 38분 46초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   20.89    0.00    0.00   49.97
+
+2019년 12월 10일 14시 38분 47초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   21.10    0.00    0.00   49.84
+
+2019년 12월 10일 14시 38분 48초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.81    0.00   21.25    0.00    0.00   49.94
+
+2019년 12월 10일 14시 38분 49초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.37    0.00   20.60    0.00    0.00   50.03
+
+2019년 12월 10일 14시 38분 50초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.30    0.00   20.85    0.00    0.00   49.84
+
+2019년 12월 10일 14시 38분 51초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.20    0.00   20.74    0.00    0.00   50.06
+
+2019년 12월 10일 14시 38분 52초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.94    0.00   21.06    0.06    0.00   49.94
+
+2019년 12월 10일 14시 38분 53초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.88    0.00   21.24    0.00    0.00   49.87
+
+2019년 12월 10일 14시 38분 54초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   20.85    0.00    0.00   50.03
+
+2019년 12월 10일 14시 38분 55초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.95    0.00   20.99    0.00    0.00   50.06
+
+2019년 12월 10일 14시 38분 56초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.97    0.00   21.15    0.00    0.00   49.87
+
+2019년 12월 10일 14시 38분 57초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.24    0.00   20.79    0.00    0.00   49.97
+
+2019년 12월 10일 14시 38분 58초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.07    0.00   20.86    0.00    0.00   50.06
+
+2019년 12월 10일 14시 38분 59초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   21.08    0.00    0.00   49.78
+
+2019년 12월 10일 14시 39분 00초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.29    0.00   20.71    0.00    0.00   50.00
+
+2019년 12월 10일 14시 39분 01초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.22    0.00   20.69    0.00    0.00   50.09
+
+2019년 12월 10일 14시 39분 02초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.76    0.00   21.37    0.00    0.00   49.87
+
+2019년 12월 10일 14시 39분 03초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.74    0.00   21.23    0.00    0.00   50.03
+
+2019년 12월 10일 14시 39분 04초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.18    0.00   20.79    0.00    0.00   50.03
+
+2019년 12월 10일 14시 39분 05초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.85    0.00   20.34    0.00    0.00   49.81
+
+2019년 12월 10일 14시 39분 06초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.99    0.00   20.98    0.00    0.00   50.03
+
+2019년 12월 10일 14시 39분 07초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.85    0.00   21.15    0.06    0.00   49.94
+
+2019년 12월 10일 14시 39분 08초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.01    0.00   21.12    0.00    0.00   49.87
+
+2019년 12월 10일 14시 39분 09초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.16    0.00   20.84    0.00    0.00   50.00
+
+2019년 12월 10일 14시 39분 10초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.39    0.00   20.55    0.00    0.00   50.06
+
+2019년 12월 10일 14시 39분 11초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.85    0.00   21.28    0.00    0.00   49.87
+
+2019년 12월 10일 14시 39분 12초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.65    0.00   21.32    0.00    0.00   50.03
+
+2019년 12월 10일 14시 39분 13초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.28    0.00   20.63    0.00    0.00   50.09
+
+2019년 12월 10일 14시 39분 14초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.66    0.00   20.53    0.00    0.00   49.81
+
+2019년 12월 10일 14시 39분 15초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.18    0.00   20.79    0.00    0.00   50.03
+
+2019년 12월 10일 14시 39분 16초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.88    0.00   21.05    0.00    0.00   50.06
+
+2019년 12월 10일 14시 39분 17초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.54    0.00   21.67    0.06    0.00   49.72
+
+2019년 12월 10일 14시 39분 18초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.38    0.00   21.62    0.00    0.00   50.00
+
+2019년 12월 10일 14시 39분 19초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.99    0.00   20.91    0.00    0.00   50.09
+
+2019년 12월 10일 14시 39분 20초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.28    0.00   20.82    0.00    0.00   49.91
+
+2019년 12월 10일 14시 39분 21초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.50    0.00   21.56    0.00    0.00   49.94
+
+2019년 12월 10일 14시 39분 22초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.73    0.00   21.36    0.00    0.00   49.91
+
+2019년 12월 10일 14시 39분 23초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.97    0.00   21.21    0.00    0.00   49.81
+
+2019년 12월 10일 14시 39분 24초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.64    0.00   21.39    0.00    0.00   49.97
+
+2019년 12월 10일 14시 39분 25초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   20.89    0.00    0.00   49.97
+
+2019년 12월 10일 14시 39분 26초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.79    0.00   21.40    0.00    0.00   49.81
+
+2019년 12월 10일 14시 39분 27초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.29    0.00   20.71    0.00    0.00   50.00
+
+2019년 12월 10일 14시 39분 28초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.95    0.00   20.99    0.00    0.00   50.06
+
+2019년 12월 10일 14시 39분 29초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.04    0.00   21.15    0.00    0.00   49.81
+
+2019년 12월 10일 14시 39분 30초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.89    0.00   21.14    0.00    0.00   49.97
+
+2019년 12월 10일 14시 39분 31초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.98    0.00   21.11    0.00    0.00   49.91
+
+2019년 12월 10일 14시 39분 32초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.41    0.00   20.71    0.06    0.00   49.81
+
+2019년 12월 10일 14시 39분 33초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.66    0.00   21.34    0.00    0.00   50.00
+
+2019년 12월 10일 14시 39분 34초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.04    0.00   20.96    0.00    0.00   50.00
+
+2019년 12월 10일 14시 39분 35초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.47    0.00   20.71    0.00    0.00   49.81
+
+2019년 12월 10일 14시 39분 36초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.61    0.00   20.49    0.00    0.00   49.91
+
+2019년 12월 10일 14시 39분 37초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.99    0.00   21.04    0.00    0.00   49.97
+
+2019년 12월 10일 14시 39분 38초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.84    0.00   21.22    0.00    0.00   49.94
+
+2019년 12월 10일 14시 39분 39초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.83    0.00   21.39    0.00    0.00   49.78
+
+2019년 12월 10일 14시 39분 40초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   20.91    0.00    0.00   50.03
+
+2019년 12월 10일 14시 39분 41초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.53    0.00   20.44    0.00    0.00   50.03
+
+2019년 12월 10일 14시 39분 42초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.66    0.00   20.53    0.00    0.00   49.81
+
+2019년 12월 10일 14시 39분 43초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.33    0.00   20.64    0.00    0.00   50.03
+
+2019년 12월 10일 14시 39분 44초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.93    0.00   21.04    0.00    0.00   50.03
+
+2019년 12월 10일 14시 39분 45초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.82    0.00   21.30    0.00    0.00   49.87
+
+2019년 12월 10일 14시 39분 46초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.45    0.00   20.49    0.00    0.00   50.06
+
+2019년 12월 10일 14시 39분 47초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.81    0.00   20.16    0.06    0.00   49.97
+
+2019년 12월 10일 14시 39분 48초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.41    0.00   20.78    0.00    0.00   49.81
+
+2019년 12월 10일 14시 39분 49초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.95    0.00   20.99    0.00    0.00   50.06
+
+2019년 12월 10일 14시 39분 50초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.72    0.00   21.21    0.00    0.00   50.06
+
+2019년 12월 10일 14시 39분 51초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.43    0.00   20.73    0.00    0.00   49.84
+
+2019년 12월 10일 14시 39분 52초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.45    0.00   20.55    0.00    0.00   50.00
+
+2019년 12월 10일 14시 39분 53초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.29    0.00   20.65    0.00    0.00   50.06
+
+2019년 12월 10일 14시 39분 54초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.01    0.00   21.12    0.00    0.00   49.87
+
+2019년 12월 10일 14시 39분 55초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.24    0.00   20.73    0.00    0.00   50.03
+
+2019년 12월 10일 14시 39분 56초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.71    0.00   20.33    0.00    0.00   49.97
+
+2019년 12월 10일 14시 39분 57초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.46    0.00   21.57    0.06    0.00   49.91
+
+2019년 12월 10일 14시 39분 58초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.24    0.00   20.73    0.00    0.00   50.03
+
+2019년 12월 10일 14시 39분 59초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.85    0.00   21.15    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 00초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.65    0.00   21.44    0.00    0.00   49.91
+
+2019년 12월 10일 14시 40분 01초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.68    0.00   21.29    0.00    0.00   50.03
+
+2019년 12월 10일 14시 40분 02초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   20.94    0.00    0.00   49.94
+
+2019년 12월 10일 14시 40분 03초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.32    0.00   20.80    0.00    0.00   49.87
+
+2019년 12월 10일 14시 40분 04초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.98    0.00   20.89    0.00    0.00   50.13
+
+2019년 12월 10일 14시 40분 05초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.82    0.00   21.12    0.00    0.00   50.06
+
+2019년 12월 10일 14시 40분 06초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.76    0.00   21.37    0.00    0.00   49.87
+
+2019년 12월 10일 14시 40분 07초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.16    0.00   20.84    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 08초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.79    0.00   21.21    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 09초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.26    0.00   20.86    0.00    0.00   49.87
+
+2019년 12월 10일 14시 40분 10초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.88    0.00   21.05    0.00    0.00   50.06
+
+2019년 12월 10일 14시 40분 11초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.72    0.00   21.28    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 12초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   21.04    0.06    0.00   49.84
+
+2019년 12월 10일 14시 40분 13초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.52    0.00   21.51    0.00    0.00   49.97
+
+2019년 12월 10일 14시 40분 14초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.07    0.00   20.86    0.00    0.00   50.06
+
+2019년 12월 10일 14시 40분 15초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.69    0.00   21.56    0.00    0.00   49.75
+
+2019년 12월 10일 14시 40분 16초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.16    0.00   20.84    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 17초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.20    0.00   20.80    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 18초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.39    0.00   20.74    0.00    0.00   49.87
+
+2019년 12월 10일 14시 40분 19초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.04    0.00   20.96    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 20초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.40    0.00   20.66    0.00    0.00   49.94
+
+2019년 12월 10일 14시 40분 21초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.10    0.00   21.09    0.00    0.00   49.81
+
+2019년 12월 10일 14시 40분 22초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.47    0.00   20.59    0.00    0.00   49.94
+
+2019년 12월 10일 14시 40분 23초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.87    0.00   21.10    0.00    0.00   50.03
+
+2019년 12월 10일 14시 40분 24초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.39    0.00   20.76    0.00    0.00   49.84
+
+2019년 12월 10일 14시 40분 25초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.04    0.00   20.96    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 26초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.82    0.00   21.12    0.00    0.00   50.06
+
+2019년 12월 10일 14시 40분 27초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.02    0.00   21.20    0.06    0.00   49.72
+
+2019년 12월 10일 14시 40분 28초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.02    0.00   20.95    0.00    0.00   50.03
+
+2019년 12월 10일 14시 40분 29초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.02    0.00   21.01    0.00    0.00   49.97
+
+2019년 12월 10일 14시 40분 30초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.04    0.00   21.24    0.00    0.00   49.72
+
+2019년 12월 10일 14시 40분 31초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.97    0.00   21.03    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 32초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.97    0.00   21.03    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 33초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.24    0.00   20.91    0.00    0.00   49.84
+
+2019년 12월 10일 14시 40분 34초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.07    0.00   20.86    0.00    0.00   50.06
+
+2019년 12월 10일 14시 40분 35초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.68    0.00   21.29    0.00    0.00   50.03
+
+2019년 12월 10일 14시 40분 36초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.68    0.00   21.48    0.00    0.00   49.84
+
+2019년 12월 10일 14시 40분 37초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.99    0.00   20.91    0.06    0.00   50.03
+
+2019년 12월 10일 14시 40분 38초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.72    0.00   21.28    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 39초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.31    0.00   21.94    0.00    0.00   49.75
+
+2019년 12월 10일 14시 40분 40초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.02    0.00   21.01    0.00    0.00   49.97
+
+2019년 12월 10일 14시 40분 41초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.58    0.00   21.45    0.00    0.00   49.97
+
+2019년 12월 10일 14시 40분 42초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.71    0.00   21.38    0.00    0.00   49.91
+
+2019년 12월 10일 14시 40분 43초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.85    0.00   21.15    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 44초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.26    0.00   20.68    0.00    0.00   50.06
+
+2019년 12월 10일 14시 40분 45초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.21    0.00   21.01    0.00    0.00   49.78
+
+2019년 12월 10일 14시 40분 46초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.10    0.00   20.90    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 47초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   20.80    0.00    0.00   50.06
+
+2019년 12월 10일 14시 40분 48초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   21.04    0.00    0.00   49.84
+
+2019년 12월 10일 14시 40분 49초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.16    0.00   20.84    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 50초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.74    0.00   21.23    0.00    0.00   50.03
+
+2019년 12월 10일 14시 40분 51초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.34    0.00   20.75    0.00    0.00   49.91
+
+2019년 12월 10일 14시 40분 52초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.08    0.00   20.89    0.06    0.00   49.97
+
+2019년 12월 10일 14시 40분 53초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.45    0.00   20.49    0.00    0.00   50.06
+
+2019년 12월 10일 14시 40분 54초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.07    0.00   21.05    0.00    0.00   49.87
+
+2019년 12월 10일 14시 40분 55초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.89    0.00   21.14    0.00    0.00   49.97
+
+2019년 12월 10일 14시 40분 56초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.11    0.00   20.92    0.00    0.00   49.97
+
+2019년 12월 10일 14시 40분 57초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.92    0.00   21.14    0.00    0.00   49.94
+
+2019년 12월 10일 14시 40분 58초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.04    0.00   20.96    0.00    0.00   50.00
+
+2019년 12월 10일 14시 40분 59초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.49    0.00   20.48    0.00    0.00   50.03
+
+2019년 12월 10일 14시 41분 00초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.89    0.00   20.18    0.00    0.00   49.94
+
+2019년 12월 10일 14시 41분 01초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.87    0.00   21.10    0.00    0.00   50.03
+
+2019년 12월 10일 14시 41분 02초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   20.91    0.00    0.00   49.97
+
+2019년 12월 10일 14시 41분 03초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.91    0.00   21.21    0.00    0.00   49.87
+
+2019년 12월 10일 14시 41분 04초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.22    0.00   20.78    0.00    0.00   50.00
+
+2019년 12월 10일 14시 41분 05초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.99    0.00   20.98    0.00    0.00   50.03
+
+2019년 12월 10일 14시 41분 06초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.82    0.00   21.24    0.00    0.00   49.94
+
+2019년 12월 10일 14시 41분 07초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.22    0.00   20.71    0.06    0.00   50.00
+
+2019년 12월 10일 14시 41분 08초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.16    0.00   20.84    0.00    0.00   50.00
+
+2019년 12월 10일 14시 41분 09초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.93    0.00   21.23    0.00    0.00   49.84
+
+2019년 12월 10일 14시 41분 10초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.38    0.00   20.62    0.00    0.00   50.00
+
+2019년 12월 10일 14시 41분 11초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.64    0.00   20.39    0.00    0.00   49.97
+
+2019년 12월 10일 14시 41분 12초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.34    0.00   20.97    0.00    0.00   49.69
+
+2019년 12월 10일 14시 41분 13초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.23    0.00   20.86    0.00    0.00   49.91
+
+2019년 12월 10일 14시 41분 14초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.60    0.00   20.40    0.00    0.00   50.00
+
+2019년 12월 10일 14시 41분 15초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.04    0.00   21.09    0.00    0.00   49.87
+
+2019년 12월 10일 14시 41분 16초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.35    0.00   20.65    0.00    0.00   50.00
+
+2019년 12월 10일 14시 41분 17초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.16    0.00   20.78    0.06    0.00   50.00
+
+2019년 12월 10일 14시 41분 18초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.93    0.00   21.16    0.00    0.00   49.91
+
+2019년 12월 10일 14시 41분 19초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.93    0.00   21.04    0.00    0.00   50.03
+
+2019년 12월 10일 14시 41분 20초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.77    0.00   21.26    0.00    0.00   49.97
+
+2019년 12월 10일 14시 41분 21초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.29    0.00   20.84    0.00    0.00   49.87
+
+2019년 12월 10일 14시 41분 22초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.28    0.00   20.69    0.00    0.00   50.03
+
+2019년 12월 10일 14시 41분 23초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.21    0.00   20.91    0.00    0.00   49.88
+
+2019년 12월 10일 14시 41분 24초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.62    0.00   21.48    0.00    0.00   49.91
+
+2019년 12월 10일 14시 41분 25초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.88    0.00   21.19    0.00    0.00   49.94
+
+2019년 12월 10일 14시 41분 26초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   20.85    0.00    0.00   50.03
+
+2019년 12월 10일 14시 41분 27초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.41    0.00   20.65    0.06    0.00   49.87
+
+2019년 12월 10일 14시 41분 28초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.78    0.00   21.35    0.00    0.00   49.88
+
+2019년 12월 10일 14시 41분 29초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   20.94    0.00    0.00   49.94
+
+2019년 12월 10일 14시 41분 30초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.21    0.00   20.91    0.00    0.00   49.88
+
+2019년 12월 10일 14시 41분 31초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.35    0.00   20.78    0.00    0.00   49.87
+
+2019년 12월 10일 14시 41분 32초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.93    0.00   21.04    0.00    0.00   50.03
+
+2019년 12월 10일 14시 41분 33초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.85    0.00   21.15    0.00    0.00   50.00
+
+2019년 12월 10일 14시 41분 34초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   21.04    0.00    0.00   49.91
+
+2019년 12월 10일 14시 41분 35초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.04    0.00   20.96    0.00    0.00   50.00
+
+2019년 12월 10일 14시 41분 36초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.56    0.00   20.41    0.00    0.00   50.03
+
+2019년 12월 10일 14시 41분 37초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.91    0.00   21.28    0.00    0.00   49.81
+
+2019년 12월 10일 14시 41분 38초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.30    0.00   20.66    0.00    0.00   50.03
+
+2019년 12월 10일 14시 41분 39초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.07    0.00   20.86    0.00    0.00   50.06
+
+2019년 12월 10일 14시 41분 40초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.48    0.00   21.52    0.00    0.00   50.00
+
+2019년 12월 10일 14시 41분 41초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.51    0.00   20.43    0.00    0.00   50.06
+
+2019년 12월 10일 14시 41분 42초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.22    0.00   20.63    0.06    0.00   50.09
+
+2019년 12월 10일 14시 41분 43초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.59    0.00   20.44    0.00    0.00   49.97
+
+2019년 12월 10일 14시 41분 44초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          30.18    0.00   19.79    0.00    0.00   50.03
+
+2019년 12월 10일 14시 41분 45초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.76    0.00   20.18    0.00    0.00   50.06
+
+2019년 12월 10일 14시 41분 46초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.45    0.00   20.61    0.00    0.00   49.94
+
+2019년 12월 10일 14시 41분 47초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   20.85    0.00    0.00   50.03
+
+2019년 12월 10일 14시 41분 48초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.41    0.00   20.59    0.00    0.00   50.00
+
+2019년 12월 10일 14시 41분 49초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.74    0.00   21.35    0.00    0.00   49.91
+
+2019년 12월 10일 14시 41분 50초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.22    0.00   20.69    0.00    0.00   50.09
+
+2019년 12월 10일 14시 41분 51초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.30    0.00   20.66    0.00    0.00   50.03
+
+2019년 12월 10일 14시 41분 52초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.08    0.00   21.01    0.06    0.00   49.84
+
+2019년 12월 10일 14시 41분 53초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          30.10    0.00   19.90    0.00    0.00   50.00
+
+2019년 12월 10일 14시 41분 54초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   20.91    0.00    0.00   50.03
+
+2019년 12월 10일 14시 41분 55초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.97    0.00   21.15    0.00    0.00   49.87
+
+2019년 12월 10일 14시 41분 56초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.03    0.00   20.88    0.00    0.00   50.09
+
+2019년 12월 10일 14시 41분 57초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.04    0.00   20.96    0.00    0.00   50.00
+
+2019년 12월 10일 14시 41분 58초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.11    0.00   20.95    0.00    0.00   49.94
+
+2019년 12월 10일 14시 41분 59초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.33    0.00   20.64    0.00    0.00   50.03
+
+2019년 12월 10일 14시 42분 00초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          30.03    0.00   19.94    0.00    0.00   50.03
+
+2019년 12월 10일 14시 42분 01초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.22    0.00   20.82    0.00    0.00   49.97
+
+2019년 12월 10일 14시 42분 02초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.85    0.00   21.15    0.00    0.00   50.00
+
+2019년 12월 10일 14시 42분 03초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.02    0.00   21.01    0.00    0.00   49.97
+
+2019년 12월 10일 14시 42분 04초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.60    0.00   20.53    0.00    0.00   49.87
+
+2019년 12월 10일 14시 42분 05초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.82    0.00   20.11    0.00    0.00   50.06
+
+2019년 12월 10일 14시 42분 06초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   20.94    0.00    0.00   49.94
+
+2019년 12월 10일 14시 42분 07초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.01    0.00   21.05    0.06    0.00   49.87
+
+2019년 12월 10일 14시 42분 08초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.10    0.00   20.84    0.00    0.00   50.06
+
+2019년 12월 10일 14시 42분 09초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.30    0.00   20.66    0.00    0.00   50.03
+
+2019년 12월 10일 14시 42분 10초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.02    0.00   21.14    0.00    0.00   49.84
+
+2019년 12월 10일 14시 42분 11초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.59    0.00   20.31    0.00    0.00   50.09
+
+2019년 12월 10일 14시 42분 12초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.96    0.00   20.14    0.00    0.00   49.91
+
+2019년 12월 10일 14시 42분 13초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.97    0.00   21.15    0.00    0.00   49.87
+
+2019년 12월 10일 14시 42분 14초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.93    0.00   21.04    0.00    0.00   50.03
+
+2019년 12월 10일 14시 42분 15초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.16    0.00   20.84    0.00    0.00   50.00
+
+2019년 12월 10일 14시 42분 16초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.72    0.00   21.40    0.00    0.00   49.87
+
+2019년 12월 10일 14시 42분 17초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.07    0.00   20.86    0.00    0.00   50.06
+
+2019년 12월 10일 14시 42분 18초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.02    0.00   21.01    0.00    0.00   49.97
+
+2019년 12월 10일 14시 42분 19초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.10    0.00   21.03    0.00    0.00   49.87
+
+2019년 12월 10일 14시 42분 20초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.54    0.00   21.46    0.00    0.00   50.00
+
+2019년 12월 10일 14시 42분 21초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.27    0.00   20.76    0.00    0.00   49.97
+
+2019년 12월 10일 14시 42분 22초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.79    0.00   21.28    0.06    0.00   49.87
+
+2019년 12월 10일 14시 42분 23초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.89    0.00   21.14    0.00    0.00   49.97
+
+2019년 12월 10일 14시 42분 24초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   20.80    0.00    0.00   50.06
+
+2019년 12월 10일 14시 42분 25초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.16    0.00   20.96    0.00    0.00   49.87
+
+2019년 12월 10일 14시 42분 26초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   20.85    0.00    0.00   50.03
+
+2019년 12월 10일 14시 42분 27초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.03    0.00   20.94    0.00    0.00   50.03
+
+2019년 12월 10일 14시 42분 28초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.52    0.00   21.64    0.00    0.00   49.84
+
+2019년 12월 10일 14시 42분 29초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.20    0.00   20.74    0.00    0.00   50.06
+
+2019년 12월 10일 14시 42분 30초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.01    0.00   20.93    0.00    0.00   50.06
+
+2019년 12월 10일 14시 42분 31초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   20.98    0.00    0.00   49.91
+
+2019년 12월 10일 14시 42분 32초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   20.91    0.00    0.00   50.03
+
+2019년 12월 10일 14시 42분 33초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   20.85    0.00    0.00   50.03
+
+2019년 12월 10일 14시 42분 34초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.76    0.00   21.30    0.00    0.00   49.94
+
+2019년 12월 10일 14시 42분 35초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.30    0.00   20.66    0.00    0.00   50.03
+
+2019년 12월 10일 14시 42분 36초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.22    0.00   20.78    0.00    0.00   50.00
+
+2019년 12월 10일 14시 42분 37초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.23    0.00   20.70    0.06    0.00   50.00
+
+2019년 12월 10일 14시 42분 38초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.89    0.00   21.14    0.00    0.00   49.97
+
+2019년 12월 10일 14시 42분 39초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.72    0.00   20.19    0.00    0.00   50.09
+
+2019년 12월 10일 14시 42분 40초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.86    0.00   21.14    0.00    0.00   50.00
+
+2019년 12월 10일 14시 42분 41초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.29    0.00   20.71    0.00    0.00   50.00
+
+2019년 12월 10일 14시 42분 42초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.18    0.00   20.79    0.00    0.00   50.03
+
+2019년 12월 10일 14시 42분 43초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.93    0.00   21.16    0.00    0.00   49.91
+
+2019년 12월 10일 14시 42분 44초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.82    0.00   21.12    0.00    0.00   50.06
+
+2019년 12월 10일 14시 42분 45초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.18    0.00   20.79    0.00    0.00   50.03
+
+2019년 12월 10일 14시 42분 46초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   21.04    0.00    0.00   49.91
+
+2019년 12월 10일 14시 42분 47초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.29    0.00   20.71    0.00    0.00   50.00
+
+2019년 12월 10일 14시 42분 48초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.97    0.00   20.94    0.00    0.00   50.09
+
+2019년 12월 10일 14시 42분 49초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.43    0.00   20.66    0.00    0.00   49.91
+
+2019년 12월 10일 14시 42분 50초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.24    0.00   20.73    0.00    0.00   50.03
+
+2019년 12월 10일 14시 42분 51초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.89    0.00   20.92    0.00    0.00   50.19
+
+2019년 12월 10일 14시 42분 52초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.56    0.00   20.62    0.06    0.00   49.75
+
+2019년 12월 10일 14시 42분 53초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.18    0.00   20.73    0.00    0.00   50.09
+
+2019년 12월 10일 14시 42분 54초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.79    0.00   20.21    0.00    0.00   50.00
+
+2019년 12월 10일 14시 42분 55초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.87    0.00   21.23    0.00    0.00   49.91
+
+2019년 12월 10일 14시 42분 56초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.20    0.00   20.74    0.00    0.00   50.06
+
+2019년 12월 10일 14시 42분 57초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.35    0.00   20.71    0.00    0.00   49.94
+
+2019년 12월 10일 14시 42분 58초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.16    0.00   20.96    0.00    0.00   49.87
+
+2019년 12월 10일 14시 42분 59초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.46    0.00   21.51    0.00    0.00   50.03
+
+2019년 12월 10일 14시 43분 00초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.65    0.00   21.32    0.00    0.00   50.03
+
+2019년 12월 10일 14시 43분 01초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.46    0.00   20.70    0.00    0.00   49.84
+
+2019년 12월 10일 14시 43분 02초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.79    0.00   21.21    0.00    0.00   50.00
+
+2019년 12월 10일 14시 43분 03초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.95    0.00   20.99    0.00    0.00   50.06
+
+2019년 12월 10일 14시 43분 04초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.23    0.00   20.99    0.00    0.00   49.78
+
+2019년 12월 10일 14시 43분 05초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.02    0.00   21.01    0.00    0.00   49.97
+
+2019년 12월 10일 14시 43분 06초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.85    0.00   21.15    0.00    0.00   50.00
+
+2019년 12월 10일 14시 43분 07초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.87    0.00   21.16    0.06    0.00   49.91
+
+2019년 12월 10일 14시 43분 08초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.80    0.00   21.16    0.00    0.00   50.03
+
+2019년 12월 10일 14시 43분 09초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.97    0.00   21.03    0.00    0.00   50.00
+
+2019년 12월 10일 14시 43분 10초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.10    0.00   21.03    0.00    0.00   49.87
+
+2019년 12월 10일 14시 43분 11초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.88    0.00   21.05    0.00    0.00   50.06
+
+2019년 12월 10일 14시 43분 12초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.91    0.00   21.09    0.06    0.00   49.94
+
+2019년 12월 10일 14시 43분 13초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.01    0.00   21.05    0.00    0.00   49.94
+
+2019년 12월 10일 14시 43분 14초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   20.85    0.00    0.00   50.03
+
+2019년 12월 10일 14시 43분 15초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.01    0.00   20.93    0.00    0.00   50.06
+
+2019년 12월 10일 14시 43분 16초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.97    0.00   21.15    0.00    0.00   49.87
+
+2019년 12월 10일 14시 43분 17초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.47    0.00   20.50    0.00    0.00   50.03
+
+2019년 12월 10일 14시 43분 18초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   20.91    0.00    0.00   50.03
+
+2019년 12월 10일 14시 43분 19초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.39    0.00   20.76    0.00    0.00   49.84
+
+2019년 12월 10일 14시 43분 20초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.45    0.00   21.49    0.00    0.00   50.06
+
+2019년 12월 10일 14시 43분 21초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.91    0.00   21.09    0.00    0.00   50.00
+
+2019년 12월 10일 14시 43분 22초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.01    0.00   20.99    0.06    0.00   49.94
+
+2019년 12월 10일 14시 43분 23초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.32    0.00   20.61    0.00    0.00   50.06
+
+2019년 12월 10일 14시 43분 24초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.71    0.00   21.19    0.00    0.00   50.09
+
+2019년 12월 10일 14시 43분 25초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.62    0.00   20.48    0.00    0.00   49.91
+
+2019년 12월 10일 14시 43분 26초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.64    0.00   21.39    0.00    0.00   49.97
+
+2019년 12월 10일 14시 43분 27초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.30    0.00   20.58    0.00    0.00   50.13
+
+2019년 12월 10일 14시 43분 28초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.19    0.00   21.00    0.00    0.00   49.81
+
+2019년 12월 10일 14시 43분 29초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.84    0.00   21.07    0.00    0.00   50.09
+
+2019년 12월 10일 14시 43분 30초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.22    0.00   20.69    0.00    0.00   50.09
+
+2019년 12월 10일 14시 43분 31초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.37    0.00   20.73    0.00    0.00   49.91
+
+2019년 12월 10일 14시 43분 32초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.01    0.00   20.93    0.00    0.00   50.06
+
+2019년 12월 10일 14시 43분 33초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.41    0.00   20.59    0.00    0.00   50.00
+
+2019년 12월 10일 14시 43분 34초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.88    0.00   21.18    0.00    0.00   49.94
+
+2019년 12월 10일 14시 43분 35초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   20.89    0.00    0.00   49.97
+
+2019년 12월 10일 14시 43분 36초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.54    0.00   20.46    0.00    0.00   50.00
+
+2019년 12월 10일 14시 43분 37초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.78    0.00   21.25    0.06    0.00   49.91
+
+2019년 12월 10일 14시 43분 38초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.80    0.00   21.16    0.00    0.00   50.03
+
+2019년 12월 10일 14시 43분 39초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.36    0.00   20.51    0.00    0.00   50.13
+
+2019년 12월 10일 14시 43분 40초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.96    0.00   21.14    0.00    0.00   49.91
+
+2019년 12월 10일 14시 43분 41초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.74    0.00   21.23    0.00    0.00   50.03
+
+2019년 12월 10일 14시 43분 42초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   20.91    0.06    0.00   49.97
+
+2019년 12월 10일 14시 43분 43초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.58    0.00   20.58    0.00    0.00   49.84
+
+2019년 12월 10일 14시 43분 44초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   20.80    0.00    0.00   50.06
+
+2019년 12월 10일 14시 43분 45초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.41    0.00   20.59    0.00    0.00   50.00
+
+2019년 12월 10일 14시 43분 46초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.07    0.00   20.99    0.00    0.00   49.94
+
+2019년 12월 10일 14시 43분 47초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.18    0.00   20.85    0.00    0.00   49.97
+
+2019년 12월 10일 14시 43분 48초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.74    0.00   21.16    0.00    0.00   50.09
+
+2019년 12월 10일 14시 43분 49초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.64    0.00   20.51    0.00    0.00   49.84
+
+2019년 12월 10일 14시 43분 50초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.82    0.00   21.12    0.00    0.00   50.06
+
+2019년 12월 10일 14시 43분 51초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.79    0.00   21.21    0.00    0.00   50.00
+
+2019년 12월 10일 14시 43분 52초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.24    0.00   20.79    0.00    0.00   49.97
+
+2019년 12월 10일 14시 43분 53초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.91    0.00   21.21    0.00    0.00   49.87
+
+2019년 12월 10일 14시 43분 54초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.03    0.00   21.10    0.00    0.00   49.88
+
+2019년 12월 10일 14시 43분 55초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.78    0.00   21.13    0.00    0.00   50.09
+
+2019년 12월 10일 14시 43분 56초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.08    0.00   21.08    0.00    0.00   49.84
+
+2019년 12월 10일 14시 43분 57초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.72    0.00   21.21    0.06    0.00   50.00
+
+2019년 12월 10일 14시 43분 58초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.22    0.00   20.69    0.00    0.00   50.09
+
+2019년 12월 10일 14시 43분 59초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.30    0.00   20.79    0.00    0.00   49.91
+
+2019년 12월 10일 14시 44분 00초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.65    0.00   21.32    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 01초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.76    0.00   21.18    0.00    0.00   50.06
+
+2019년 12월 10일 14시 44분 02초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.60    0.00   20.53    0.00    0.00   49.87
+
+2019년 12월 10일 14시 44분 03초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.99    0.00   20.98    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 04초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.44    0.00   20.40    0.00    0.00   50.16
+
+2019년 12월 10일 14시 44분 05초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.23    0.00   20.92    0.00    0.00   49.84
+
+2019년 12월 10일 14시 44분 06초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.30    0.00   20.73    0.00    0.00   49.97
+
+2019년 12월 10일 14시 44분 07초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.22    0.00   20.78    0.00    0.00   50.00
+
+2019년 12월 10일 14시 44분 08초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.30    0.00   20.79    0.00    0.00   49.91
+
+2019년 12월 10일 14시 44분 09초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.22    0.00   20.78    0.00    0.00   50.00
+
+2019년 12월 10일 14시 44분 10초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.10    0.00   20.90    0.00    0.00   50.00
+
+2019년 12월 10일 14시 44분 11초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.02    0.00   21.14    0.00    0.00   49.84
+
+2019년 12월 10일 14시 44분 12초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.32    0.00   20.61    0.06    0.00   50.00
+
+2019년 12월 10일 14시 44분 13초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.68    0.00   21.29    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 14초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.82    0.00   21.18    0.00    0.00   50.00
+
+2019년 12월 10일 14시 44분 15초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.15    0.00   20.82    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 16초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.10    0.00   20.90    0.00    0.00   50.00
+
+2019년 12월 10일 14시 44분 17초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.43    0.00   20.66    0.00    0.00   49.91
+
+2019년 12월 10일 14시 44분 18초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.93    0.00   21.04    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 19초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   20.91    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 20초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.18    0.00   20.91    0.00    0.00   49.91
+
+2019년 12월 10일 14시 44분 21초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   20.91    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 22초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.80    0.00   21.10    0.06    0.00   50.03
+
+2019년 12월 10일 14시 44분 23초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.57    0.00   20.49    0.00    0.00   49.94
+
+2019년 12월 10일 14시 44분 24초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.74    0.00   20.23    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 25초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.40    0.00   20.50    0.00    0.00   50.09
+
+2019년 12월 10일 14시 44분 26초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.16    0.00   20.96    0.00    0.00   49.87
+
+2019년 12월 10일 14시 44분 27초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.65    0.00   21.25    0.00    0.00   50.09
+
+2019년 12월 10일 14시 44분 28초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.62    0.00   21.35    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 29초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.37    0.00   20.79    0.00    0.00   49.84
+
+2019년 12월 10일 14시 44분 30초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.81    0.00   21.03    0.00    0.00   50.16
+
+2019년 12월 10일 14시 44분 31초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.83    0.00   21.14    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 32초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.66    0.00   20.44    0.00    0.00   49.91
+
+2019년 12월 10일 14시 44분 33초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.27    0.00   20.76    0.00    0.00   49.97
+
+2019년 12월 10일 14시 44분 34초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.43    0.00   20.54    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 35초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.04    0.00   21.09    0.00    0.00   49.87
+
+2019년 12월 10일 14시 44분 36초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.18    0.00   20.79    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 37초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.27    0.00   20.70    0.06    0.00   49.97
+
+2019년 12월 10일 14시 44분 38초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.34    0.00   20.69    0.00    0.00   49.97
+
+2019년 12월 10일 14시 44분 39초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.22    0.00   20.78    0.00    0.00   50.00
+
+2019년 12월 10일 14시 44분 40초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   20.80    0.00    0.00   50.06
+
+2019년 12월 10일 14시 44분 41초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.91    0.00   21.21    0.00    0.00   49.87
+
+2019년 12월 10일 14시 44분 42초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   20.89    0.00    0.00   49.97
+
+2019년 12월 10일 14시 44분 43초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.85    0.00   21.15    0.00    0.00   50.00
+
+2019년 12월 10일 14시 44분 44초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   20.98    0.00    0.00   49.91
+
+2019년 12월 10일 14시 44분 45초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.79    0.00   21.21    0.00    0.00   50.00
+
+2019년 12월 10일 14시 44분 46초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.18    0.00   20.79    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 47초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.60    0.00   21.59    0.00    0.00   49.81
+
+2019년 12월 10일 14시 44분 48초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   20.83    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 49초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.01    0.00   20.93    0.00    0.00   50.06
+
+2019년 12월 10일 14시 44분 50초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.61    0.00   20.61    0.00    0.00   49.78
+
+2019년 12월 10일 14시 44분 51초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.29    0.00   20.71    0.00    0.00   50.00
+
+2019년 12월 10일 14시 44분 52초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.60    0.00   21.34    0.06    0.00   50.00
+
+2019년 12월 10일 14시 44분 53초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.01    0.00   21.05    0.00    0.00   49.94
+
+2019년 12월 10일 14시 44분 54초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   20.91    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 55초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.80    0.00   21.16    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 56초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.41    0.00   20.71    0.00    0.00   49.87
+
+2019년 12월 10일 14시 44분 57초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.99    0.00   20.98    0.00    0.00   50.03
+
+2019년 12월 10일 14시 44분 58초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.37    0.00   20.66    0.00    0.00   49.97
+
+2019년 12월 10일 14시 44분 59초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.57    0.00   20.43    0.00    0.00   50.00
+
+2019년 12월 10일 14시 45분 00초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.08    0.00   21.01    0.00    0.00   49.91
+
+2019년 12월 10일 14시 45분 01초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.91    0.00   21.15    0.00    0.00   49.94
+
+2019년 12월 10일 14시 45분 02초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.85    0.00   21.28    0.06    0.00   49.81
+
+2019년 12월 10일 14시 45분 03초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.38    0.00   21.62    0.00    0.00   50.00
+
+2019년 12월 10일 14시 45분 04초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.26    0.00   20.68    0.00    0.00   50.06
+
+2019년 12월 10일 14시 45분 05초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.03    0.00   21.07    0.00    0.00   49.91
+
+2019년 12월 10일 14시 45분 06초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.79    0.00   21.21    0.00    0.00   50.00
+
+2019년 12월 10일 14시 45분 07초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.72    0.00   21.28    0.00    0.00   50.00
+
+2019년 12월 10일 14시 45분 08초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.99    0.00   21.10    0.00    0.00   49.91
+
+2019년 12월 10일 14시 45분 09초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.17    0.00   20.70    0.00    0.00   50.13
+
+2019년 12월 10일 14시 45분 10초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.20    0.00   20.74    0.00    0.00   50.06
+
+2019년 12월 10일 14시 45분 11초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   21.04    0.00    0.00   49.91
+
+2019년 12월 10일 14시 45분 12초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.37    0.00   20.60    0.00    0.00   50.03
+
+2019년 12월 10일 14시 45분 13초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.72    0.00   21.28    0.00    0.00   50.00
+
+2019년 12월 10일 14시 45분 14초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.39    0.00   20.68    0.00    0.00   49.94
+
+2019년 12월 10일 14시 45분 15초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.76    0.00   21.18    0.00    0.00   50.06
+
+2019년 12월 10일 14시 45분 16초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.79    0.00   21.21    0.00    0.00   50.00
+
+2019년 12월 10일 14시 45분 17초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.20    0.00   20.86    0.06    0.00   49.87
+
+2019년 12월 10일 14시 45분 18초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.21    0.00   20.76    0.00    0.00   50.03
+
+2019년 12월 10일 14시 45분 19초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.36    0.00   20.51    0.00    0.00   50.13
+
+2019년 12월 10일 14시 45분 20초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.91    0.00   21.21    0.00    0.00   49.87
+
+2019년 12월 10일 14시 45분 21초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.16    0.00   20.84    0.00    0.00   50.00
+
+2019년 12월 10일 14시 45분 22초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.57    0.00   20.43    0.00    0.00   50.00
+
+2019년 12월 10일 14시 45분 23초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   21.04    0.00    0.00   49.91
+
+2019년 12월 10일 14시 45분 24초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.79    0.00   20.21    0.00    0.00   50.00
+
+2019년 12월 10일 14시 45분 25초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.51    0.00   20.43    0.00    0.00   50.06
+
+2019년 12월 10일 14시 45분 26초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.10    0.00   21.03    0.00    0.00   49.87
+
+2019년 12월 10일 14시 45분 27초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   20.89    0.00    0.00   49.97
+
+2019년 12월 10일 14시 45분 28초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.20    0.00   20.74    0.00    0.00   50.06
+
+2019년 12월 10일 14시 45분 29초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.12    0.00   20.98    0.00    0.00   49.91
+
+2019년 12월 10일 14시 45분 30초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.07    0.00   20.93    0.00    0.00   50.00
+
+2019년 12월 10일 14시 45분 31초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.84    0.00   21.07    0.00    0.00   50.09
+
+2019년 12월 10일 14시 45분 32초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.18    0.00   20.85    0.06    0.00   49.91
+
+2019년 12월 10일 14시 45분 33초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.93    0.00   21.04    0.00    0.00   50.03
+
+2019년 12월 10일 14시 45분 34초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.04    0.00   20.96    0.00    0.00   50.00
+
+2019년 12월 10일 14시 45분 35초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.31    0.00   20.88    0.00    0.00   49.81
+
+2019년 12월 10일 14시 45분 36초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.05    0.00   20.91    0.00    0.00   50.03
+
+2019년 12월 10일 14시 45분 37초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.14    0.00   20.95    0.00    0.00   49.91
+
+2019년 12월 10일 14시 45분 38초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.47    0.00   20.65    0.00    0.00   49.87
+
+2019년 12월 10일 14시 45분 39초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.96    0.00   21.08    0.00    0.00   49.97
+
+2019년 12월 10일 14시 45분 40초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          29.21    0.00   20.76    0.00    0.00   50.03
+
+2019년 12월 10일 14시 45분 41초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.87    0.00   21.23    0.00    0.00   49.91
+
+2019년 12월 10일 14시 45분 42초
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          28.75    0.00   21.31    0.06    0.00   49.88
+
