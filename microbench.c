@@ -361,10 +361,11 @@ void bench_zipf(void) {
 }
 
 int main(int argc, char **argv) {
-   path = "/scratch0/blepers/rand";
+   //path = "/scratch0/blepers/rand";
+   path = "/home/yongju/mnt";
    bench_io();
-   //bench_data_structures();
-   //bench_zipf();
+   bench_data_structures();
+   bench_zipf();
    return 0;
 }
 

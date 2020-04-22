@@ -1,0 +1,31 @@
+12c12
+< for i in $(seq 0 15); do
+---
+> for i in $(seq 0 127); do
+17,19c17,19
+< for i in $(seq 16 31); do
+<    echo 0 > /sys/devices/system/cpu/cpu$i/online
+< done
+---
+> #for i in $(seq 36 71); do
+> #   echo 0 > /sys/devices/system/cpu/cpu$i/online
+> #done
+25c25
+< for i in 0; do
+---
+> for i in $(seq 1 1); do
+28,35c28,32
+<    #mkdir /scratch${j}
+<    #mount -o rw,noatime,nodiratime,block_validity,delalloc,nojournal_checksum,barrier,user_xattr,acl /dev/nvme${i}n1 /scratch${j}/
+<    mount -o rw,noatime,nodiratime,block_validity,delalloc,nojournal_checksum,barrier,user_xattr,acl /dev/nvme${i}n1 /home/yongju/mnt/
+< 
+<    #mkdir /scratch${j}/kvell
+<    #sudo chown ubuntu:ubuntu /scratch${j}/kvell
+<    sudo chown yongju:yongju /home/yongju/mnt
+<    j=$((j+1))
+---
+>    mkdir /scratch${j}
+>    mount -o rw,noatime,nodiratime,block_validity,delalloc,nojournal_checksum,barrier,user_xattr,acl /dev/nvme${i}n1 /scratch${j}/
+>    mkdir /scratch${j}/kvell
+>    sudo chown yongju:yongju /scratch${j}/kvell
+> #  j=$((j+1))

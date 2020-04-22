@@ -9,7 +9,8 @@ tcmalloc="env LD_PRELOAD=${HOME}/gperftools/.libs/libtcmalloc.so "
 #Run YCSB A B C (D = A, F =B)
 #4 workers per disk, 4 load injectors
 #
-rm -f /scratch*/kvell/*
+#rm -f /scratch*/kvell/*
+rm -f /home/yongju/mnt/*
 
 cp ${mainDir}/main.c ${mainDir}/main.c.bak
 cat ${mainDir}/main.c | perl -pe 's://.nb_load_injectors = 4:.nb_load_injectors = 4:' | perl -pe 's:[^/].nb_load_injectors = 12: //.nb_load_injectors = 12:' | perl -pe 's:[^/]ycsb_e_uniform,: //ycsb_e_uniform,:' | perl -pe 's://ycsb_a_uniform,:ycsb_a_uniform,:' | perl -pe 's://ycsb_a_zipfian,:ycsb_a_zipfian,:' > ${mainDir}/main.c.tmp
@@ -17,10 +18,11 @@ mv ${mainDir}/main.c.tmp ${mainDir}/main.c
 make -C ${mainDir} -j
 
 echo "Run 1"
-${tcmalloc} ${mainDir}/main 8 4 | tee log_ycsb_1
+#main nb_disks nb_workers_per_disk
+${tcmalloc} ${mainDir}/main 1 4 | tee log_ycsb_1
 
 echo "Run 2"
-${tcmalloc} ${mainDir}/main 8 4 | tee log_ycsb_2
+${tcmalloc} ${mainDir}/main 1 4 | tee log_ycsb_2
 
 mv ${mainDir}/main.c.bak ${mainDir}/main.c
 
@@ -36,10 +38,10 @@ cp ${mainDir}/main.c.tmp ${mainDir}/main.c
 make -C ${mainDir} -j
 
 echo "Run 1 (scans)"
-${tcmalloc} ${mainDir}/main 8 3 | tee log_ycsb_e_1
+${tcmalloc} ${mainDir}/main 1 3 | tee log_ycsb_e_1
 
 echo "Run 2 (scans)"
-${tcmalloc} ${mainDir}/main 8 3 | tee log_ycsb_e_2
+${tcmalloc} ${mainDir}/main 1 3 | tee log_ycsb_e_2
 
 mv ${mainDir}/main.c.bak ${mainDir}/main.c
 

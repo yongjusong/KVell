@@ -1,0 +1,29 @@
+4c4
+< tcmalloc="env LD_PRELOAD=${HOME}/gperftools/.libs/libtcmalloc.so "
+---
+> tcmalloc="env LD_PRELOAD=${HOME}/Downloads/gperftools/.libs/libtcmalloc.so "
+12,13c12
+< #rm -f /scratch*/kvell/*
+< rm -f /home/yongju/mnt/*
+---
+> rm -f /scratch*/kvell/*
+16c15,17
+< cat ${mainDir}/main.c | perl -pe 's://.nb_load_injectors = 4:.nb_load_injectors = 4:' | perl -pe 's:[^/].nb_load_injectors = 12: //.nb_load_injectors = 12:' | perl -pe 's:[^/]ycsb_e_uniform,: //ycsb_e_uniform,:' | perl -pe 's://ycsb_a_uniform,:ycsb_a_uniform,:' | perl -pe 's://ycsb_a_zipfian,:ycsb_a_zipfian,:' > ${mainDir}/main.c.tmp
+---
+> #cat ${mainDir}/main.c | perl -pe 's://.nb_load_injectors = 4:.nb_load_injectors = 4:' | perl -pe 's:[^/].nb_load_injectors = 12: //.nb_load_injectors = 12:' | perl -pe 's:[^/]ycsb_e_uniform,: //ycsb_e_uniform,:' | perl -pe 's://ycsb_a_uniform,:ycsb_a_uniform,:' | perl -pe 's://ycsb_a_zipfian,:ycsb_a_zipfian,:' > ${mainDir}/main.c.tmp
+> cat ${mainDir}/main.c | perl -pe 's://.nb_load_injectors = 4:.nb_load_injectors = 4:' | perl -pe 's:[^/].nb_load_injectors = 12: //.nb_load_injectors = 12:' | perl -pe 's:[^/]ycsb_e_uniform,: //ycsb_e_uniform,:' | perl -pe 's://ycsb_a_uniform,:ycsb_a_uniform,:' | perl -pe 's://ycsb_a_zipfian,://ycsb_a_zipfian,:' > ${mainDir}/main.c.tmp
+> 
+21d21
+< #main nb_disks nb_workers_per_disk
+24,25c24,25
+< echo "Run 2"
+< ${tcmalloc} ${mainDir}/main 1 4 | tee log_ycsb_2
+---
+> #echo "Run 2"
+> #${tcmalloc} ${mainDir}/main 1 4 | tee log_ycsb_2
+43,44c43,44
+< echo "Run 2 (scans)"
+< ${tcmalloc} ${mainDir}/main 1 3 | tee log_ycsb_e_2
+---
+> #echo "Run 2 (scans)"
+> #${tcmalloc} ${mainDir}/main 1 3 | tee log_ycsb_e_2
