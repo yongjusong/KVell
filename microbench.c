@@ -206,7 +206,8 @@ int bench_io(void) {
 /*
  * Data structures tests
  */
-#define NB_INSERTS 1000000000LU
+//#define NB_INSERTS 1000000000LU
+#define NB_INSERTS 1000000LU
 
 int bench_data_structures(void) {
 		declare_timer;
@@ -307,27 +308,29 @@ int bench_data_structures(void) {
 
 		get_memory_usage("BTREE");
 
+		printf("\n");
+
 
 		/*
 		 * UTHASH - Not used because of latency spikes when resizing...
 		 */
 		/*
-		start_timer {
-				struct hash *h = create_hash();
-				for(size_t i = 0; i < NB_INSERTS; i++) {
-						uint64_t hash = xorshf96()%NB_INSERTS;
-						struct hash_entry e = {
-								.hash = hash,
-								.data1 = NULL,
-								.data2 = NULL,
-						};
-						if(!find_entry(h, hash))
-								add_entry(h, &e);
-				}
-		} stop_timer("HASH - Time for %lu inserts/replace (%lu inserts/s)", NB_INSERTS, NB_INSERTS*1000000LU/elapsed);
+		   start_timer {
+		   struct hash *h = create_hash();
+		   for(size_t i = 0; i < NB_INSERTS; i++) {
+		   uint64_t hash = xorshf96()%NB_INSERTS;
+		   struct hash_entry e = {
+		   .hash = hash,
+		   .data1 = NULL,
+		   .data2 = NULL,
+		   };
+		   if(!find_entry(h, hash))
+		   add_entry(h, &e);
+		   }
+		   } stop_timer("HASH - Time for %lu inserts/replace (%lu inserts/s)", NB_INSERTS, NB_INSERTS*1000000LU/elapsed);
 
-		get_memory_usage("UTHASH");
-		*/
+		   get_memory_usage("UTHASH");
+		   */
 
 		return 0;
 }
@@ -365,11 +368,11 @@ void bench_zipf(void) {
 }
 
 int main(int argc, char **argv) {
-		path = "/scratch0/blepers/rand";
-		//path = "/scratch0/yongju/rand";
+		//path = "/scratch0/blepers/rand";
+		path = "/home/yongju/Downloads/KVell/rand";
 		//bench_io();
 		bench_data_structures();
-		bench_zipf();
+		//bench_zipf();
 		return 0;
 }
 
