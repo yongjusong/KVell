@@ -206,10 +206,14 @@ int bench_io(void) {
 /*
  * Data structures tests
  */
-//#define NB_INSERTS 1000000000LU
-#define NB_INSERTS 1000000LU
+//#define NB_INSERTS 10000000LU //default
+#define NB_INSERTS 100000000000LU //default
 
-int bench_data_structures(void) {
+//#define NB_INSERTS 100LU
+
+int bench_data_structures_xorshf(void) {
+		printf("xorshf96\n");
+
 		declare_timer;
 		declare_memory_counter;
 
@@ -240,6 +244,7 @@ int bench_data_structures(void) {
 		/*
 		 * RAX - https://github.com/antirez/rax
 		 */
+
 		rax *rt = raxNew();
 
 		start_timer {
@@ -335,6 +340,148 @@ int bench_data_structures(void) {
 		return 0;
 }
 
+int bench_data_structures_gaussian(void) {
+		printf("gaussian\n");
+
+		declare_timer;
+		declare_memory_counter;
+
+		start_timer {
+				for(size_t i = 0; i < NB_INSERTS; i++) {
+						uint64_t hash;
+						hash = gaussian()%NB_INSERTS;
+				}
+		} stop_timer("for loop Time");
+
+
+		/*
+		 * RBTREE
+		 */
+		rbtree r = rbtree_create();
+
+		start_timer {
+				struct index_entry e;
+				for(size_t i = 0; i < NB_INSERTS; i++) {
+						uint64_t hash;
+						hash = gaussian()%NB_INSERTS;
+						rbtree_insert(r, (void*)hash, &e, pointer_cmp);
+				}
+		} stop_timer("RBTREE - Time for %lu inserts/replace (%lu inserts/s)", NB_INSERTS, NB_INSERTS*1000000LU/elapsed);
+
+		start_timer {
+				for(size_t i = 0; i < NB_INSERTS; i++) {
+						uint64_t hash;
+						hash = gaussian()%NB_INSERTS;
+						rbtree_lookup(r, (void*)hash, pointer_cmp);
+				}
+		} stop_timer("RBTREE - Time for %lu finds (%lu finds/s)", NB_INSERTS, NB_INSERTS*1000000LU/elapsed);
+
+		get_memory_usage("RBTREE");
+
+
+		/*
+		 * RAX - https://github.com/antirez/rax
+		 */
+		rax *rt = raxNew();
+
+		start_timer {
+				struct index_entry *e;
+				for(size_t i = 0; i < NB_INSERTS; i++) {
+						uint64_t hash;
+						hash = gaussian()%NB_INSERTS;
+						e = malloc(sizeof(*e));
+						raxInsert(rt,(unsigned char*)&hash, sizeof(hash), e,NULL);
+				}
+		} stop_timer("RAX - Time for %lu inserts/replace (%lu inserts/s)", NB_INSERTS, NB_INSERTS*1000000LU/elapsed);
+
+		start_timer {
+				for(size_t i = 0; i < NB_INSERTS; i++) {
+						uint64_t hash;
+						hash = gaussian()%NB_INSERTS;
+						raxFind(rt,(unsigned char*)&hash, sizeof(hash));
+				}
+		} stop_timer("RAX - Time for %lu finds (%lu finds/s)", NB_INSERTS, NB_INSERTS*1000000LU/elapsed);
+
+		get_memory_usage("RAX");
+
+
+		/*
+		 * ART - https://github.com/armon/libart
+		 */
+		art_tree t;
+		art_tree_init(&t);
+
+		start_timer {
+				struct index_entry *e;
+				for(size_t i = 0; i < NB_INSERTS; i++) {
+						uint64_t hash;
+						hash = gaussian()%NB_INSERTS;
+						e = malloc(sizeof(*e));
+						art_insert(&t, (unsigned char*)&hash, sizeof(hash), e);
+				}
+		} stop_timer("ART - Time for %lu inserts/replace (%lu inserts/s)", NB_INSERTS, NB_INSERTS*1000000LU/elapsed);
+
+		start_timer {
+				for(size_t i = 0; i < NB_INSERTS; i++) {
+						uint64_t hash;
+						hash = gaussian()%NB_INSERTS;
+						art_search(&t, (unsigned char*)&hash, sizeof(hash));
+				}
+		} stop_timer("ART - Time for %lu finds (%lu finds/s)", NB_INSERTS, NB_INSERTS*1000000LU/elapsed);
+
+		get_memory_usage("ART");
+
+		/*
+		 * BTREE
+		 */
+		btree_t * b = btree_create();
+
+		start_timer {
+				struct index_entry e;
+				for(size_t i = 0; i < NB_INSERTS; i++) {
+						uint64_t hash;
+						hash = gaussian()%NB_INSERTS;
+						btree_insert(b, (unsigned char*)&hash, sizeof(hash), &e);
+				}
+		} stop_timer("BTREE - Time for %lu inserts/replace (%lu inserts/s)", NB_INSERTS, NB_INSERTS*1000000LU/elapsed);
+
+		start_timer {
+				struct index_entry e;
+				for(size_t i = 0; i < NB_INSERTS; i++) {
+						uint64_t hash;
+						hash = gaussian()%NB_INSERTS;
+						btree_find(b, (unsigned char*)&hash, sizeof(hash), &e);
+				}
+		} stop_timer("BTREE - Time for %lu finds (%lu finds/s)", NB_INSERTS, NB_INSERTS*1000000LU/elapsed);
+
+		get_memory_usage("BTREE");
+
+		printf("\n");
+
+
+		/*
+		 * UTHASH - Not used because of latency spikes when resizing...
+		 */
+		/*
+		   start_timer {
+		   struct hash *h = create_hash();
+		   for(size_t i = 0; i < NB_INSERTS; i++) {
+		   uint64_t hash = xorshf96()%NB_INSERTS;
+		   struct hash_entry e = {
+		   .hash = hash,
+		   .data1 = NULL,
+		   .data2 = NULL,
+		   };
+		   if(!find_entry(h, hash))
+		   add_entry(h, &e);
+		   }
+		   } stop_timer("HASH - Time for %lu inserts/replace (%lu inserts/s)", NB_INSERTS, NB_INSERTS*1000000LU/elapsed);
+
+		   get_memory_usage("UTHASH");
+		   */
+
+		return 0;
+}
 /*
  * Understand Zipf
  */
@@ -371,7 +518,8 @@ int main(int argc, char **argv) {
 		//path = "/scratch0/blepers/rand";
 		path = "/home/yongju/Downloads/KVell/rand";
 		//bench_io();
-		bench_data_structures();
+		bench_data_structures_xorshf();
+		bench_data_structures_gaussian();
 		//bench_zipf();
 		return 0;
 }
